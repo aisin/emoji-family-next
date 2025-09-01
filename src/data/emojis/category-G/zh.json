@@ -1,0 +1,6915 @@
+[
+  {
+    "emoji": "🎄",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%84",
+    "base_info": {
+      "emoji": "🎄",
+      "short_name": "圣诞树",
+      "apple_name": "圣诞树",
+      "unicode": "U+1F384",
+      "undefined": ":christmas_tree:",
+      "decimal": "ALT+127876",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "圣诞",
+        "圣诞树",
+        "庆祝",
+        "树"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎄 شجرة عيد الميلاد"
+      },
+      {
+        "lang": "bg",
+        "name": "🎄 коледна елха"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎄 聖誕樹"
+      },
+      {
+        "lang": "hr",
+        "name": "🎄 božićno drvce"
+      },
+      {
+        "lang": "cs",
+        "name": "🎄 vánoční stromeček"
+      },
+      {
+        "lang": "da",
+        "name": "🎄 juletræ"
+      },
+      {
+        "lang": "nl",
+        "name": "🎄 kerstboom"
+      },
+      {
+        "lang": "en",
+        "name": "🎄 Christmas tree"
+      },
+      {
+        "lang": "fil",
+        "name": "🎄 christmas tree"
+      },
+      {
+        "lang": "fi",
+        "name": "🎄 joulukuusi"
+      }
+    ]
+  },
+  {
+    "emoji": "🎈",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%88",
+    "base_info": {
+      "emoji": "🎈",
+      "short_name": "气球",
+      "apple_name": "气球",
+      "unicode": "U+1F388",
+      "undefined": ":balloon:",
+      "decimal": "ALT+127880",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "庆祝",
+        "气球",
+        "氢气球",
+        "游乐园"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎈 بالون"
+      },
+      {
+        "lang": "bg",
+        "name": "🎈 балон"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎈 氣球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎈 balon"
+      },
+      {
+        "lang": "cs",
+        "name": "🎈 balónek"
+      },
+      {
+        "lang": "da",
+        "name": "🎈 ballon"
+      },
+      {
+        "lang": "nl",
+        "name": "🎈 ballon"
+      },
+      {
+        "lang": "en",
+        "name": "🎈 balloon"
+      },
+      {
+        "lang": "fil",
+        "name": "🎈 lobo"
+      },
+      {
+        "lang": "fi",
+        "name": "🎈 ilmapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🎊",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%8A",
+    "base_info": {
+      "emoji": "🎊",
+      "short_name": "五彩纸屑球",
+      "apple_name": "五彩纸屑球",
+      "unicode": "U+1F38A",
+      "undefined": ":confetti_ball:",
+      "decimal": "ALT+127882",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "五彩纸屑球",
+        "庆祝",
+        "球"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎊 كرة أوراق ملونة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎊 топка с конфети"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎊 五彩紙屑"
+      },
+      {
+        "lang": "hr",
+        "name": "🎊 kugla s konfetima"
+      },
+      {
+        "lang": "cs",
+        "name": "🎊 konfetová koule"
+      },
+      {
+        "lang": "da",
+        "name": "🎊 konfetti"
+      },
+      {
+        "lang": "nl",
+        "name": "🎊 confettibal"
+      },
+      {
+        "lang": "en",
+        "name": "🎊 confetti ball"
+      },
+      {
+        "lang": "fil",
+        "name": "🎊 confetti ball"
+      },
+      {
+        "lang": "fi",
+        "name": "🎊 konfettipallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🎇",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%87",
+    "base_info": {
+      "emoji": "🎇",
+      "short_name": "烟花",
+      "apple_name": "焰火烟花",
+      "unicode": "U+1F387",
+      "undefined": ":sparkler:",
+      "decimal": "ALT+127879",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "庆祝",
+        "火花",
+        "烟火",
+        "烟花",
+        "焰火"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎇 ماسة نارية"
+      },
+      {
+        "lang": "bg",
+        "name": "🎇 фойерверк"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎇 煙花"
+      },
+      {
+        "lang": "hr",
+        "name": "🎇 prskalica"
+      },
+      {
+        "lang": "cs",
+        "name": "🎇 prskavka"
+      },
+      {
+        "lang": "da",
+        "name": "🎇 stjernekaster"
+      },
+      {
+        "lang": "nl",
+        "name": "🎇 sterretje"
+      },
+      {
+        "lang": "en",
+        "name": "🎇 sparkler"
+      },
+      {
+        "lang": "fil",
+        "name": "🎇 sparkler"
+      },
+      {
+        "lang": "fi",
+        "name": "🎇 tähtisadetikku"
+      }
+    ]
+  },
+  {
+    "emoji": "🎆",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%86",
+    "base_info": {
+      "emoji": "🎆",
+      "short_name": "焰火",
+      "apple_name": "焰火",
+      "undefined": ":fireworks:",
+      "unicode": "U+1F386",
+      "decimal": "ALT+127878",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "庆祝",
+        "烟花",
+        "焰火",
+        "跨年",
+        "烟火"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎆 ألعاب نارية"
+      },
+      {
+        "lang": "bg",
+        "name": "🎆 фойерверки"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎆 爆竹"
+      },
+      {
+        "lang": "hr",
+        "name": "🎆 vatromet"
+      },
+      {
+        "lang": "cs",
+        "name": "🎆 ohňostroj"
+      },
+      {
+        "lang": "da",
+        "name": "🎆 fyrværkeri"
+      },
+      {
+        "lang": "nl",
+        "name": "🎆 vuurwerk"
+      },
+      {
+        "lang": "en",
+        "name": "🎆 fireworks"
+      },
+      {
+        "lang": "fil",
+        "name": "🎆 fireworks"
+      },
+      {
+        "lang": "fi",
+        "name": "🎆 ilotulitus"
+      }
+    ]
+  },
+  {
+    "emoji": "🎃",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%83",
+    "base_info": {
+      "emoji": "🎃",
+      "short_name": "南瓜灯",
+      "apple_name": "南瓜灯笼",
+      "undefined": ":jack_o_lantern:",
+      "unicode": "U+1F383",
+      "decimal": "ALT+127875",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "万圣节",
+        "南瓜灯",
+        "庆祝",
+        "灯笼",
+        "南瓜"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎃 هالوين"
+      },
+      {
+        "lang": "bg",
+        "name": "🎃 тиквен фенер"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎃 南瓜燈"
+      },
+      {
+        "lang": "hr",
+        "name": "🎃 izrezbarena bundeva"
+      },
+      {
+        "lang": "cs",
+        "name": "🎃 dýňová lucerna"
+      },
+      {
+        "lang": "da",
+        "name": "🎃 græskarmand"
+      },
+      {
+        "lang": "nl",
+        "name": "🎃 halloweenlantaarn"
+      },
+      {
+        "lang": "en",
+        "name": "🎃 jack-o-lantern"
+      },
+      {
+        "lang": "fil",
+        "name": "🎃 jack-o-lantern"
+      },
+      {
+        "lang": "fi",
+        "name": "🎃 kurpitsalyhty"
+      }
+    ]
+  },
+  {
+    "emoji": "🎋",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%8B",
+    "base_info": {
+      "emoji": "🎋",
+      "short_name": "七夕树",
+      "apple_name": "七夕树",
+      "undefined": ":tanabata_tree:",
+      "unicode": "U+1F38B",
+      "decimal": "ALT+127883",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "七夕",
+        "七夕树",
+        "庆祝",
+        "日本",
+        "树",
+        "许愿"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎋 شجرة احتفال"
+      },
+      {
+        "lang": "bg",
+        "name": "🎋 дърво за танабата"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎋 七夕"
+      },
+      {
+        "lang": "hr",
+        "name": "🎋 drvo tanabata"
+      },
+      {
+        "lang": "cs",
+        "name": "🎋 strom přání"
+      },
+      {
+        "lang": "da",
+        "name": "🎋 træ med papirpynt"
+      },
+      {
+        "lang": "nl",
+        "name": "🎋 tanabataboom"
+      },
+      {
+        "lang": "en",
+        "name": "🎋 tanabata tree"
+      },
+      {
+        "lang": "fil",
+        "name": "🎋 tanabata tree"
+      },
+      {
+        "lang": "fi",
+        "name": "🎋 tanabatapuu"
+      }
+    ]
+  },
+  {
+    "emoji": "🎉",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%89",
+    "base_info": {
+      "emoji": "🎉",
+      "short_name": "拉炮彩带",
+      "apple_name": "派对礼宾花",
+      "unicode": "U+1F389",
+      "undefined": ":tada:",
+      "decimal": "ALT+127881",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "庆祝",
+        "彩带",
+        "拉炮彩带",
+        "派对",
+        "派对礼宾花"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎉 فرقعة حفلة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎉 конфети"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎉 拉炮"
+      },
+      {
+        "lang": "hr",
+        "name": "🎉 ispaljivač konfeta"
+      },
+      {
+        "lang": "cs",
+        "name": "🎉 vystřelovací konfety"
+      },
+      {
+        "lang": "da",
+        "name": "🎉 bordbombe"
+      },
+      {
+        "lang": "nl",
+        "name": "🎉 feestknaller"
+      },
+      {
+        "lang": "en",
+        "name": "🎉 party popper"
+      },
+      {
+        "lang": "fil",
+        "name": "🎉 party popper"
+      },
+      {
+        "lang": "fi",
+        "name": "🎉 paukkuserpentiini"
+      }
+    ]
+  },
+  {
+    "emoji": "✨",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%9C%A8",
+    "base_info": {
+      "emoji": "✨",
+      "short_name": "闪亮",
+      "apple_name": "闪光",
+      "unicode": "U+2728",
+      "undefined": ":sparkles:",
+      "decimal": "ALT+10024",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "星星",
+        "火花",
+        "闪亮",
+        "闪光",
+        "闪耀"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "✨ ومضات"
+      },
+      {
+        "lang": "bg",
+        "name": "✨ звездички"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "✨ 閃爍"
+      },
+      {
+        "lang": "hr",
+        "name": "✨ iskre"
+      },
+      {
+        "lang": "cs",
+        "name": "✨ jiskry"
+      },
+      {
+        "lang": "da",
+        "name": "✨ stjerner"
+      },
+      {
+        "lang": "nl",
+        "name": "✨ sterretjes"
+      },
+      {
+        "lang": "en",
+        "name": "✨ sparkles"
+      },
+      {
+        "lang": "fil",
+        "name": "✨ kumikinang"
+      },
+      {
+        "lang": "fi",
+        "name": "✨ säihke"
+      }
+    ]
+  },
+  {
+    "emoji": "🧨",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A7%A8",
+    "base_info": {
+      "emoji": "🧨",
+      "short_name": "爆竹",
+      "apple_name": "鞭炮",
+      "unicode": "U+1F9E8",
+      "decimal": "ALT+129512",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "炸药",
+        "烟花",
+        "爆炸",
+        "爆竹",
+        "喜庆",
+        "除夕"
+      ],
+      "proposal": [
+        "L2/17‑025"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧨 مفرقعات"
+      },
+      {
+        "lang": "bg",
+        "name": "🧨 пиратка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧨 鞭炮"
+      },
+      {
+        "lang": "hr",
+        "name": "🧨 petarda"
+      },
+      {
+        "lang": "cs",
+        "name": "🧨 petarda"
+      },
+      {
+        "lang": "da",
+        "name": "🧨 kanonslag"
+      },
+      {
+        "lang": "nl",
+        "name": "🧨 rotje"
+      },
+      {
+        "lang": "en",
+        "name": "🧨 firecracker"
+      },
+      {
+        "lang": "fil",
+        "name": "🧨 paputok"
+      },
+      {
+        "lang": "fi",
+        "name": "🧨 sähikäinen"
+      }
+    ]
+  },
+  {
+    "emoji": "🎍",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%8D",
+    "base_info": {
+      "emoji": "🎍",
+      "short_name": "门松",
+      "apple_name": "门松",
+      "unicode": "U+1F38D",
+      "undefined": ":bamboo:",
+      "decimal": "ALT+127885",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "庆祝",
+        "日本",
+        "松树",
+        "盆栽",
+        "竹",
+        "门松"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎍 ديكور صنوبر"
+      },
+      {
+        "lang": "bg",
+        "name": "🎍 украса кадомацу"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎍 盆栽"
+      },
+      {
+        "lang": "hr",
+        "name": "🎍 ukras od češera"
+      },
+      {
+        "lang": "cs",
+        "name": "🎍 bambusové dekorace"
+      },
+      {
+        "lang": "da",
+        "name": "🎍 fyrretræsdekoration"
+      },
+      {
+        "lang": "nl",
+        "name": "🎍 dennenboomversiering"
+      },
+      {
+        "lang": "en",
+        "name": "🎍 pine decoration"
+      },
+      {
+        "lang": "fil",
+        "name": "🎍 pine decoration"
+      },
+      {
+        "lang": "fi",
+        "name": "🎍 puukoriste"
+      }
+    ]
+  },
+  {
+    "emoji": "🎐",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%90",
+    "base_info": {
+      "emoji": "🎐",
+      "short_name": "风铃",
+      "apple_name": "风铃",
+      "unicode": "U+1F390",
+      "undefined": ":wind_chime:",
+      "decimal": "ALT+127888",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "庆祝",
+        "铃铛",
+        "风铃",
+        "微风",
+        "夏天"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎐 جرس الريح"
+      },
+      {
+        "lang": "bg",
+        "name": "🎐 вятърни камбанки"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎐 風鈴"
+      },
+      {
+        "lang": "hr",
+        "name": "🎐 vjetreno zvono"
+      },
+      {
+        "lang": "cs",
+        "name": "🎐 větrný zvonek"
+      },
+      {
+        "lang": "da",
+        "name": "🎐 vindspil"
+      },
+      {
+        "lang": "nl",
+        "name": "🎐 windorgel"
+      },
+      {
+        "lang": "en",
+        "name": "🎐 wind chime"
+      },
+      {
+        "lang": "fil",
+        "name": "🎐 wind chime"
+      },
+      {
+        "lang": "fi",
+        "name": "🎐 tuulikello"
+      }
+    ]
+  },
+  {
+    "emoji": "🎎",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%8E",
+    "base_info": {
+      "emoji": "🎎",
+      "short_name": "日本人形",
+      "apple_name": "日本娃娃",
+      "unicode": "U+1F38E",
+      "undefined": ":dolls:",
+      "decimal": "ALT+127886",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "人偶",
+        "庆祝",
+        "日本人形",
+        "节日",
+        ""
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎎 دميتان يابانيتان"
+      },
+      {
+        "lang": "bg",
+        "name": "🎎 японски кукли"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎎 女兒節"
+      },
+      {
+        "lang": "hr",
+        "name": "🎎 japanske lutke"
+      },
+      {
+        "lang": "cs",
+        "name": "🎎 japonské panenky"
+      },
+      {
+        "lang": "da",
+        "name": "🎎 japanske dukker"
+      },
+      {
+        "lang": "nl",
+        "name": "🎎 Japanse poppen"
+      },
+      {
+        "lang": "en",
+        "name": "🎎 Japanese dolls"
+      },
+      {
+        "lang": "fil",
+        "name": "🎎 japanese na manika"
+      },
+      {
+        "lang": "fi",
+        "name": "🎎 japanilaiset nuket"
+      }
+    ]
+  },
+  {
+    "emoji": "🎑",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%91",
+    "base_info": {
+      "emoji": "🎑",
+      "short_name": "赏月",
+      "apple_name": "观月",
+      "undefined": ":rice_scene:",
+      "unicode": "U+1F391",
+      "decimal": "ALT+127889",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "中秋",
+        "庆祝",
+        "月亮",
+        "赏月"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎑 احتفال برؤية القمر"
+      },
+      {
+        "lang": "bg",
+        "name": "🎑 церемония цукими"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎑 賞月"
+      },
+      {
+        "lang": "hr",
+        "name": "🎑 mjesečeva svečanost"
+      },
+      {
+        "lang": "cs",
+        "name": "🎑 slavnosti měsíce"
+      },
+      {
+        "lang": "da",
+        "name": "🎑 måneceremoni"
+      },
+      {
+        "lang": "nl",
+        "name": "🎑 maanobservatieceremonie"
+      },
+      {
+        "lang": "en",
+        "name": "🎑 moon viewing ceremony"
+      },
+      {
+        "lang": "fil",
+        "name": "🎑 moon viewing ceremony"
+      },
+      {
+        "lang": "fi",
+        "name": "🎑 kuuseremonia"
+      }
+    ]
+  },
+  {
+    "emoji": "🧧",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A7%A7",
+    "base_info": {
+      "emoji": "🧧",
+      "short_name": "红包",
+      "apple_name": "红包",
+      "unicode": "U+1F9E7",
+      "decimal": "ALT+129511",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "利是",
+        "礼物",
+        "红包",
+        "运气",
+        "钱"
+      ],
+      "proposal": [
+        "L2/17‑023"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧧 ظرف أحمر بكتابة صينية"
+      },
+      {
+        "lang": "bg",
+        "name": "🧧 червен плик"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧧 紅包"
+      },
+      {
+        "lang": "hr",
+        "name": "🧧 crvena omotnica"
+      },
+      {
+        "lang": "cs",
+        "name": "🧧 červená obálka"
+      },
+      {
+        "lang": "da",
+        "name": "🧧 pengegave"
+      },
+      {
+        "lang": "nl",
+        "name": "🧧 rode envelop"
+      },
+      {
+        "lang": "en",
+        "name": "🧧 red envelope"
+      },
+      {
+        "lang": "fil",
+        "name": "🧧 ampao"
+      },
+      {
+        "lang": "fi",
+        "name": "🧧 punainen kirjekuori"
+      }
+    ]
+  },
+  {
+    "emoji": "🎀",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%80",
+    "base_info": {
+      "emoji": "🎀",
+      "short_name": "蝴蝶结",
+      "apple_name": "丝带",
+      "unicode": "U+1F380",
+      "undefined": ":ribbon:",
+      "decimal": "ALT+127872",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "丝带",
+        "庆祝",
+        "缎带",
+        "蝴蝶结",
+        "结",
+        "装饰",
+        "领结",
+        "打结"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎀 شريط"
+      },
+      {
+        "lang": "bg",
+        "name": "🎀 панделка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎀 蝴蝶結"
+      },
+      {
+        "lang": "hr",
+        "name": "🎀 mašna"
+      },
+      {
+        "lang": "cs",
+        "name": "🎀 mašle"
+      },
+      {
+        "lang": "da",
+        "name": "🎀 sløjfe"
+      },
+      {
+        "lang": "nl",
+        "name": "🎀 strik"
+      },
+      {
+        "lang": "en",
+        "name": "🎀 ribbon"
+      },
+      {
+        "lang": "fil",
+        "name": "🎀 ribbon"
+      },
+      {
+        "lang": "fi",
+        "name": "🎀 rusetti"
+      }
+    ]
+  },
+  {
+    "emoji": "🎏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%8F",
+    "base_info": {
+      "emoji": "🎏",
+      "short_name": "鲤鱼旗",
+      "apple_name": "鲤鱼旗",
+      "unicode": "U+1F38F",
+      "undefined": ":flags:",
+      "decimal": "ALT+127887",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "庆祝",
+        "日本",
+        "男孩节",
+        "长旗",
+        "鲤鱼旗"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎏 قصاصات ملونة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎏 коинобори"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎏 鯉魚旗"
+      },
+      {
+        "lang": "hr",
+        "name": "🎏 cjevasti zmaj u obliku ribe"
+      },
+      {
+        "lang": "cs",
+        "name": "🎏 koinobori"
+      },
+      {
+        "lang": "da",
+        "name": "🎏 karpevimpel"
+      },
+      {
+        "lang": "nl",
+        "name": "🎏 karperslinger"
+      },
+      {
+        "lang": "en",
+        "name": "🎏 carp streamer"
+      },
+      {
+        "lang": "fil",
+        "name": "🎏 carp streamer"
+      },
+      {
+        "lang": "fi",
+        "name": "🎏 karppiviiri"
+      }
+    ]
+  },
+  {
+    "emoji": "🎟️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%9F%EF%B8%8F",
+    "base_info": {
+      "emoji": "🎟️",
+      "short_name": "入场券",
+      "apple_name": "Admission Ticket",
+      "unicode": "U+1F39F FE0F \n\n\n1F39F - 🎟 入场券\n\n\nFE0F - ️ 变体选择符-16",
+      "decimal": "ALT+127903 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "入场券",
+        "票",
+        "门票"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎟️ تذكرتا دخول"
+      },
+      {
+        "lang": "bg",
+        "name": "🎟️ Билети за вход"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎟️ 入場券"
+      },
+      {
+        "lang": "hr",
+        "name": "🎟️ ulaznice"
+      },
+      {
+        "lang": "cs",
+        "name": "🎟️ vstupenky"
+      },
+      {
+        "lang": "da",
+        "name": "🎟️ adgangsbillet"
+      },
+      {
+        "lang": "nl",
+        "name": "🎟️ entreekaartjes"
+      },
+      {
+        "lang": "en",
+        "name": "🎟️ admission tickets"
+      },
+      {
+        "lang": "fil",
+        "name": "🎟️ mga admission ticket"
+      },
+      {
+        "lang": "fi",
+        "name": "🎟️ pääsylippu"
+      }
+    ]
+  },
+  {
+    "emoji": "🎁",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%81",
+    "base_info": {
+      "emoji": "🎁",
+      "short_name": "礼物",
+      "apple_name": "礼物",
+      "unicode": "U+1F381",
+      "undefined": ":gift:",
+      "decimal": "ALT+127873",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "包装",
+        "庆祝",
+        "盒子",
+        "礼品",
+        "礼物",
+        "节日"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎁 هدية ملفوفة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎁 опакован подарък"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎁 禮物"
+      },
+      {
+        "lang": "hr",
+        "name": "🎁 umotani poklon"
+      },
+      {
+        "lang": "cs",
+        "name": "🎁 zabalený dárek"
+      },
+      {
+        "lang": "da",
+        "name": "🎁 gave"
+      },
+      {
+        "lang": "nl",
+        "name": "🎁 ingepakt cadeau"
+      },
+      {
+        "lang": "en",
+        "name": "🎁 wrapped gift"
+      },
+      {
+        "lang": "fil",
+        "name": "🎁 nakabalot na regalo"
+      },
+      {
+        "lang": "fi",
+        "name": "🎁 lahjapaketti"
+      }
+    ]
+  },
+  {
+    "emoji": "🎗️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%97%EF%B8%8F",
+    "base_info": {
+      "emoji": "🎗️",
+      "short_name": "提示丝带",
+      "apple_name": "Reminder Ribbon",
+      "unicode": "U+1F397 FE0F \n\n\n1F397 - 🎗 提示丝带\n\n\nFE0F - ️ 变体选择符-16",
+      "decimal": "ALT+127895 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "丝带",
+        "庆祝",
+        "提示丝带",
+        "暗示"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎗️ شريطة تذكير"
+      },
+      {
+        "lang": "bg",
+        "name": "🎗️ Лента за напомняне"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎗️ 黃絲帶"
+      },
+      {
+        "lang": "hr",
+        "name": "🎗️ spomen-traka"
+      },
+      {
+        "lang": "cs",
+        "name": "🎗️ symbolická stužka"
+      },
+      {
+        "lang": "da",
+        "name": "🎗️ mindebånd"
+      },
+      {
+        "lang": "nl",
+        "name": "🎗️ bewustzijnslintje"
+      },
+      {
+        "lang": "en",
+        "name": "🎗️ reminder ribbon"
+      },
+      {
+        "lang": "fil",
+        "name": "🎗️ nagpapaalalang ribbon"
+      },
+      {
+        "lang": "fi",
+        "name": "🎗️ tietoisuusnauha"
+      }
+    ]
+  },
+  {
+    "emoji": "🎫",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%AB",
+    "base_info": {
+      "emoji": "🎫",
+      "short_name": "票",
+      "apple_name": "门票",
+      "unicode": "U+1F3AB",
+      "undefined": ":ticket:",
+      "decimal": "ALT+127915",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎈 节日",
+      "keywords": [
+        "入场券",
+        "电影票",
+        "票",
+        "车票",
+        "门票"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎫 تذكرة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎫 билет"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎫 門票"
+      },
+      {
+        "lang": "hr",
+        "name": "🎫 ulaznica"
+      },
+      {
+        "lang": "cs",
+        "name": "🎫 lístek"
+      },
+      {
+        "lang": "da",
+        "name": "🎫 billet"
+      },
+      {
+        "lang": "nl",
+        "name": "🎫 ticket"
+      },
+      {
+        "lang": "en",
+        "name": "🎫 ticket"
+      },
+      {
+        "lang": "fil",
+        "name": "🎫 tiket"
+      },
+      {
+        "lang": "fi",
+        "name": "🎫 lippu"
+      }
+    ]
+  },
+  {
+    "emoji": "🏆",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%86",
+    "base_info": {
+      "emoji": "🏆",
+      "short_name": "奖杯",
+      "apple_name": "奖杯",
+      "unicode": "U+1F3C6",
+      "undefined": ":trophy:",
+      "decimal": "ALT+127942",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏅 奖项和奖牌",
+      "keywords": [
+        "奖励",
+        "奖品",
+        "奖杯",
+        "奖赏"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏆 كأس"
+      },
+      {
+        "lang": "bg",
+        "name": "🏆 спортна купа"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏆 獎盃"
+      },
+      {
+        "lang": "hr",
+        "name": "🏆 trofej"
+      },
+      {
+        "lang": "cs",
+        "name": "🏆 trofejní pohár"
+      },
+      {
+        "lang": "da",
+        "name": "🏆 pokal"
+      },
+      {
+        "lang": "nl",
+        "name": "🏆 trofee"
+      },
+      {
+        "lang": "en",
+        "name": "🏆 trophy"
+      },
+      {
+        "lang": "fil",
+        "name": "🏆 trophy"
+      },
+      {
+        "lang": "fi",
+        "name": "🏆 pokaali"
+      }
+    ]
+  },
+  {
+    "emoji": "🎖️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%96%EF%B8%8F",
+    "base_info": {
+      "emoji": "🎖️",
+      "short_name": "军功章",
+      "apple_name": "Military Medal",
+      "unicode": "U+1F396 FE0F \n\n\n1F396 - 🎖 军功章\n\n\nFE0F - ️ 变体选择符-16",
+      "decimal": "ALT+127894 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏅 奖项和奖牌",
+      "keywords": [
+        "军功章",
+        "军队",
+        "勋章",
+        "奖章"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎖️ ميدالية عسكرية"
+      },
+      {
+        "lang": "bg",
+        "name": "🎖️ Военен медал"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎖️ 軍事獎章"
+      },
+      {
+        "lang": "hr",
+        "name": "🎖️ vojna medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🎖️ vojenská medaile"
+      },
+      {
+        "lang": "da",
+        "name": "🎖️ militærmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🎖️ militaire medaille"
+      },
+      {
+        "lang": "en",
+        "name": "🎖️ military medal"
+      },
+      {
+        "lang": "fil",
+        "name": "🎖️ medalyang pangmilitar"
+      },
+      {
+        "lang": "fi",
+        "name": "🎖️ kunniamerkki"
+      }
+    ]
+  },
+  {
+    "emoji": "🏅",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%85",
+    "base_info": {
+      "emoji": "🏅",
+      "short_name": "奖牌",
+      "apple_name": "运动会奖牌",
+      "unicode": "U+1F3C5",
+      "decimal": "ALT+127941",
+      "unicode_version": "7.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏅 奖项和奖牌",
+      "keywords": [
+        "奖牌",
+        "运动会奖牌",
+        "奖赏"
+      ],
+      "proposal": [
+        "L2/11‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏅 ميدالية رياضية"
+      },
+      {
+        "lang": "bg",
+        "name": "🏅 спортен медал"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏅 獎牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🏅 sportska medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🏅 medaile"
+      },
+      {
+        "lang": "da",
+        "name": "🏅 sportsmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🏅 sportmedaille"
+      },
+      {
+        "lang": "en",
+        "name": "🏅 sports medal"
+      },
+      {
+        "lang": "fil",
+        "name": "🏅 medalyang pang-sports"
+      },
+      {
+        "lang": "fi",
+        "name": "🏅 urheilumitali"
+      }
+    ]
+  },
+  {
+    "emoji": "🥇",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%87",
+    "base_info": {
+      "emoji": "🥇",
+      "short_name": "金牌",
+      "apple_name": "金牌",
+      "unicode": "U+1F947",
+      "decimal": "ALT+129351",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏅 奖项和奖牌",
+      "keywords": [
+        "奖牌",
+        "第一",
+        "金牌",
+        "奥运会",
+        "冬运会",
+        "残运会",
+        "运动会",
+        "比赛",
+        "竞技"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥇 ميدالية مركز أول"
+      },
+      {
+        "lang": "bg",
+        "name": "🥇 медал за първо място"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥇 金牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🥇 zlatna medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🥇 medaile za 1. místo"
+      },
+      {
+        "lang": "da",
+        "name": "🥇 guldmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🥇 medaille 1e plaats"
+      },
+      {
+        "lang": "en",
+        "name": "🥇 1st place medal"
+      },
+      {
+        "lang": "fil",
+        "name": "🥇 medalyang 1st place"
+      },
+      {
+        "lang": "fi",
+        "name": "🥇 kultamitali"
+      }
+    ]
+  },
+  {
+    "emoji": "🥈",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%88",
+    "base_info": {
+      "emoji": "🥈",
+      "short_name": "银牌",
+      "apple_name": "银牌",
+      "unicode": "U+1F948",
+      "decimal": "ALT+129352",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏅 奖项和奖牌",
+      "keywords": [
+        "奖牌",
+        "第二",
+        "银牌",
+        "奥运会",
+        "冬运会",
+        "残运会",
+        "运动会",
+        "比赛",
+        "竞技"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥈 ميدالية مركز ثانٍ"
+      },
+      {
+        "lang": "bg",
+        "name": "🥈 медал за второ място"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥈 銀牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🥈 srebrna medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🥈 medaile za 2. místo"
+      },
+      {
+        "lang": "da",
+        "name": "🥈 sølvmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🥈 medaille 2e plaats"
+      },
+      {
+        "lang": "en",
+        "name": "🥈 2nd place medal"
+      },
+      {
+        "lang": "fil",
+        "name": "🥈 medalyang 2nd place"
+      },
+      {
+        "lang": "fi",
+        "name": "🥈 hopeamitali"
+      }
+    ]
+  },
+  {
+    "emoji": "🥉",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%89",
+    "base_info": {
+      "emoji": "🥉",
+      "short_name": "铜牌",
+      "apple_name": "铜牌",
+      "unicode": "U+1F949",
+      "decimal": "ALT+129353",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏅 奖项和奖牌",
+      "keywords": [
+        "奖牌",
+        "第三",
+        "铜牌",
+        "奥运会",
+        "冬运会",
+        "残运会",
+        "运动会",
+        "比赛",
+        "竞技"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥉 ميدالية مركز ثالث"
+      },
+      {
+        "lang": "bg",
+        "name": "🥉 медал за трето място"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥉 銅牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🥉 brončana medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🥉 medaile za 3. místo"
+      },
+      {
+        "lang": "da",
+        "name": "🥉 bronzemedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🥉 medaille 3e plaats"
+      },
+      {
+        "lang": "en",
+        "name": "🥉 3rd place medal"
+      },
+      {
+        "lang": "fil",
+        "name": "🥉 medalyang 3rd place"
+      },
+      {
+        "lang": "fi",
+        "name": "🥉 pronssimitali"
+      }
+    ]
+  },
+  {
+    "emoji": "⚽",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%9A%BD",
+    "base_info": {
+      "emoji": "⚽",
+      "short_name": "足球",
+      "apple_name": "Soccer Ball",
+      "unicode": "U+26BD",
+      "undefined": ":soccer:",
+      "decimal": "ALT+9917",
+      "unicode_version": "5.2",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "球",
+        "英式足球",
+        "足球",
+        "足球队",
+        "足球球员"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⚽ كرة قدم"
+      },
+      {
+        "lang": "bg",
+        "name": "⚽ футболна топка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⚽ 足球"
+      },
+      {
+        "lang": "hr",
+        "name": "⚽ nogometna lopta"
+      },
+      {
+        "lang": "cs",
+        "name": "⚽ fotbalový míč"
+      },
+      {
+        "lang": "da",
+        "name": "⚽ fodbold"
+      },
+      {
+        "lang": "nl",
+        "name": "⚽ voetbal"
+      },
+      {
+        "lang": "en",
+        "name": "⚽ soccer ball"
+      },
+      {
+        "lang": "fil",
+        "name": "⚽ bola ng soccer"
+      },
+      {
+        "lang": "fi",
+        "name": "⚽ jalkapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "⚾",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%9A%BE",
+    "base_info": {
+      "emoji": "⚾",
+      "short_name": "棒球",
+      "apple_name": "Baseball",
+      "unicode": "U+26BE",
+      "undefined": ":baseball:",
+      "decimal": "ALT+9918",
+      "unicode_version": "5.2",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "棒球",
+        "球",
+        "甲子园",
+        "棒球球员",
+        "棒球比赛"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⚾ بيسبول"
+      },
+      {
+        "lang": "bg",
+        "name": "⚾ бейзболна топка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⚾ 棒球"
+      },
+      {
+        "lang": "hr",
+        "name": "⚾ lopta za bejzbol"
+      },
+      {
+        "lang": "cs",
+        "name": "⚾ baseballový míček"
+      },
+      {
+        "lang": "da",
+        "name": "⚾ baseball"
+      },
+      {
+        "lang": "nl",
+        "name": "⚾ honkbal"
+      },
+      {
+        "lang": "en",
+        "name": "⚾ baseball"
+      },
+      {
+        "lang": "fil",
+        "name": "⚾ baseball"
+      },
+      {
+        "lang": "fi",
+        "name": "⚾ pesäpallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🏈",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%88",
+    "base_info": {
+      "emoji": "🏈",
+      "short_name": "美式橄榄球",
+      "apple_name": "美式橄榄球",
+      "unicode": "U+1F3C8",
+      "undefined": ":football:",
+      "decimal": "ALT+127944",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "橄榄球",
+        "球",
+        "美式橄榄球"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏈 كرة قدم أمريكية"
+      },
+      {
+        "lang": "bg",
+        "name": "🏈 топка за американски футбол"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏈 美式足球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏈 američki nogomet"
+      },
+      {
+        "lang": "cs",
+        "name": "🏈 míč na americký fotbal"
+      },
+      {
+        "lang": "da",
+        "name": "🏈 amerikansk fodbold"
+      },
+      {
+        "lang": "nl",
+        "name": "🏈 american football"
+      },
+      {
+        "lang": "en",
+        "name": "🏈 american football"
+      },
+      {
+        "lang": "fil",
+        "name": "🏈 american football"
+      },
+      {
+        "lang": "fi",
+        "name": "🏈 amerikkalainen jalkapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🏐",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%90",
+    "base_info": {
+      "emoji": "🏐",
+      "short_name": "排球",
+      "apple_name": "排球",
+      "unicode": "U+1F3D0",
+      "decimal": "ALT+127952",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "排球",
+        "球",
+        "排球球员"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏐 كرة طائرة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏐 волейбол"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏐 排球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏐 odbojkaška lopta"
+      },
+      {
+        "lang": "cs",
+        "name": "🏐 volejbalový míč"
+      },
+      {
+        "lang": "da",
+        "name": "🏐 volleyball"
+      },
+      {
+        "lang": "nl",
+        "name": "🏐 volleybal"
+      },
+      {
+        "lang": "en",
+        "name": "🏐 volleyball"
+      },
+      {
+        "lang": "fil",
+        "name": "🏐 volleyball"
+      },
+      {
+        "lang": "fi",
+        "name": "🏐 lentopallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🏉",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.4+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%89",
+    "base_info": {
+      "emoji": "🏉",
+      "short_name": "英式橄榄球",
+      "apple_name": "橄榄球",
+      "unicode": "U+1F3C9",
+      "undefined": ":rugby_football:",
+      "decimal": "ALT+127945",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "橄榄球",
+        "球",
+        "英式橄榄球"
+      ],
+      "proposal": [
+        "L2/09‑114"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏉 كرة رجبي"
+      },
+      {
+        "lang": "bg",
+        "name": "🏉 топка за ръгби"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏉 橄欖球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏉 ragbi"
+      },
+      {
+        "lang": "cs",
+        "name": "🏉 míč na rugby"
+      },
+      {
+        "lang": "da",
+        "name": "🏉 rugbybold"
+      },
+      {
+        "lang": "nl",
+        "name": "🏉 rugby"
+      },
+      {
+        "lang": "en",
+        "name": "🏉 rugby football"
+      },
+      {
+        "lang": "fil",
+        "name": "🏉 rugby football"
+      },
+      {
+        "lang": "fi",
+        "name": "🏉 rugby-pallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🏀",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%80",
+    "base_info": {
+      "emoji": "🏀",
+      "short_name": "篮球",
+      "apple_name": "篮球",
+      "unicode": "U+1F3C0",
+      "undefined": ":basketball:",
+      "decimal": "ALT+127936",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "球",
+        "篮球",
+        "篮筐",
+        "篮球球员",
+        "打篮球"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏀 كرة سلة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏀 баскетболна топка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏀 籃球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏀 košarkaška lopta"
+      },
+      {
+        "lang": "cs",
+        "name": "🏀 basketbalový míč"
+      },
+      {
+        "lang": "da",
+        "name": "🏀 basketball"
+      },
+      {
+        "lang": "nl",
+        "name": "🏀 basketbal"
+      },
+      {
+        "lang": "en",
+        "name": "🏀 basketball"
+      },
+      {
+        "lang": "fil",
+        "name": "🏀 basketball"
+      },
+      {
+        "lang": "fi",
+        "name": "🏀 koripallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🥎",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%8E",
+    "base_info": {
+      "emoji": "🥎",
+      "short_name": "垒球",
+      "apple_name": "垒球",
+      "unicode": "U+1F94E",
+      "decimal": "ALT+129358",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "垒球",
+        "垒球球员",
+        "手套",
+        "球",
+        "腋下"
+      ],
+      "proposal": [
+        "L2/17‑184",
+        "L2/17‑277"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥎 كرة ليّنة"
+      },
+      {
+        "lang": "bg",
+        "name": "🥎 софтбол"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥎 壘球"
+      },
+      {
+        "lang": "hr",
+        "name": "🥎 lopta za softball"
+      },
+      {
+        "lang": "cs",
+        "name": "🥎 softballový míček"
+      },
+      {
+        "lang": "da",
+        "name": "🥎 softball"
+      },
+      {
+        "lang": "nl",
+        "name": "🥎 softbal"
+      },
+      {
+        "lang": "en",
+        "name": "🥎 softball"
+      },
+      {
+        "lang": "fil",
+        "name": "🥎 softball"
+      },
+      {
+        "lang": "fi",
+        "name": "🥎 softball"
+      }
+    ]
+  },
+  {
+    "emoji": "🎾",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%BE",
+    "base_info": {
+      "emoji": "🎾",
+      "short_name": "网球",
+      "apple_name": "网球",
+      "unicode": "U+1F3BE",
+      "undefined": ":tennis:",
+      "decimal": "ALT+127934",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "球",
+        "球拍",
+        "网球"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎾 تنس"
+      },
+      {
+        "lang": "bg",
+        "name": "🎾 тенис"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎾 網球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎾 tenis"
+      },
+      {
+        "lang": "cs",
+        "name": "🎾 tenis"
+      },
+      {
+        "lang": "da",
+        "name": "🎾 tennis"
+      },
+      {
+        "lang": "nl",
+        "name": "🎾 tennis"
+      },
+      {
+        "lang": "en",
+        "name": "🎾 tennis"
+      },
+      {
+        "lang": "fil",
+        "name": "🎾 tennis"
+      },
+      {
+        "lang": "fi",
+        "name": "🎾 tennis"
+      }
+    ]
+  },
+  {
+    "emoji": "🥏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%8F",
+    "base_info": {
+      "emoji": "🥏",
+      "short_name": "飞盘",
+      "apple_name": "飞盘",
+      "unicode": "U+1F94F",
+      "decimal": "ALT+129359",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "极限",
+        "极限运动",
+        "终极",
+        "飞盘"
+      ],
+      "proposal": [
+        "L2/17‑257",
+        "L2/17‑277"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥏 قرص طائر"
+      },
+      {
+        "lang": "bg",
+        "name": "🥏 фризби"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥏 飛盤"
+      },
+      {
+        "lang": "hr",
+        "name": "🥏 frizbi"
+      },
+      {
+        "lang": "cs",
+        "name": "🥏 frisbee"
+      },
+      {
+        "lang": "da",
+        "name": "🥏 frisbee"
+      },
+      {
+        "lang": "nl",
+        "name": "🥏 frisbee"
+      },
+      {
+        "lang": "en",
+        "name": "🥏 flying disc"
+      },
+      {
+        "lang": "fil",
+        "name": "🥏 lumilipad na disk"
+      },
+      {
+        "lang": "fi",
+        "name": "🥏 liitokiekko"
+      }
+    ]
+  },
+  {
+    "emoji": "🎳",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%B3",
+    "base_info": {
+      "emoji": "🎳",
+      "short_name": "保龄球",
+      "apple_name": "保龄球和保龄球瓶",
+      "unicode": "U+1F3B3",
+      "undefined": ":bowling:",
+      "decimal": "ALT+127923",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "保龄球",
+        "球"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎳 بولينغ"
+      },
+      {
+        "lang": "bg",
+        "name": "🎳 боулинг"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎳 保齡球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎳 kuglanje"
+      },
+      {
+        "lang": "cs",
+        "name": "🎳 bowling"
+      },
+      {
+        "lang": "da",
+        "name": "🎳 bowling"
+      },
+      {
+        "lang": "nl",
+        "name": "🎳 bowlen"
+      },
+      {
+        "lang": "en",
+        "name": "🎳 bowling"
+      },
+      {
+        "lang": "fil",
+        "name": "🎳 bowling"
+      },
+      {
+        "lang": "fi",
+        "name": "🎳 keilailu"
+      }
+    ]
+  },
+  {
+    "emoji": "🏓",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%93",
+    "base_info": {
+      "emoji": "🏓",
+      "short_name": "乒乓球",
+      "apple_name": "乒乓球拍和乒乓球",
+      "unicode": "U+1F3D3",
+      "decimal": "ALT+127955",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "乒乓球",
+        "比赛",
+        "球",
+        "球拍"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏓 تنس الطاولة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏓 тенис на маса"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏓 桌球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏓 stolni tenis"
+      },
+      {
+        "lang": "cs",
+        "name": "🏓 stolní tenis"
+      },
+      {
+        "lang": "da",
+        "name": "🏓 bordtennis"
+      },
+      {
+        "lang": "nl",
+        "name": "🏓 pingpong"
+      },
+      {
+        "lang": "en",
+        "name": "🏓 ping pong"
+      },
+      {
+        "lang": "fil",
+        "name": "🏓 ping pong"
+      },
+      {
+        "lang": "fi",
+        "name": "🏓 pingis"
+      }
+    ]
+  },
+  {
+    "emoji": "🥊",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%8A",
+    "base_info": {
+      "emoji": "🥊",
+      "short_name": "拳击手套",
+      "apple_name": "拳击手套",
+      "unicode": "U+1F94A",
+      "decimal": "ALT+129354",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "手套",
+        "拳击手套",
+        "打架",
+        "拳击比赛"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥊 قفاز ملاكمة"
+      },
+      {
+        "lang": "bg",
+        "name": "🥊 боксова ръкавица"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥊 拳擊手套"
+      },
+      {
+        "lang": "hr",
+        "name": "🥊 boksačka rukavica"
+      },
+      {
+        "lang": "cs",
+        "name": "🥊 boxerská rukavice"
+      },
+      {
+        "lang": "da",
+        "name": "🥊 boksehandske"
+      },
+      {
+        "lang": "nl",
+        "name": "🥊 bokshandschoen"
+      },
+      {
+        "lang": "en",
+        "name": "🥊 boxing glove"
+      },
+      {
+        "lang": "fil",
+        "name": "🥊 boxing glove"
+      },
+      {
+        "lang": "fi",
+        "name": "🥊 nyrkkeilyhanska"
+      }
+    ]
+  },
+  {
+    "emoji": "🏏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%8F",
+    "base_info": {
+      "emoji": "🏏",
+      "short_name": "板球",
+      "apple_name": "板球拍和板球",
+      "unicode": "U+1F3CF",
+      "decimal": "ALT+127951",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "板球",
+        "球",
+        "球拍"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏏 كريكيت"
+      },
+      {
+        "lang": "bg",
+        "name": "🏏 крикет"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏏 板球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏏 kriket"
+      },
+      {
+        "lang": "cs",
+        "name": "🏏 kriket"
+      },
+      {
+        "lang": "da",
+        "name": "🏏 cricket"
+      },
+      {
+        "lang": "nl",
+        "name": "🏏 cricket"
+      },
+      {
+        "lang": "en",
+        "name": "🏏 cricket game"
+      },
+      {
+        "lang": "fil",
+        "name": "🏏 cricket"
+      },
+      {
+        "lang": "fi",
+        "name": "🏏 kriketti"
+      }
+    ]
+  },
+  {
+    "emoji": "🏑",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%91",
+    "base_info": {
+      "emoji": "🏑",
+      "short_name": "曲棍球",
+      "apple_name": "曲棍球棍和曲棍球",
+      "unicode": "U+1F3D1",
+      "decimal": "ALT+127953",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "曲棍球",
+        "球",
+        "球棍"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏑 هوكي أرضي"
+      },
+      {
+        "lang": "bg",
+        "name": "🏑 хокей на трева"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏑 曲棍球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏑 hokej na travi"
+      },
+      {
+        "lang": "cs",
+        "name": "🏑 pozemní hokej"
+      },
+      {
+        "lang": "da",
+        "name": "🏑 hockey"
+      },
+      {
+        "lang": "nl",
+        "name": "🏑 hockey"
+      },
+      {
+        "lang": "en",
+        "name": "🏑 field hockey"
+      },
+      {
+        "lang": "fil",
+        "name": "🏑 field hockey"
+      },
+      {
+        "lang": "fi",
+        "name": "🏑 maahockey"
+      }
+    ]
+  },
+  {
+    "emoji": "🥋",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%8B",
+    "base_info": {
+      "emoji": "🥋",
+      "short_name": "练武服",
+      "apple_name": "武术服",
+      "unicode": "U+1F94B",
+      "decimal": "ALT+129355",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "制服",
+        "柔道",
+        "武术",
+        "空手道",
+        "练武服",
+        "跆拳道"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥋 زي فنون قتالية"
+      },
+      {
+        "lang": "bg",
+        "name": "🥋 дреха за бойни изкуства"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥋 道服"
+      },
+      {
+        "lang": "hr",
+        "name": "🥋 uniforma za borilačke vještine"
+      },
+      {
+        "lang": "cs",
+        "name": "🥋 sportovní kimono"
+      },
+      {
+        "lang": "da",
+        "name": "🥋 karatedragt"
+      },
+      {
+        "lang": "nl",
+        "name": "🥋 pak voor vechtsporten"
+      },
+      {
+        "lang": "en",
+        "name": "🥋 martial arts uniform"
+      },
+      {
+        "lang": "fil",
+        "name": "🥋 martial arts uniform"
+      },
+      {
+        "lang": "fi",
+        "name": "🥋 kamppailulajiasu"
+      }
+    ]
+  },
+  {
+    "emoji": "🏒",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%92",
+    "base_info": {
+      "emoji": "🏒",
+      "short_name": "冰球",
+      "apple_name": "冰球杆和冰球",
+      "unicode": "U+1F3D2",
+      "decimal": "ALT+127954",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "冰球",
+        "球",
+        "球棍"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏒 عصا هوكي جليد"
+      },
+      {
+        "lang": "bg",
+        "name": "🏒 стик и шайба за хокей на лед"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏒 冰上曲棍球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏒 palica i pak za hokej na ledu"
+      },
+      {
+        "lang": "cs",
+        "name": "🏒 lední hokej"
+      },
+      {
+        "lang": "da",
+        "name": "🏒 ishockey"
+      },
+      {
+        "lang": "nl",
+        "name": "🏒 ijshockeystick en puck"
+      },
+      {
+        "lang": "en",
+        "name": "🏒 ice hockey"
+      },
+      {
+        "lang": "fil",
+        "name": "🏒 stick at puck sa ice hockey"
+      },
+      {
+        "lang": "fi",
+        "name": "🏒 jääkiekko ja maila"
+      }
+    ]
+  },
+  {
+    "emoji": "🥍",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%8D",
+    "base_info": {
+      "emoji": "🥍",
+      "short_name": "袋棍球",
+      "apple_name": "长曲棍球棒和曲棍球",
+      "unicode": "U+1F94D",
+      "decimal": "ALT+129357",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "球",
+        "球棍",
+        "球门",
+        "袋棍球",
+        "马球"
+      ],
+      "proposal": [
+        "L2/16‑382",
+        "L2/17‑277"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥍 لاكروس"
+      },
+      {
+        "lang": "bg",
+        "name": "🥍 лакрос"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥍 袋棍球"
+      },
+      {
+        "lang": "hr",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "cs",
+        "name": "🥍 lakros"
+      },
+      {
+        "lang": "da",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "nl",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "en",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "fil",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "fi",
+        "name": "🥍 lacrosse"
+      }
+    ]
+  },
+  {
+    "emoji": "🏸",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%B8",
+    "base_info": {
+      "emoji": "🏸",
+      "short_name": "羽毛球",
+      "apple_name": "羽毛球拍和羽毛球",
+      "unicode": "U+1F3F8",
+      "decimal": "ALT+127992",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "球拍",
+        "羽毛球"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏸 تنس الريشة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏸 бадминтон"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏸 羽毛球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "cs",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "da",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "nl",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "en",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "fil",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "fi",
+        "name": "🏸 sulkapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🥅",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%85",
+    "base_info": {
+      "emoji": "🥅",
+      "short_name": "球门",
+      "apple_name": "球门网",
+      "unicode": "U+1F945",
+      "decimal": "ALT+129349",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "球网",
+        "球门",
+        "进球"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥅 شبكة المرمى"
+      },
+      {
+        "lang": "bg",
+        "name": "🥅 мрежа за голове"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥅 球門"
+      },
+      {
+        "lang": "hr",
+        "name": "🥅 gol"
+      },
+      {
+        "lang": "cs",
+        "name": "🥅 sportovní branka"
+      },
+      {
+        "lang": "da",
+        "name": "🥅 målnet"
+      },
+      {
+        "lang": "nl",
+        "name": "🥅 doelnet"
+      },
+      {
+        "lang": "en",
+        "name": "🥅 goal net"
+      },
+      {
+        "lang": "fil",
+        "name": "🥅 net ng goal"
+      },
+      {
+        "lang": "fi",
+        "name": "🥅 maaliverkko"
+      }
+    ]
+  },
+  {
+    "emoji": "⛳",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%9B%B3",
+    "base_info": {
+      "emoji": "⛳",
+      "short_name": "高尔夫球洞",
+      "apple_name": "Golf Hole With Flag",
+      "unicode": "U+26F3",
+      "decimal": "ALT+9971",
+      "unicode_version": "5.2",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "高尔夫",
+        "高尔夫球洞"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⛳ علم على حفرة"
+      },
+      {
+        "lang": "bg",
+        "name": "⛳ флагче в дупка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⛳ 高爾夫"
+      },
+      {
+        "lang": "hr",
+        "name": "⛳ zastavica u rupi"
+      },
+      {
+        "lang": "cs",
+        "name": "⛳ jamka s vlajkou"
+      },
+      {
+        "lang": "da",
+        "name": "⛳ golfhul med flag"
+      },
+      {
+        "lang": "nl",
+        "name": "⛳ vlag in hole"
+      },
+      {
+        "lang": "en",
+        "name": "⛳ flag in hole"
+      },
+      {
+        "lang": "fil",
+        "name": "⛳ flag sa butas"
+      },
+      {
+        "lang": "fi",
+        "name": "⛳ lippu reiän päällä"
+      }
+    ]
+  },
+  {
+    "emoji": "⛸️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%9B%B8%EF%B8%8F",
+    "base_info": {
+      "emoji": "⛸️",
+      "short_name": "滑冰",
+      "apple_name": "Ice Skate",
+      "unicode": "U+26F8 FE0F \n\n\n26F8 - ⛸ 滑冰\n\n\nFE0F - ️ 变体选择符-16",
+      "decimal": "ALT+9976 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "冰刀",
+        "溜冰",
+        "滑冰"
+      ],
+      "proposal": [
+        "L2/07‑259"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⛸️ حذاء تزلج"
+      },
+      {
+        "lang": "bg",
+        "name": "⛸️ Кънка за лед"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⛸️ 溜冰鞋"
+      },
+      {
+        "lang": "hr",
+        "name": "⛸️ klizaljka"
+      },
+      {
+        "lang": "cs",
+        "name": "⛸️ brusle"
+      },
+      {
+        "lang": "da",
+        "name": "⛸️ skøjte"
+      },
+      {
+        "lang": "nl",
+        "name": "⛸️ schaats"
+      },
+      {
+        "lang": "en",
+        "name": "⛸️ ice skate"
+      },
+      {
+        "lang": "fil",
+        "name": "⛸️ ice skate"
+      },
+      {
+        "lang": "fi",
+        "name": "⛸️ luistin"
+      }
+    ]
+  },
+  {
+    "emoji": "🎽",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%BD",
+    "base_info": {
+      "emoji": "🎽",
+      "short_name": "运动背心",
+      "apple_name": "运动背心",
+      "unicode": "U+1F3BD",
+      "undefined": ":running_shirt_with_sash:",
+      "decimal": "ALT+127933",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "上衣",
+        "跑步",
+        "运动背心",
+        "运动"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎽 قميص رياضي"
+      },
+      {
+        "lang": "bg",
+        "name": "🎽 фланелка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎽 運動服"
+      },
+      {
+        "lang": "hr",
+        "name": "🎽 majica za trčanje"
+      },
+      {
+        "lang": "cs",
+        "name": "🎽 běžecké tričko"
+      },
+      {
+        "lang": "da",
+        "name": "🎽 løbetrøje"
+      },
+      {
+        "lang": "nl",
+        "name": "🎽 hardloopshirt"
+      },
+      {
+        "lang": "en",
+        "name": "🎽 running shirt"
+      },
+      {
+        "lang": "fil",
+        "name": "🎽 running shirt"
+      },
+      {
+        "lang": "fi",
+        "name": "🎽 juoksupaita"
+      }
+    ]
+  },
+  {
+    "emoji": "🎿",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%BF",
+    "base_info": {
+      "emoji": "🎿",
+      "short_name": "滑雪",
+      "apple_name": "滑雪",
+      "unicode": "U+1F3BF",
+      "undefined": ":ski:",
+      "decimal": "ALT+127935",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "滑雪",
+        "雪"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎿 تزلج"
+      },
+      {
+        "lang": "bg",
+        "name": "🎿 ски"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎿 滑雪"
+      },
+      {
+        "lang": "hr",
+        "name": "🎿 skije"
+      },
+      {
+        "lang": "cs",
+        "name": "🎿 lyže"
+      },
+      {
+        "lang": "da",
+        "name": "🎿 ski"
+      },
+      {
+        "lang": "nl",
+        "name": "🎿 ski’s"
+      },
+      {
+        "lang": "en",
+        "name": "🎿 skis"
+      },
+      {
+        "lang": "fil",
+        "name": "🎿 mga ski"
+      },
+      {
+        "lang": "fi",
+        "name": "🎿 sukset"
+      }
+    ]
+  },
+  {
+    "emoji": "🎣",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%A3",
+    "base_info": {
+      "emoji": "🎣",
+      "short_name": "钓鱼竿",
+      "apple_name": "钓竿和鱼",
+      "unicode": "U+1F3A3",
+      "undefined": ":fishing_pole_and_fish:",
+      "decimal": "ALT+127907",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "钓鱼竿",
+        "鱼杆"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎣 صنارة صيد"
+      },
+      {
+        "lang": "bg",
+        "name": "🎣 въдица"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎣 釣魚"
+      },
+      {
+        "lang": "hr",
+        "name": "🎣 ribički štap"
+      },
+      {
+        "lang": "cs",
+        "name": "🎣 rybářský prut"
+      },
+      {
+        "lang": "da",
+        "name": "🎣 fiskestang"
+      },
+      {
+        "lang": "nl",
+        "name": "🎣 vishengel"
+      },
+      {
+        "lang": "en",
+        "name": "🎣 fishing pole"
+      },
+      {
+        "lang": "fil",
+        "name": "🎣 pamingwit"
+      },
+      {
+        "lang": "fi",
+        "name": "🎣 onkivapa"
+      }
+    ]
+  },
+  {
+    "emoji": "🤿",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "13.2+"
+      },
+      {
+        "type": "android",
+        "value": "10.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A4%BF",
+    "base_info": {
+      "emoji": "🤿",
+      "short_name": "潜水面罩",
+      "unicode": "U+1F93F",
+      "decimal": "ALT+129343",
+      "unicode_version": "12.0",
+      "emoji_version": "12.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "浮潜",
+        "深潜",
+        "潜水",
+        "潜水面罩"
+      ],
+      "proposal": [
+        "L2/17‑381"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🤿 قناع غطس"
+      },
+      {
+        "lang": "bg",
+        "name": "🤿 маска за гмуркане"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🤿 潛水面罩"
+      },
+      {
+        "lang": "hr",
+        "name": "🤿 maska za ronjenje"
+      },
+      {
+        "lang": "cs",
+        "name": "🤿 potápěčská maska"
+      },
+      {
+        "lang": "da",
+        "name": "🤿 dykkermaske"
+      },
+      {
+        "lang": "nl",
+        "name": "🤿 duikbril"
+      },
+      {
+        "lang": "en",
+        "name": "🤿 diving mask"
+      },
+      {
+        "lang": "fil",
+        "name": "🤿 diving mask"
+      },
+      {
+        "lang": "fi",
+        "name": "🤿 sukellusmaski"
+      }
+    ]
+  },
+  {
+    "emoji": "🪀",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "13.2+"
+      },
+      {
+        "type": "android",
+        "value": "10.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%80",
+    "base_info": {
+      "emoji": "🪀",
+      "short_name": "悠悠球",
+      "unicode": "U+1FA80",
+      "decimal": "ALT+129664",
+      "unicode_version": "12.0",
+      "emoji_version": "12.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "上下起落",
+        "悠悠球",
+        "玩具"
+      ],
+      "proposal": [
+        "L2/18‑129"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪀 يويو"
+      },
+      {
+        "lang": "bg",
+        "name": "🪀 йо-йо"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪀 溜溜球"
+      },
+      {
+        "lang": "hr",
+        "name": "🪀 jo-jo"
+      },
+      {
+        "lang": "cs",
+        "name": "🪀 jojo"
+      },
+      {
+        "lang": "da",
+        "name": "🪀 yoyo"
+      },
+      {
+        "lang": "nl",
+        "name": "🪀 jojo"
+      },
+      {
+        "lang": "en",
+        "name": "🪀 yo-yo"
+      },
+      {
+        "lang": "fil",
+        "name": "🪀 yoyo"
+      },
+      {
+        "lang": "fi",
+        "name": "🪀 jojo"
+      }
+    ]
+  },
+  {
+    "emoji": "🛷",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "11.1+"
+      },
+      {
+        "type": "android",
+        "value": "8.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%9B%B7",
+    "base_info": {
+      "emoji": "🛷",
+      "short_name": "雪橇",
+      "apple_name": "雪橇",
+      "unicode": "U+1F6F7",
+      "decimal": "ALT+128759",
+      "unicode_version": "10.0",
+      "emoji_version": "5.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "乘雪橇",
+        "雪橇",
+        "驾雪橇",
+        "圣诞节"
+      ],
+      "proposal": [
+        "L2/16‑127R2"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🛷 مزلجة"
+      },
+      {
+        "lang": "bg",
+        "name": "🛷 шейна"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🛷 雪橇"
+      },
+      {
+        "lang": "hr",
+        "name": "🛷 sanjke"
+      },
+      {
+        "lang": "cs",
+        "name": "🛷 sáňky"
+      },
+      {
+        "lang": "da",
+        "name": "🛷 kælk"
+      },
+      {
+        "lang": "nl",
+        "name": "🛷 slee"
+      },
+      {
+        "lang": "en",
+        "name": "🛷 sled"
+      },
+      {
+        "lang": "fil",
+        "name": "🛷 sled"
+      },
+      {
+        "lang": "fi",
+        "name": "🛷 kelkka"
+      }
+    ]
+  },
+  {
+    "emoji": "🥌",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "11.1+"
+      },
+      {
+        "type": "android",
+        "value": "8.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A5%8C",
+    "base_info": {
+      "emoji": "🥌",
+      "short_name": "冰壶",
+      "apple_name": "冰壶石",
+      "unicode": "U+1F94C",
+      "decimal": "ALT+129356",
+      "unicode_version": "10.0",
+      "emoji_version": "5.0",
+      "category": "⚽ 活动",
+      "sub_category": "🏀 人物运动",
+      "keywords": [
+        "冰上溜石",
+        "冰壶",
+        "比赛",
+        "游戏"
+      ],
+      "proposal": [
+        "L2/16‑127R2"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥌 حجرة لعبة الكرلنغ"
+      },
+      {
+        "lang": "bg",
+        "name": "🥌 камък за кърлинг"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥌 冰石壺"
+      },
+      {
+        "lang": "hr",
+        "name": "🥌 kamen za karling"
+      },
+      {
+        "lang": "cs",
+        "name": "🥌 curlingový kámen"
+      },
+      {
+        "lang": "da",
+        "name": "🥌 curlingsten"
+      },
+      {
+        "lang": "nl",
+        "name": "🥌 curlingsteen"
+      },
+      {
+        "lang": "en",
+        "name": "🥌 curling stone"
+      },
+      {
+        "lang": "fil",
+        "name": "🥌 curling stone"
+      },
+      {
+        "lang": "fi",
+        "name": "🥌 curling-kivi"
+      }
+    ]
+  },
+  {
+    "emoji": "🎯",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%AF",
+    "base_info": {
+      "emoji": "🎯",
+      "short_name": "正中靶心的飞镖",
+      "apple_name": "靶心",
+      "unicode": "U+1F3AF",
+      "undefined": ":dart:",
+      "decimal": "ALT+127919",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "命中",
+        "正中靶心的飞镖",
+        "靶心",
+        "飞镖",
+        "派对游戏"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎯 نشان"
+      },
+      {
+        "lang": "bg",
+        "name": "🎯 точен удар"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎯 命中"
+      },
+      {
+        "lang": "hr",
+        "name": "🎯 pogodak u sredinu"
+      },
+      {
+        "lang": "cs",
+        "name": "🎯 přesný zásah do terče"
+      },
+      {
+        "lang": "da",
+        "name": "🎯 pletskud"
+      },
+      {
+        "lang": "nl",
+        "name": "🎯 directe treffer"
+      },
+      {
+        "lang": "en",
+        "name": "🎯 bullseye"
+      },
+      {
+        "lang": "fil",
+        "name": "🎯 bullseye"
+      },
+      {
+        "lang": "fi",
+        "name": "🎯 napakymppi"
+      }
+    ]
+  },
+  {
+    "emoji": "🪁",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "13.2+"
+      },
+      {
+        "type": "android",
+        "value": "10.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%81",
+    "base_info": {
+      "emoji": "🪁",
+      "short_name": "风筝",
+      "unicode": "U+1FA81",
+      "decimal": "ALT+129665",
+      "unicode_version": "12.0",
+      "emoji_version": "12.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "翱翔",
+        "风筝",
+        "飞翔",
+        "放风筝"
+      ],
+      "proposal": [
+        "L2/18‑135"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪁 طائرة ورقية"
+      },
+      {
+        "lang": "bg",
+        "name": "🪁 хвърчило"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪁 風箏"
+      },
+      {
+        "lang": "hr",
+        "name": "🪁 papirnati zmaj"
+      },
+      {
+        "lang": "cs",
+        "name": "🪁 papírový drak"
+      },
+      {
+        "lang": "da",
+        "name": "🪁 legetøjsdrage"
+      },
+      {
+        "lang": "nl",
+        "name": "🪁 vlieger"
+      },
+      {
+        "lang": "en",
+        "name": "🪁 kite"
+      },
+      {
+        "lang": "fil",
+        "name": "🪁 saranggola"
+      },
+      {
+        "lang": "fi",
+        "name": "🪁 leija"
+      }
+    ]
+  },
+  {
+    "emoji": "🪄",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%84",
+    "base_info": {
+      "emoji": "🪄",
+      "short_name": "魔棒",
+      "undefined": "魔法棒 | 魔杖",
+      "unicode": "U+1FA84",
+      "decimal": "ALT+129668",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "女巫",
+        "巫师",
+        "魔棒",
+        "魔法",
+        "魔术",
+        "哈利波特"
+      ],
+      "proposal": [
+        "L2/18‑218"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪄 عصا سحرية"
+      },
+      {
+        "lang": "bg",
+        "name": "🪄 вълшебна пръчица"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪄 魔杖"
+      },
+      {
+        "lang": "hr",
+        "name": "🪄 čarobni štapić"
+      },
+      {
+        "lang": "cs",
+        "name": "🪄 kouzelná hůlka"
+      },
+      {
+        "lang": "da",
+        "name": "🪄 tryllestav"
+      },
+      {
+        "lang": "nl",
+        "name": "🪄 toverstok"
+      },
+      {
+        "lang": "en",
+        "name": "🪄 magic wand"
+      },
+      {
+        "lang": "fil",
+        "name": "🪄 magic wand"
+      },
+      {
+        "lang": "fi",
+        "name": "🪄 taikasauva"
+      }
+    ]
+  },
+  {
+    "emoji": "🔮",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%94%AE",
+    "base_info": {
+      "emoji": "🔮",
+      "short_name": "水晶球",
+      "apple_name": "水晶球",
+      "undefined": ":crystal_ball:",
+      "unicode": "U+1F52E",
+      "decimal": "ALT+128302",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "命运",
+        "工具",
+        "水晶",
+        "水晶球",
+        "球",
+        "财富",
+        "魔法"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🔮 كرة كريستال"
+      },
+      {
+        "lang": "bg",
+        "name": "🔮 Кристално кълбо"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🔮 水晶球"
+      },
+      {
+        "lang": "hr",
+        "name": "🔮 kristalna kugla"
+      },
+      {
+        "lang": "cs",
+        "name": "🔮 křišťálová koule"
+      },
+      {
+        "lang": "da",
+        "name": "🔮 krystalkugle"
+      },
+      {
+        "lang": "nl",
+        "name": "🔮 kristallen bol"
+      },
+      {
+        "lang": "en",
+        "name": "🔮 crystal ball"
+      },
+      {
+        "lang": "fil",
+        "name": "🔮 bolang kristal"
+      },
+      {
+        "lang": "fi",
+        "name": "🔮 kristallipallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🎱",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%B1",
+    "base_info": {
+      "emoji": "🎱",
+      "short_name": "台球",
+      "apple_name": "台球",
+      "unicode": "U+1F3B1",
+      "undefined": ":8ball:",
+      "decimal": "ALT+127921",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "8 球制桌球",
+        "台球",
+        "游戏",
+        "霹雳八球"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎱 بلياردو"
+      },
+      {
+        "lang": "bg",
+        "name": "🎱 билярд"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎱 撞球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎱 biljarske kugle"
+      },
+      {
+        "lang": "cs",
+        "name": "🎱 kulečníková koule 8"
+      },
+      {
+        "lang": "da",
+        "name": "🎱 billard"
+      },
+      {
+        "lang": "nl",
+        "name": "🎱 biljart"
+      },
+      {
+        "lang": "en",
+        "name": "🎱 pool 8 ball"
+      },
+      {
+        "lang": "fil",
+        "name": "🎱 billiards"
+      },
+      {
+        "lang": "fi",
+        "name": "🎱 biljardi"
+      }
+    ]
+  },
+  {
+    "emoji": "🧩",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A7%A9",
+    "base_info": {
+      "emoji": "🧩",
+      "short_name": "拼图",
+      "apple_name": "拼图块",
+      "unicode": "U+1F9E9",
+      "decimal": "ALT+129513",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "图片",
+        "拼图",
+        "智力游戏",
+        "线索",
+        "联锁",
+        "玩具",
+        "乐高"
+      ],
+      "proposal": [
+        "L2/17‑198"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧩 أحجية الصور المقطوعة"
+      },
+      {
+        "lang": "bg",
+        "name": "🧩 част от пъзел"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧩 拼圖"
+      },
+      {
+        "lang": "hr",
+        "name": "🧩 slagalica"
+      },
+      {
+        "lang": "cs",
+        "name": "🧩 puzzle"
+      },
+      {
+        "lang": "da",
+        "name": "🧩 brik til puslespil"
+      },
+      {
+        "lang": "nl",
+        "name": "🧩 puzzelstukje"
+      },
+      {
+        "lang": "en",
+        "name": "🧩 puzzle piece"
+      },
+      {
+        "lang": "fil",
+        "name": "🧩 jigsaw"
+      },
+      {
+        "lang": "fi",
+        "name": "🧩 palapeli"
+      }
+    ]
+  },
+  {
+    "emoji": "🧸",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A7%B8",
+    "base_info": {
+      "emoji": "🧸",
+      "short_name": "泰迪熊",
+      "apple_name": "泰迪熊",
+      "unicode": "U+1F9F8",
+      "decimal": "ALT+129528",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "填充",
+        "毛绒玩具",
+        "泰迪熊",
+        "玩偶",
+        "玩具"
+      ],
+      "proposal": [
+        "L2/17‑273"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧸 لعبة محشوة بشكل دب"
+      },
+      {
+        "lang": "bg",
+        "name": "🧸 плюшено мече"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧸 泰迪熊"
+      },
+      {
+        "lang": "hr",
+        "name": "🧸 medvjedić"
+      },
+      {
+        "lang": "cs",
+        "name": "🧸 medvídek"
+      },
+      {
+        "lang": "da",
+        "name": "🧸 bamse"
+      },
+      {
+        "lang": "nl",
+        "name": "🧸 teddybeer"
+      },
+      {
+        "lang": "en",
+        "name": "🧸 teddy bear"
+      },
+      {
+        "lang": "fil",
+        "name": "🧸 teddy bear"
+      },
+      {
+        "lang": "fi",
+        "name": "🧸 nalle"
+      }
+    ]
+  },
+  {
+    "emoji": "🎲",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%B2",
+    "base_info": {
+      "emoji": "🎲",
+      "short_name": "骰子",
+      "apple_name": "游戏骰子",
+      "unicode": "U+1F3B2",
+      "undefined": ":game_die:",
+      "decimal": "ALT+127922",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "色子",
+        "骰子",
+        "赌博",
+        "酒桌游戏"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎲 زهر"
+      },
+      {
+        "lang": "bg",
+        "name": "🎲 зар за игра"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎲 骰子"
+      },
+      {
+        "lang": "hr",
+        "name": "🎲 igraća kocka"
+      },
+      {
+        "lang": "cs",
+        "name": "🎲 hrací kostka"
+      },
+      {
+        "lang": "da",
+        "name": "🎲 terning"
+      },
+      {
+        "lang": "nl",
+        "name": "🎲 dobbelsteen"
+      },
+      {
+        "lang": "en",
+        "name": "🎲 game die"
+      },
+      {
+        "lang": "fil",
+        "name": "🎲 dice"
+      },
+      {
+        "lang": "fi",
+        "name": "🎲 noppa"
+      }
+    ]
+  },
+  {
+    "emoji": "🪩",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "15.4+"
+      },
+      {
+        "type": "android",
+        "value": "12L+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%A9",
+    "base_info": {
+      "emoji": "🪩",
+      "short_name": "镜球",
+      "undefined": "迪斯科球",
+      "unicode": "U+1FAA9",
+      "decimal": "ALT+129705",
+      "unicode_version": "14.0",
+      "emoji_version": "14.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "聚会",
+        "舞蹈",
+        "迪斯科",
+        "镜球",
+        "闪耀"
+      ],
+      "proposal": [
+        "L2/19‑310"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪩 الكرة المضيئة"
+      },
+      {
+        "lang": "bg",
+        "name": "🪩 диско топка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪩 鏡面球"
+      },
+      {
+        "lang": "hr",
+        "name": "🪩 disko kugla"
+      },
+      {
+        "lang": "cs",
+        "name": "🪩 zrcadlová koule"
+      },
+      {
+        "lang": "da",
+        "name": "🪩 diskokugle"
+      },
+      {
+        "lang": "nl",
+        "name": "🪩 spiegelbal"
+      },
+      {
+        "lang": "en",
+        "name": "🪩 mirror ball"
+      },
+      {
+        "lang": "fil",
+        "name": "🪩 disco ball"
+      },
+      {
+        "lang": "fi",
+        "name": "🪩 peilipallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🕹️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%95%B9%EF%B8%8F",
+    "base_info": {
+      "emoji": "🕹️",
+      "short_name": "游戏操控杆",
+      "apple_name": "Joystick",
+      "unicode": "U+1F579 FE0F \n\n\n1F579 - 🕹 游戏操控杆\n\n\nFE0F - ️ 变体选择符-16",
+      "decimal": "ALT+128377 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "操控杆",
+        "游戏操控杆",
+        "电子游戏"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🕹️ ذراع تحكم"
+      },
+      {
+        "lang": "bg",
+        "name": "🕹️ джойстик"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🕹️ 搖桿"
+      },
+      {
+        "lang": "hr",
+        "name": "🕹️ igraća palica"
+      },
+      {
+        "lang": "cs",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "da",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "nl",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "en",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "fil",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "fi",
+        "name": "🕹️ joystick"
+      }
+    ]
+  },
+  {
+    "emoji": "🪅",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%85",
+    "base_info": {
+      "emoji": "🪅",
+      "short_name": "彩罐",
+      "undefined": "皮纳塔",
+      "unicode": "U+1FA85",
+      "decimal": "ALT+129669",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "庆祝",
+        "彩罐",
+        "聚会"
+      ],
+      "proposal": [
+        "L2/19‑062"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪅 بنياتا"
+      },
+      {
+        "lang": "bg",
+        "name": "🪅 пинята"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪅 皮納塔"
+      },
+      {
+        "lang": "hr",
+        "name": "🪅 pinjata"
+      },
+      {
+        "lang": "cs",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "da",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "nl",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "en",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "fil",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "fi",
+        "name": "🪅 piñata"
+      }
+    ]
+  },
+  {
+    "emoji": "🎰",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%B0",
+    "base_info": {
+      "emoji": "🎰",
+      "short_name": "老虎机",
+      "apple_name": "老虎机",
+      "unicode": "U+1F3B0",
+      "undefined": ":slot_machine:",
+      "decimal": "ALT+127920",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "游戏",
+        "老虎机",
+        "角子机",
+        "赌博",
+        "赌场"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎰 جهاز قمار"
+      },
+      {
+        "lang": "bg",
+        "name": "🎰 ротативка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎰 吃角子老虎"
+      },
+      {
+        "lang": "hr",
+        "name": "🎰 jednoruki jack"
+      },
+      {
+        "lang": "cs",
+        "name": "🎰 výherní automat"
+      },
+      {
+        "lang": "da",
+        "name": "🎰 spillemaskine"
+      },
+      {
+        "lang": "nl",
+        "name": "🎰 fruitautomaat"
+      },
+      {
+        "lang": "en",
+        "name": "🎰 slot machine"
+      },
+      {
+        "lang": "fil",
+        "name": "🎰 slot machine"
+      },
+      {
+        "lang": "fi",
+        "name": "🎰 pelikone"
+      }
+    ]
+  },
+  {
+    "emoji": "🪆",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%86",
+    "base_info": {
+      "emoji": "🪆",
+      "short_name": "套娃",
+      "unicode": "U+1FA86",
+      "decimal": "ALT+129670",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "俄罗斯套娃",
+        "套娃",
+        "娃娃",
+        "俄罗斯"
+      ],
+      "proposal": [
+        "L2/19‑096"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪆 دمية روسية"
+      },
+      {
+        "lang": "bg",
+        "name": "🪆 матрьошки"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪆 俄羅斯娃娃"
+      },
+      {
+        "lang": "hr",
+        "name": "🪆 babuška"
+      },
+      {
+        "lang": "cs",
+        "name": "🪆 matrjoška"
+      },
+      {
+        "lang": "da",
+        "name": "🪆 russiske dukker"
+      },
+      {
+        "lang": "nl",
+        "name": "🪆 matroesjka"
+      },
+      {
+        "lang": "en",
+        "name": "🪆 nesting dolls"
+      },
+      {
+        "lang": "fil",
+        "name": "🪆 manikang matryoshka"
+      },
+      {
+        "lang": "fi",
+        "name": "🪆 maatuskanuket"
+      }
+    ]
+  },
+  {
+    "emoji": "🎮",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%AE",
+    "base_info": {
+      "emoji": "🎮",
+      "short_name": "游戏手柄",
+      "apple_name": "视频游戏手柄",
+      "unicode": "U+1F3AE",
+      "undefined": ":video_game:",
+      "decimal": "ALT+127918",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "手柄",
+        "游戏手柄",
+        "电子游戏"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎮 لعبة فيديو"
+      },
+      {
+        "lang": "bg",
+        "name": "🎮 видеоигра"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎮 電玩"
+      },
+      {
+        "lang": "hr",
+        "name": "🎮 videoigrica"
+      },
+      {
+        "lang": "cs",
+        "name": "🎮 videohra"
+      },
+      {
+        "lang": "da",
+        "name": "🎮 videospil"
+      },
+      {
+        "lang": "nl",
+        "name": "🎮 videogame"
+      },
+      {
+        "lang": "en",
+        "name": "🎮 video game"
+      },
+      {
+        "lang": "fil",
+        "name": "🎮 video game"
+      },
+      {
+        "lang": "fi",
+        "name": "🎮 videopeli"
+      }
+    ]
+  },
+  {
+    "emoji": "♠️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%99%A0%EF%B8%8F",
+    "base_info": {
+      "emoji": "♠️",
+      "short_name": "黑桃",
+      "apple_name": "黑桃",
+      "unicode": "U+2660 FE0F \n\n\n2660 - ♠ 黑桃\n\n\nFE0F - ️ 变体选择符-16",
+      "undefined": ":spades:",
+      "decimal": "ALT+9824 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "扑克",
+        "牌",
+        "葵扇",
+        "黑桃"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♠️ ورقة البستوني"
+      },
+      {
+        "lang": "bg",
+        "name": "♠️ пика"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♠️ 黑桃"
+      },
+      {
+        "lang": "hr",
+        "name": "♠️ pik"
+      },
+      {
+        "lang": "cs",
+        "name": "♠️ piky"
+      },
+      {
+        "lang": "da",
+        "name": "♠️ spar"
+      },
+      {
+        "lang": "nl",
+        "name": "♠️ schoppen"
+      },
+      {
+        "lang": "en",
+        "name": "♠️ spade suit"
+      },
+      {
+        "lang": "fil",
+        "name": "♠️ spade"
+      },
+      {
+        "lang": "fi",
+        "name": "♠️ pata"
+      }
+    ]
+  },
+  {
+    "emoji": "♥️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%99%A5%EF%B8%8F",
+    "base_info": {
+      "emoji": "♥️",
+      "short_name": "红桃",
+      "apple_name": "红桃",
+      "unicode": "U+2665 FE0F \n\n\n2665 - ♥ 红桃\n\n\nFE0F - ️ 变体选择符-16",
+      "undefined": ":hearts:",
+      "decimal": "ALT+9829 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "扑克",
+        "牌",
+        "红心",
+        "红桃"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♥️ ورقة قلب أحمر"
+      },
+      {
+        "lang": "bg",
+        "name": "♥️ купа"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♥️ 紅心"
+      },
+      {
+        "lang": "hr",
+        "name": "♥️ herc"
+      },
+      {
+        "lang": "cs",
+        "name": "♥️ srdce"
+      },
+      {
+        "lang": "da",
+        "name": "♥️ hjerter"
+      },
+      {
+        "lang": "nl",
+        "name": "♥️ harten"
+      },
+      {
+        "lang": "en",
+        "name": "♥️ heart suit"
+      },
+      {
+        "lang": "fil",
+        "name": "♥️ heart"
+      },
+      {
+        "lang": "fi",
+        "name": "♥️ hertta"
+      }
+    ]
+  },
+  {
+    "emoji": "♟️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%99%9F%EF%B8%8F",
+    "base_info": {
+      "emoji": "♟️",
+      "short_name": "兵",
+      "apple_name": "Chess Pawn",
+      "unicode": "U+265F FE0F \n\n\n265F - ♟ 兵\n\n\nFE0F - ️ 变体选择符-16",
+      "decimal": "ALT+9823 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "兵",
+        "受骗者",
+        "国际象棋",
+        "牺牲品"
+      ],
+      "proposal": [
+        "L2/18‑018"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♟️ بيدق"
+      },
+      {
+        "lang": "bg",
+        "name": "♟️ пешка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♟️ 卒"
+      },
+      {
+        "lang": "hr",
+        "name": "♟️ šahovski pješak"
+      },
+      {
+        "lang": "cs",
+        "name": "♟️ pěšec"
+      },
+      {
+        "lang": "da",
+        "name": "♟️ skakbrik"
+      },
+      {
+        "lang": "nl",
+        "name": "♟️ pion"
+      },
+      {
+        "lang": "en",
+        "name": "♟️ chess pawn"
+      },
+      {
+        "lang": "fil",
+        "name": "♟️ chess pawn"
+      },
+      {
+        "lang": "fi",
+        "name": "♟️ šakkipelin sotilas"
+      }
+    ]
+  },
+  {
+    "emoji": "🎴",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%B4",
+    "base_info": {
+      "emoji": "🎴",
+      "short_name": "花札",
+      "apple_name": "花扑克牌",
+      "unicode": "U+1F3B4",
+      "undefined": ":flower_playing_cards:",
+      "decimal": "ALT+127924",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "卡牌",
+        "日本",
+        "游戏",
+        "花札",
+        "花牌",
+        "歌留多"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎴 بطاقات لعب"
+      },
+      {
+        "lang": "bg",
+        "name": "🎴 карти за игра ханафуда"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎴 花牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🎴 igraće karte s cvijećem"
+      },
+      {
+        "lang": "cs",
+        "name": "🎴 hrací karty s květinami"
+      },
+      {
+        "lang": "da",
+        "name": "🎴 spillekort med blomster"
+      },
+      {
+        "lang": "nl",
+        "name": "🎴 speelkaarten"
+      },
+      {
+        "lang": "en",
+        "name": "🎴 flower playing cards"
+      },
+      {
+        "lang": "fil",
+        "name": "🎴 flower playing card"
+      },
+      {
+        "lang": "fi",
+        "name": "🎴 kukkapelikortit"
+      }
+    ]
+  },
+  {
+    "emoji": "♦️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%99%A6%EF%B8%8F",
+    "base_info": {
+      "emoji": "♦️",
+      "short_name": "方片",
+      "apple_name": "方块",
+      "unicode": "U+2666 FE0F \n\n\n2666 - ♦ 方片\n\n\nFE0F - ️ 变体选择符-16",
+      "undefined": ":diamonds:",
+      "decimal": "ALT+9830 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "扑克",
+        "方块",
+        "方片",
+        "牌"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♦️ ورقة لعب بشكل ماسة"
+      },
+      {
+        "lang": "bg",
+        "name": "♦️ каро"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♦️ 方塊"
+      },
+      {
+        "lang": "hr",
+        "name": "♦️ karo"
+      },
+      {
+        "lang": "cs",
+        "name": "♦️ káry"
+      },
+      {
+        "lang": "da",
+        "name": "♦️ ruder"
+      },
+      {
+        "lang": "nl",
+        "name": "♦️ ruiten"
+      },
+      {
+        "lang": "en",
+        "name": "♦️ diamond suit"
+      },
+      {
+        "lang": "fil",
+        "name": "♦️ diamond"
+      },
+      {
+        "lang": "fi",
+        "name": "♦️ ruutu"
+      }
+    ]
+  },
+  {
+    "emoji": "🀄",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%80%84",
+    "base_info": {
+      "emoji": "🀄",
+      "short_name": "红中",
+      "apple_name": "Mahjong Tile Red Dragon",
+      "undefined": ":mahjong:",
+      "unicode": "U+1F004",
+      "decimal": "ALT+126980",
+      "unicode_version": "5.1",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "红中",
+        "麻将",
+        "打麻将",
+        "中"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🀄 لعبة ورق يابانية"
+      },
+      {
+        "lang": "bg",
+        "name": "🀄 „червен дракон“ в маджонг"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🀄 紅中"
+      },
+      {
+        "lang": "hr",
+        "name": "🀄 mahjong crveni zmaj"
+      },
+      {
+        "lang": "cs",
+        "name": "🀄 červený drak v mahjongu"
+      },
+      {
+        "lang": "da",
+        "name": "🀄 mahjong-brik"
+      },
+      {
+        "lang": "nl",
+        "name": "🀄 mahjong rode draak"
+      },
+      {
+        "lang": "en",
+        "name": "🀄 mahjong red dragon"
+      },
+      {
+        "lang": "fil",
+        "name": "🀄 mahjong red dragon"
+      },
+      {
+        "lang": "fi",
+        "name": "🀄 mahjong"
+      }
+    ]
+  },
+  {
+    "emoji": "🔫",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%94%AB",
+    "base_info": {
+      "emoji": "🔫",
+      "short_name": "水枪",
+      "apple_name": "水枪",
+      "undefined": ":gun:",
+      "unicode": "U+1F52B",
+      "decimal": "ALT+128299",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "工具",
+        "左轮",
+        "手枪",
+        "枪",
+        "武器",
+        "水枪",
+        "夏天",
+        "射击",
+        "枪击"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🔫 مسدس ماء"
+      },
+      {
+        "lang": "bg",
+        "name": "🔫 воден пистолет"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🔫 水槍"
+      },
+      {
+        "lang": "hr",
+        "name": "🔫 pištolj na vodu"
+      },
+      {
+        "lang": "cs",
+        "name": "🔫 vodní pistole"
+      },
+      {
+        "lang": "da",
+        "name": "🔫 vandpistol"
+      },
+      {
+        "lang": "nl",
+        "name": "🔫 waterpistool"
+      },
+      {
+        "lang": "en",
+        "name": "🔫 water pistol"
+      },
+      {
+        "lang": "fil",
+        "name": "🔫 water gun"
+      },
+      {
+        "lang": "fi",
+        "name": "🔫 vesipyssy"
+      }
+    ]
+  },
+  {
+    "emoji": "♣️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%E2%99%A3%EF%B8%8F",
+    "base_info": {
+      "emoji": "♣️",
+      "short_name": "梅花",
+      "apple_name": "梅花",
+      "unicode": "U+2663 FE0F \n\n\n2663 - ♣ 梅花\n\n\nFE0F - ️ 变体选择符-16",
+      "undefined": ":clubs:",
+      "decimal": "ALT+9827 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "扑克",
+        "梅花",
+        "牌",
+        "草花"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♣️ ورقة لعب بشكل شجرة"
+      },
+      {
+        "lang": "bg",
+        "name": "♣️ спатия"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♣️ 梅花"
+      },
+      {
+        "lang": "hr",
+        "name": "♣️ tref"
+      },
+      {
+        "lang": "cs",
+        "name": "♣️ kříže"
+      },
+      {
+        "lang": "da",
+        "name": "♣️ klør"
+      },
+      {
+        "lang": "nl",
+        "name": "♣️ klaver"
+      },
+      {
+        "lang": "en",
+        "name": "♣️ club suit"
+      },
+      {
+        "lang": "fil",
+        "name": "♣️ club"
+      },
+      {
+        "lang": "fi",
+        "name": "♣️ risti"
+      }
+    ]
+  },
+  {
+    "emoji": "🃏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%83%8F",
+    "base_info": {
+      "emoji": "🃏",
+      "short_name": "大小王",
+      "apple_name": "小丑扑克牌",
+      "unicode": "U+1F0CF",
+      "undefined": ":black_joker:",
+      "decimal": "ALT+127183",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎯 游戏",
+      "keywords": [
+        "大小王",
+        "大王",
+        "小王",
+        "扑克",
+        "牌",
+        "鬼牌"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🃏 جوكر"
+      },
+      {
+        "lang": "bg",
+        "name": "🃏 жокер"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🃏 鬼牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🃏 džoker"
+      },
+      {
+        "lang": "cs",
+        "name": "🃏 žolík"
+      },
+      {
+        "lang": "da",
+        "name": "🃏 joker"
+      },
+      {
+        "lang": "nl",
+        "name": "🃏 Jokerkaart"
+      },
+      {
+        "lang": "en",
+        "name": "🃏 joker"
+      },
+      {
+        "lang": "fil",
+        "name": "🃏 joker"
+      },
+      {
+        "lang": "fi",
+        "name": "🃏 jokeri"
+      }
+    ]
+  },
+  {
+    "emoji": "🖼️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%96%BC%EF%B8%8F",
+    "base_info": {
+      "emoji": "🖼️",
+      "short_name": "带框的画",
+      "apple_name": "Frame With Picture",
+      "unicode": "U+1F5BC FE0F \n\n\n1F5BC - 🖼 带框的画\n\n\nFE0F - ️ 变体选择符-16",
+      "decimal": "ALT+128444 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎨 艺术和工艺",
+      "keywords": [
+        "博物馆",
+        "带框的画",
+        "框",
+        "画",
+        "艺术"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🖼️ إطار وصورة"
+      },
+      {
+        "lang": "bg",
+        "name": "🖼️ Картина в рамка"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🖼️ 裱框畫"
+      },
+      {
+        "lang": "hr",
+        "name": "🖼️ uokvirena slika"
+      },
+      {
+        "lang": "cs",
+        "name": "🖼️ obraz v rámu"
+      },
+      {
+        "lang": "da",
+        "name": "🖼️ ramme med billede"
+      },
+      {
+        "lang": "nl",
+        "name": "🖼️ lijst met afbeelding"
+      },
+      {
+        "lang": "en",
+        "name": "🖼️ framed picture"
+      },
+      {
+        "lang": "fil",
+        "name": "🖼️ frame na may larawan"
+      },
+      {
+        "lang": "fi",
+        "name": "🖼️ kuva kehyksissä"
+      }
+    ]
+  },
+  {
+    "emoji": "🎨",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%A8",
+    "base_info": {
+      "emoji": "🎨",
+      "short_name": "调色盘",
+      "apple_name": "美术调色板",
+      "undefined": ":art:",
+      "unicode": "U+1F3A8",
+      "decimal": "ALT+127912",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎨 艺术和工艺",
+      "keywords": [
+        "博物馆",
+        "画画",
+        "艺术",
+        "调色板",
+        "调色盘",
+        "美术"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎨 لوحة ألوان الرسام"
+      },
+      {
+        "lang": "bg",
+        "name": "🎨 палитра на художник"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎨 調色板"
+      },
+      {
+        "lang": "hr",
+        "name": "🎨 slikarska paleta"
+      },
+      {
+        "lang": "cs",
+        "name": "🎨 malířská paleta"
+      },
+      {
+        "lang": "da",
+        "name": "🎨 palet"
+      },
+      {
+        "lang": "nl",
+        "name": "🎨 schilderspalet"
+      },
+      {
+        "lang": "en",
+        "name": "🎨 artist palette"
+      },
+      {
+        "lang": "fil",
+        "name": "🎨 paleta ng pintor"
+      },
+      {
+        "lang": "fi",
+        "name": "🎨 taiteilijan paletti"
+      }
+    ]
+  },
+  {
+    "emoji": "🎭",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8E%AD",
+    "base_info": {
+      "emoji": "🎭",
+      "short_name": "表演艺术",
+      "apple_name": "表演艺术",
+      "undefined": ":performing_arts:",
+      "unicode": "U+1F3AD",
+      "decimal": "ALT+127917",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎨 艺术和工艺",
+      "keywords": [
+        "剧院",
+        "戏剧",
+        "艺术",
+        "表演",
+        "表演艺术",
+        "面具"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎭 قناع وجه"
+      },
+      {
+        "lang": "bg",
+        "name": "🎭 сценични изкуства"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎭 戲劇"
+      },
+      {
+        "lang": "hr",
+        "name": "🎭 izvedbene umjetnosti"
+      },
+      {
+        "lang": "cs",
+        "name": "🎭 múzická umění"
+      },
+      {
+        "lang": "da",
+        "name": "🎭 masker"
+      },
+      {
+        "lang": "nl",
+        "name": "🎭 toneelkunsten"
+      },
+      {
+        "lang": "en",
+        "name": "🎭 performing arts"
+      },
+      {
+        "lang": "fil",
+        "name": "🎭 sining pantanghalan"
+      },
+      {
+        "lang": "fi",
+        "name": "🎭 näyttämötaiteet"
+      }
+    ]
+  },
+  {
+    "emoji": "🧵",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A7%B5",
+    "base_info": {
+      "emoji": "🧵",
+      "short_name": "线",
+      "apple_name": "线",
+      "unicode": "U+1F9F5",
+      "decimal": "ALT+129525",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎨 艺术和工艺",
+      "keywords": [
+        "线",
+        "线轴",
+        "绳子",
+        "缝纫",
+        "针",
+        "缝补"
+      ],
+      "proposal": [
+        "L2/17‑249"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧵 بكرة خيط"
+      },
+      {
+        "lang": "bg",
+        "name": "🧵 конец"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧵 線"
+      },
+      {
+        "lang": "hr",
+        "name": "🧵 konac"
+      },
+      {
+        "lang": "cs",
+        "name": "🧵 cívka nití"
+      },
+      {
+        "lang": "da",
+        "name": "🧵 tråd"
+      },
+      {
+        "lang": "nl",
+        "name": "🧵 garen"
+      },
+      {
+        "lang": "en",
+        "name": "🧵 thread"
+      },
+      {
+        "lang": "fil",
+        "name": "🧵 sinulid"
+      },
+      {
+        "lang": "fi",
+        "name": "🧵 lankarulla"
+      }
+    ]
+  },
+  {
+    "emoji": "🪡",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%A1",
+    "base_info": {
+      "emoji": "🪡",
+      "short_name": "缝合针",
+      "undefined": "绣花针",
+      "unicode": "U+1FAA1",
+      "decimal": "ALT+129697",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎨 艺术和工艺",
+      "keywords": [
+        "绣花针",
+        "缝合",
+        "缝合针",
+        "缝纫",
+        "缝线",
+        "裁剪",
+        "缝补"
+      ],
+      "proposal": [
+        "L2/19‑088"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪡 إبرة خياطة"
+      },
+      {
+        "lang": "bg",
+        "name": "🪡 шивашка игла"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪡 裁縫針"
+      },
+      {
+        "lang": "hr",
+        "name": "🪡 šivaća igla"
+      },
+      {
+        "lang": "cs",
+        "name": "🪡 šicí jehla"
+      },
+      {
+        "lang": "da",
+        "name": "🪡 synål"
+      },
+      {
+        "lang": "nl",
+        "name": "🪡 naald"
+      },
+      {
+        "lang": "en",
+        "name": "🪡 sewing needle"
+      },
+      {
+        "lang": "fil",
+        "name": "🪡 karayom"
+      },
+      {
+        "lang": "fi",
+        "name": "🪡 ompeluneula"
+      }
+    ]
+  },
+  {
+    "emoji": "🧶",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A7%B6",
+    "base_info": {
+      "emoji": "🧶",
+      "short_name": "毛线",
+      "apple_name": "纱线",
+      "unicode": "U+1F9F6",
+      "decimal": "ALT+129526",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎨 艺术和工艺",
+      "keywords": [
+        "毛线",
+        "毛线球",
+        "编织",
+        "钩针编织物"
+      ],
+      "proposal": [
+        "L2/17‑249"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧶 خيط حياكة"
+      },
+      {
+        "lang": "bg",
+        "name": "🧶 прежда"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧶 毛線球"
+      },
+      {
+        "lang": "hr",
+        "name": "🧶 klupko vune"
+      },
+      {
+        "lang": "cs",
+        "name": "🧶 klubíčko"
+      },
+      {
+        "lang": "da",
+        "name": "🧶 garn"
+      },
+      {
+        "lang": "nl",
+        "name": "🧶 wol"
+      },
+      {
+        "lang": "en",
+        "name": "🧶 yarn"
+      },
+      {
+        "lang": "fil",
+        "name": "🧶 yarn"
+      },
+      {
+        "lang": "fi",
+        "name": "🧶 lankakerä"
+      }
+    ]
+  },
+  {
+    "emoji": "🪢",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%AA%A2",
+    "base_info": {
+      "emoji": "🪢",
+      "short_name": "结",
+      "unicode": "U+1FAA2",
+      "decimal": "ALT+129698",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ 活动",
+      "sub_category": "🎨 艺术和工艺",
+      "keywords": [
+        "打结",
+        "结",
+        "绳子",
+        "缠结",
+        "麻线",
+        "心结"
+      ],
+      "proposal": [
+        "L2/19‑152"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪢 عُقدة"
+      },
+      {
+        "lang": "bg",
+        "name": "🪢 възел"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪢 繩結"
+      },
+      {
+        "lang": "hr",
+        "name": "🪢 čvor"
+      },
+      {
+        "lang": "cs",
+        "name": "🪢 uzel"
+      },
+      {
+        "lang": "da",
+        "name": "🪢 knude"
+      },
+      {
+        "lang": "nl",
+        "name": "🪢 knoop"
+      },
+      {
+        "lang": "en",
+        "name": "🪢 knot"
+      },
+      {
+        "lang": "fil",
+        "name": "🪢 buhol"
+      },
+      {
+        "lang": "fi",
+        "name": "🪢 solmu"
+      }
+    ]
+  }
+]

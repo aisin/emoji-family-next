@@ -1,0 +1,737 @@
+[
+  {
+    "emoji": "🏼",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%BC",
+    "base_info": {
+      "emoji": "🏼",
+      "short_name": "medium-light skin tone",
+      "unicode": "U+1F3FC",
+      "decimal": "ALT+127996",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 Component",
+      "sub_category": "🏽 Skin Tone",
+      "keywords": [
+        "medium-light skin tone",
+        "skin tone",
+        "type 3"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏼 بشرة بلون فاتح ومعتدل"
+      },
+      {
+        "lang": "bg",
+        "name": "🏼 средно светла кожа"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏼 中等-浅肤色"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏼 黃皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏼 svijetlo maslinasta boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏼 středně světlý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏼 medium til lys teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏼 lichtgetinte huidskleur"
+      },
+      {
+        "lang": "fil",
+        "name": "🏼 katamtamang light na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏼 keskivaalea iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🦲",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A6%B2",
+    "base_info": {
+      "emoji": "🦲",
+      "short_name": "bald",
+      "unicode": "U+1F9B2",
+      "decimal": "ALT+129458",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 Component",
+      "sub_category": "🦱 Hairstyle",
+      "keywords": [
+        "bald",
+        "chemotherapy",
+        "hairless",
+        "no hair",
+        "shaven"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦲 أصلع"
+      },
+      {
+        "lang": "bg",
+        "name": "🦲 плешив човек"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🦲 秃顶"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦲 禿頭"
+      },
+      {
+        "lang": "hr",
+        "name": "🦲 bez kose"
+      },
+      {
+        "lang": "cs",
+        "name": "🦲 bez vlasů"
+      },
+      {
+        "lang": "da",
+        "name": "🦲 skaldet"
+      },
+      {
+        "lang": "nl",
+        "name": "🦲 kaal"
+      },
+      {
+        "lang": "fil",
+        "name": "🦲 kalbo"
+      },
+      {
+        "lang": "fi",
+        "name": "🦲 kalju"
+      }
+    ]
+  },
+  {
+    "emoji": "🏿",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%BF",
+    "base_info": {
+      "emoji": "🏿",
+      "short_name": "dark skin tone",
+      "unicode": "U+1F3FF",
+      "decimal": "ALT+127999",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 Component",
+      "sub_category": "🏽 Skin Tone",
+      "keywords": [
+        "dark skin tone",
+        "skin tone",
+        "type 6"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏿 بشرة بلون غامق"
+      },
+      {
+        "lang": "bg",
+        "name": "🏿 тъмна кожа"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏿 较深肤色"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏿 黑皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏿 tamno smeđa boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏿 tmavý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏿 mørk teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏿 donkere huidskleur"
+      },
+      {
+        "lang": "fil",
+        "name": "🏿 dark na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏿 tumma iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🏾",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%BE",
+    "base_info": {
+      "emoji": "🏾",
+      "short_name": "medium-dark skin tone",
+      "unicode": "U+1F3FE",
+      "decimal": "ALT+127998",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 Component",
+      "sub_category": "🏽 Skin Tone",
+      "keywords": [
+        "medium-dark skin tone",
+        "skin tone",
+        "type 5"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏾 بشرة بلون معتدل مائل للغامق"
+      },
+      {
+        "lang": "bg",
+        "name": "🏾 средно тъмна кожа"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏾 中等-深肤色"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏾 褐皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏾 smeđa boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏾 středně tmavý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏾 medium til mørk teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏾 donkergetinte huidskleur"
+      },
+      {
+        "lang": "fil",
+        "name": "🏾 katamtamang dark na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏾 keskitumma iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🦳",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A6%B3",
+    "base_info": {
+      "emoji": "🦳",
+      "short_name": "white hair",
+      "unicode": "U+1F9B3",
+      "decimal": "ALT+129459",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 Component",
+      "sub_category": "🦱 Hairstyle",
+      "keywords": [
+        "gray",
+        "hair",
+        "old",
+        "white"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦳 شعر أبيض"
+      },
+      {
+        "lang": "bg",
+        "name": "🦳 побеляла коса"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🦳 白发"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦳 白髮"
+      },
+      {
+        "lang": "hr",
+        "name": "🦳 sijeda kosa"
+      },
+      {
+        "lang": "cs",
+        "name": "🦳 bílé vlasy"
+      },
+      {
+        "lang": "da",
+        "name": "🦳 hvidt hår"
+      },
+      {
+        "lang": "nl",
+        "name": "🦳 wit haar"
+      },
+      {
+        "lang": "fil",
+        "name": "🦳 puting buhok"
+      },
+      {
+        "lang": "fi",
+        "name": "🦳 valkotukkainen"
+      }
+    ]
+  },
+  {
+    "emoji": "🦰",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A6%B0",
+    "base_info": {
+      "emoji": "🦰",
+      "short_name": "red hair",
+      "known_as": [
+        "Ginger",
+        "Redhead"
+      ],
+      "unicode": "U+1F9B0",
+      "decimal": "ALT+129456",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 Component",
+      "sub_category": "🦱 Hairstyle",
+      "keywords": [
+        "ginger",
+        "red hair",
+        "redhead"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦰 شعر أحمر"
+      },
+      {
+        "lang": "bg",
+        "name": "🦰 рижа коса"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🦰 红发"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦰 紅髮"
+      },
+      {
+        "lang": "hr",
+        "name": "🦰 crvena kosa"
+      },
+      {
+        "lang": "cs",
+        "name": "🦰 zrzavé vlasy"
+      },
+      {
+        "lang": "da",
+        "name": "🦰 rødt hår"
+      },
+      {
+        "lang": "nl",
+        "name": "🦰 rood haar"
+      },
+      {
+        "lang": "fil",
+        "name": "🦰 pulang buhok"
+      },
+      {
+        "lang": "fi",
+        "name": "🦰 punatukkainen"
+      }
+    ]
+  },
+  {
+    "emoji": "🏽",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%BD",
+    "base_info": {
+      "emoji": "🏽",
+      "short_name": "medium skin tone",
+      "unicode": "U+1F3FD",
+      "decimal": "ALT+127997",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 Component",
+      "sub_category": "🏽 Skin Tone",
+      "keywords": [
+        "medium skin tone",
+        "skin tone",
+        "type 4"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏽 بشرة بلون معتدل"
+      },
+      {
+        "lang": "bg",
+        "name": "🏽 средна на цвят кожа"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏽 中等肤色"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏽 淺褐皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏽 maslinasta boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏽 střední odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏽 medium teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏽 getinte huidskleur"
+      },
+      {
+        "lang": "fil",
+        "name": "🏽 katamtamang kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏽 tummanvaalea iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🏻",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%BB",
+    "base_info": {
+      "emoji": "🏻",
+      "short_name": "light skin tone",
+      "unicode": "U+1F3FB",
+      "decimal": "ALT+127995",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 Component",
+      "sub_category": "🏽 Skin Tone",
+      "keywords": [
+        "light skin tone",
+        "skin tone",
+        "type 1–2"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏻 بشرة بلون فاتح"
+      },
+      {
+        "lang": "bg",
+        "name": "🏻 светла кожа"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏻 较浅肤色"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏻 白皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏻 svijetla boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏻 světlý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏻 lys teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏻 lichte huidskleur"
+      },
+      {
+        "lang": "fil",
+        "name": "🏻 light na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏻 vaalea iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🦱",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A6%B1",
+    "base_info": {
+      "emoji": "🦱",
+      "short_name": "curly hair",
+      "known_as": [
+        "Afro",
+        "Braids"
+      ],
+      "unicode": "U+1F9B1",
+      "decimal": "ALT+129457",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 Component",
+      "sub_category": "🦱 Hairstyle",
+      "keywords": [
+        "afro",
+        "curly",
+        "curly hair",
+        "ringlets"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦱 شعر مجعد"
+      },
+      {
+        "lang": "bg",
+        "name": "🦱 къдрава коса"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🦱 卷发"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦱 卷髮"
+      },
+      {
+        "lang": "hr",
+        "name": "🦱 kovrčava kosa"
+      },
+      {
+        "lang": "cs",
+        "name": "🦱 kudrnaté vlasy"
+      },
+      {
+        "lang": "da",
+        "name": "🦱 krøllet hår"
+      },
+      {
+        "lang": "nl",
+        "name": "🦱 krullend haar"
+      },
+      {
+        "lang": "fil",
+        "name": "🦱 kulot na buhok"
+      },
+      {
+        "lang": "fi",
+        "name": "🦱 kiharatukkainen"
+      }
+    ]
+  }
+]

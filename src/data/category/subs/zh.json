@@ -1,0 +1,799 @@
+[
+  {
+    "category": "😂笑脸和情感",
+    "title": "笑脸和情感",
+    "slug": "A",
+    "url": "/zh-hans/categories/A",
+    "count": 162,
+    "subs": [
+      {
+        "category": "😄笑脸",
+        "title": "笑脸",
+        "slug": "A1",
+        "url": "/zh-hans/sub-categories/A1",
+        "count": 14
+      },
+      {
+        "category": "😍示爱的脸",
+        "title": "示爱的脸",
+        "slug": "A2",
+        "url": "/zh-hans/sub-categories/A2",
+        "count": 9
+      },
+      {
+        "category": "😛吐舌头的脸",
+        "title": "吐舌头的脸",
+        "slug": "A3",
+        "url": "/zh-hans/sub-categories/A3",
+        "count": 6
+      },
+      {
+        "category": "🤔带手势的脸",
+        "title": "带手势的脸",
+        "slug": "A4",
+        "url": "/zh-hans/sub-categories/A4",
+        "count": 7
+      },
+      {
+        "category": "🤐无感情 & 怀疑的脸",
+        "title": "无感情 & 怀疑的脸",
+        "slug": "A5",
+        "url": "/zh-hans/sub-categories/A5",
+        "count": 13
+      },
+      {
+        "category": "😴困倦的脸",
+        "title": "困倦的脸",
+        "slug": "A6",
+        "url": "/zh-hans/sub-categories/A6",
+        "count": 5
+      },
+      {
+        "category": "🤧生病的脸",
+        "title": "生病的脸",
+        "slug": "A7",
+        "url": "/zh-hans/sub-categories/A7",
+        "count": 12
+      },
+      {
+        "category": "🤠戴帽子的脸",
+        "title": "戴帽子的脸",
+        "slug": "A8",
+        "url": "/zh-hans/sub-categories/A8",
+        "count": 3
+      },
+      {
+        "category": "😎戴眼镜的脸",
+        "title": "戴眼镜的脸",
+        "slug": "A9",
+        "url": "/zh-hans/sub-categories/A9",
+        "count": 3
+      },
+      {
+        "category": "😞担心的脸",
+        "title": "担心的脸",
+        "slug": "A10",
+        "url": "/zh-hans/sub-categories/A10",
+        "count": 26
+      },
+      {
+        "category": "😠生气的脸",
+        "title": "生气的脸",
+        "slug": "A11",
+        "url": "/zh-hans/sub-categories/A11",
+        "count": 8
+      },
+      {
+        "category": "💩装扮的脸",
+        "title": "装扮的脸",
+        "slug": "A12",
+        "url": "/zh-hans/sub-categories/A12",
+        "count": 8
+      },
+      {
+        "category": "😸猫咪脸",
+        "title": "猫咪脸",
+        "slug": "A13",
+        "url": "/zh-hans/sub-categories/A13",
+        "count": 9
+      },
+      {
+        "category": "🙈猴子脸",
+        "title": "猴子脸",
+        "slug": "A14",
+        "url": "/zh-hans/sub-categories/A14",
+        "count": 3
+      },
+      {
+        "category": "❤爱心",
+        "title": "爱心",
+        "slug": "A15",
+        "url": "/zh-hans/sub-categories/A15",
+        "count": 22
+      },
+      {
+        "category": "💋情感",
+        "title": "情感",
+        "slug": "A16",
+        "url": "/zh-hans/sub-categories/A16",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "category": "👌人类和身体",
+    "title": "人类和身体",
+    "slug": "B",
+    "url": "/zh-hans/categories/B",
+    "count": 361,
+    "subs": [
+      {
+        "category": "🖐手掌张开",
+        "title": "手掌张开",
+        "slug": "B1",
+        "url": "/zh-hans/sub-categories/B1",
+        "count": 9
+      },
+      {
+        "category": "👌几根手指",
+        "title": "几根手指",
+        "slug": "B2",
+        "url": "/zh-hans/sub-categories/B2",
+        "count": 9
+      },
+      {
+        "category": "👈一根手指",
+        "title": "一根手指",
+        "slug": "B3",
+        "url": "/zh-hans/sub-categories/B3",
+        "count": 7
+      },
+      {
+        "category": "👍手掌握紧",
+        "title": "手掌握紧",
+        "slug": "B4",
+        "url": "/zh-hans/sub-categories/B4",
+        "count": 6
+      },
+      {
+        "category": "🤝两只手",
+        "title": "两只手",
+        "slug": "B5",
+        "url": "/zh-hans/sub-categories/B5",
+        "count": 7
+      },
+      {
+        "category": "✍️手部动作",
+        "title": "手部动作",
+        "slug": "B6",
+        "url": "/zh-hans/sub-categories/B6",
+        "count": 3
+      },
+      {
+        "category": "👃身体部位",
+        "title": "身体部位",
+        "slug": "B7",
+        "url": "/zh-hans/sub-categories/B7",
+        "count": 18
+      },
+      {
+        "category": "👦人物",
+        "title": "人物",
+        "slug": "B8",
+        "url": "/zh-hans/sub-categories/B8",
+        "count": 28
+      },
+      {
+        "category": "🙋人物姿势",
+        "title": "人物姿势",
+        "slug": "B9",
+        "url": "/zh-hans/sub-categories/B9",
+        "count": 30
+      },
+      {
+        "category": "👨‍🍳职业和角色",
+        "title": "职业和角色",
+        "slug": "B10",
+        "url": "/zh-hans/sub-categories/B10",
+        "count": 82
+      },
+      {
+        "category": "🎅虚构人物",
+        "title": "虚构人物",
+        "slug": "B11",
+        "url": "/zh-hans/sub-categories/B11",
+        "count": 32
+      },
+      {
+        "category": "🏃人物活动",
+        "title": "人物活动",
+        "slug": "B12",
+        "url": "/zh-hans/sub-categories/B12",
+        "count": 39
+      },
+      {
+        "category": "🚴人物运动",
+        "title": "人物运动",
+        "slug": "B13",
+        "url": "/zh-hans/sub-categories/B13",
+        "count": 43
+      },
+      {
+        "category": "🛌人物休息",
+        "title": "人物休息",
+        "slug": "B14",
+        "url": "/zh-hans/sub-categories/B14",
+        "count": 5
+      },
+      {
+        "category": "👨‍👩‍👧‍👦家庭和情侣",
+        "title": "家庭和情侣",
+        "slug": "B15",
+        "url": "/zh-hans/sub-categories/B15",
+        "count": 37
+      },
+      {
+        "category": "👣人物符号",
+        "title": "人物符号",
+        "slug": "B16",
+        "url": "/zh-hans/sub-categories/B16",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "category": "🏼肤色和发型",
+    "title": "肤色和发型",
+    "slug": "C",
+    "url": "/zh-hans/categories/C",
+    "count": 9,
+    "subs": [
+      {
+        "category": "🏽肤色",
+        "title": "肤色",
+        "slug": "C1",
+        "url": "/zh-hans/sub-categories/C1",
+        "count": 5
+      },
+      {
+        "category": "🦱发型",
+        "title": "发型",
+        "slug": "C2",
+        "url": "/zh-hans/sub-categories/C2",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "category": "🐵动物和自然",
+    "title": "动物和自然",
+    "slug": "D",
+    "url": "/zh-hans/categories/D",
+    "count": 145,
+    "subs": [
+      {
+        "category": "🐀哺乳动物",
+        "title": "哺乳动物",
+        "slug": "D1",
+        "url": "/zh-hans/sub-categories/D1",
+        "count": 64
+      },
+      {
+        "category": "🐓鸟类",
+        "title": "鸟类",
+        "slug": "D2",
+        "url": "/zh-hans/sub-categories/D2",
+        "count": 18
+      },
+      {
+        "category": "🐸两栖动物",
+        "title": "两栖动物",
+        "slug": "D3",
+        "url": "/zh-hans/sub-categories/D3",
+        "count": 1
+      },
+      {
+        "category": "🐍爬行动物",
+        "title": "爬行动物",
+        "slug": "D4",
+        "url": "/zh-hans/sub-categories/D4",
+        "count": 8
+      },
+      {
+        "category": "🐟海洋动物",
+        "title": "海洋动物",
+        "slug": "D5",
+        "url": "/zh-hans/sub-categories/D5",
+        "count": 11
+      },
+      {
+        "category": "🐛昆虫",
+        "title": "昆虫",
+        "slug": "D6",
+        "url": "/zh-hans/sub-categories/D6",
+        "count": 16
+      },
+      {
+        "category": "🌹花朵",
+        "title": "花朵",
+        "slug": "D7",
+        "url": "/zh-hans/sub-categories/D7",
+        "count": 11
+      },
+      {
+        "category": "🌴其他植物",
+        "title": "其他植物",
+        "slug": "D8",
+        "url": "/zh-hans/sub-categories/D8",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "category": "🍓食物和饮料",
+    "title": "食物和饮料",
+    "slug": "E",
+    "url": "/zh-hans/categories/E",
+    "count": 131,
+    "subs": [
+      {
+        "category": "🍅水果",
+        "title": "水果",
+        "slug": "E1",
+        "url": "/zh-hans/sub-categories/E1",
+        "count": 19
+      },
+      {
+        "category": "🥬蔬菜",
+        "title": "蔬菜",
+        "slug": "E2",
+        "url": "/zh-hans/sub-categories/E2",
+        "count": 15
+      },
+      {
+        "category": "🍕熟食",
+        "title": "熟食",
+        "slug": "E3",
+        "url": "/zh-hans/sub-categories/E3",
+        "count": 34
+      },
+      {
+        "category": "🍚亚洲食物",
+        "title": "亚洲食物",
+        "slug": "E4",
+        "url": "/zh-hans/sub-categories/E4",
+        "count": 17
+      },
+      {
+        "category": "🦀海鲜",
+        "title": "海鲜",
+        "slug": "E5",
+        "url": "/zh-hans/sub-categories/E5",
+        "count": 5
+      },
+      {
+        "category": "🍦甜点",
+        "title": "甜点",
+        "slug": "E6",
+        "url": "/zh-hans/sub-categories/E6",
+        "count": 14
+      },
+      {
+        "category": "☕饮料",
+        "title": "饮料",
+        "slug": "E7",
+        "url": "/zh-hans/sub-categories/E7",
+        "count": 20
+      },
+      {
+        "category": "🍴餐具",
+        "title": "餐具",
+        "slug": "E8",
+        "url": "/zh-hans/sub-categories/E8",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "category": "🚌旅行和地点",
+    "title": "旅行和地点",
+    "slug": "F",
+    "url": "/zh-hans/categories/F",
+    "count": 218,
+    "subs": [
+      {
+        "category": "🌍地图",
+        "title": "地图",
+        "slug": "F1",
+        "url": "/zh-hans/sub-categories/F1",
+        "count": 7
+      },
+      {
+        "category": "🌋自然风光",
+        "title": "自然风光",
+        "slug": "F2",
+        "url": "/zh-hans/sub-categories/F2",
+        "count": 9
+      },
+      {
+        "category": "🏗️建筑",
+        "title": "建筑",
+        "slug": "F3",
+        "url": "/zh-hans/sub-categories/F3",
+        "count": 27
+      },
+      {
+        "category": "⛪宗教场所",
+        "title": "宗教场所",
+        "slug": "F4",
+        "url": "/zh-hans/sub-categories/F4",
+        "count": 6
+      },
+      {
+        "category": "⛲其他地点",
+        "title": "其他地点",
+        "slug": "F5",
+        "url": "/zh-hans/sub-categories/F5",
+        "count": 17
+      },
+      {
+        "category": "⛽陆路交通",
+        "title": "陆路交通",
+        "slug": "F6",
+        "url": "/zh-hans/sub-categories/F6",
+        "count": 50
+      },
+      {
+        "category": "🚢水路交通",
+        "title": "水路交通",
+        "slug": "F7",
+        "url": "/zh-hans/sub-categories/F7",
+        "count": 9
+      },
+      {
+        "category": "✈️航空运输",
+        "title": "航空运输",
+        "slug": "F8",
+        "url": "/zh-hans/sub-categories/F8",
+        "count": 13
+      },
+      {
+        "category": "🛎️酒店",
+        "title": "酒店",
+        "slug": "F9",
+        "url": "/zh-hans/sub-categories/F9",
+        "count": 2
+      },
+      {
+        "category": "⌚时间",
+        "title": "时间",
+        "slug": "F10",
+        "url": "/zh-hans/sub-categories/F10",
+        "count": 31
+      },
+      {
+        "category": "☂️天空和天气",
+        "title": "天空和天气",
+        "slug": "F11",
+        "url": "/zh-hans/sub-categories/F11",
+        "count": 47
+      }
+    ]
+  },
+  {
+    "category": "⚽活动",
+    "title": "活动",
+    "slug": "G",
+    "url": "/zh-hans/categories/G",
+    "count": 85,
+    "subs": [
+      {
+        "category": "🎈节日",
+        "title": "节日",
+        "slug": "G1",
+        "url": "/zh-hans/sub-categories/G1",
+        "count": 21
+      },
+      {
+        "category": "🏅奖项和奖牌",
+        "title": "奖项和奖牌",
+        "slug": "G2",
+        "url": "/zh-hans/sub-categories/G2",
+        "count": 6
+      },
+      {
+        "category": "🏀人物运动",
+        "title": "人物运动",
+        "slug": "G3",
+        "url": "/zh-hans/sub-categories/G3",
+        "count": 27
+      },
+      {
+        "category": "🎯游戏",
+        "title": "游戏",
+        "slug": "G4",
+        "url": "/zh-hans/sub-categories/G4",
+        "count": 24
+      },
+      {
+        "category": "🎨艺术和工艺",
+        "title": "艺术和工艺",
+        "slug": "G5",
+        "url": "/zh-hans/sub-categories/G5",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "category": "⌚物品",
+    "title": "物品",
+    "slug": "H",
+    "url": "/zh-hans/categories/H",
+    "count": 257,
+    "subs": [
+      {
+        "category": "👖服装",
+        "title": "服装",
+        "slug": "H1",
+        "url": "/zh-hans/sub-categories/H1",
+        "count": 45
+      },
+      {
+        "category": "📢声音",
+        "title": "声音",
+        "slug": "H2",
+        "url": "/zh-hans/sub-categories/H2",
+        "count": 9
+      },
+      {
+        "category": "🎵音乐",
+        "title": "音乐",
+        "slug": "H3",
+        "url": "/zh-hans/sub-categories/H3",
+        "count": 9
+      },
+      {
+        "category": "🎹乐器",
+        "title": "乐器",
+        "slug": "H4",
+        "url": "/zh-hans/sub-categories/H4",
+        "count": 9
+      },
+      {
+        "category": "📞电话",
+        "title": "电话",
+        "slug": "H5",
+        "url": "/zh-hans/sub-categories/H5",
+        "count": 6
+      },
+      {
+        "category": "🖱️电脑",
+        "title": "电脑",
+        "slug": "H6",
+        "url": "/zh-hans/sub-categories/H6",
+        "count": 14
+      },
+      {
+        "category": "💡灯光和视频",
+        "title": "灯光和视频",
+        "slug": "H7",
+        "url": "/zh-hans/sub-categories/H7",
+        "count": 16
+      },
+      {
+        "category": "📒书籍和纸张",
+        "title": "书籍和纸张",
+        "slug": "H8",
+        "url": "/zh-hans/sub-categories/H8",
+        "count": 17
+      },
+      {
+        "category": "💲金钱",
+        "title": "金钱",
+        "slug": "H9",
+        "url": "/zh-hans/sub-categories/H9",
+        "count": 10
+      },
+      {
+        "category": "✉️邮件",
+        "title": "邮件",
+        "slug": "H10",
+        "url": "/zh-hans/sub-categories/H10",
+        "count": 13
+      },
+      {
+        "category": "✏️书写",
+        "title": "书写",
+        "slug": "H11",
+        "url": "/zh-hans/sub-categories/H11",
+        "count": 7
+      },
+      {
+        "category": "✂️办公",
+        "title": "办公",
+        "slug": "H12",
+        "url": "/zh-hans/sub-categories/H12",
+        "count": 23
+      },
+      {
+        "category": "🔏锁和钥匙",
+        "title": "锁和钥匙",
+        "slug": "H13",
+        "url": "/zh-hans/sub-categories/H13",
+        "count": 6
+      },
+      {
+        "category": "⛏️工具",
+        "title": "工具",
+        "slug": "H14",
+        "url": "/zh-hans/sub-categories/H14",
+        "count": 25
+      },
+      {
+        "category": "🔭科技",
+        "title": "科技",
+        "slug": "H15",
+        "url": "/zh-hans/sub-categories/H15",
+        "count": 7
+      },
+      {
+        "category": "💊医疗",
+        "title": "医疗",
+        "slug": "H16",
+        "url": "/zh-hans/sub-categories/H16",
+        "count": 7
+      },
+      {
+        "category": "🚽家居",
+        "title": "家居",
+        "slug": "H17",
+        "url": "/zh-hans/sub-categories/H17",
+        "count": 25
+      },
+      {
+        "category": "🚬其他物品",
+        "title": "其他物品",
+        "slug": "H18",
+        "url": "/zh-hans/sub-categories/H18",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "category": "🛑符号",
+    "title": "符号",
+    "slug": "I",
+    "url": "/zh-hans/categories/I",
+    "count": 221,
+    "subs": [
+      {
+        "category": "🚻公共标志",
+        "title": "公共标志",
+        "slug": "I1",
+        "url": "/zh-hans/sub-categories/I1",
+        "count": 13
+      },
+      {
+        "category": "⚠️警示",
+        "title": "警示",
+        "slug": "I2",
+        "url": "/zh-hans/sub-categories/I2",
+        "count": 13
+      },
+      {
+        "category": "↩️箭头",
+        "title": "箭头",
+        "slug": "I3",
+        "url": "/zh-hans/sub-categories/I3",
+        "count": 21
+      },
+      {
+        "category": "☪️宗教",
+        "title": "宗教",
+        "slug": "I4",
+        "url": "/zh-hans/sub-categories/I4",
+        "count": 12
+      },
+      {
+        "category": "♈星座",
+        "title": "星座",
+        "slug": "I5",
+        "url": "/zh-hans/sub-categories/I5",
+        "count": 13
+      },
+      {
+        "category": "⏏️音频和视频",
+        "title": "音频和视频",
+        "slug": "I6",
+        "url": "/zh-hans/sub-categories/I6",
+        "count": 24
+      },
+      {
+        "category": "♀️性别",
+        "title": "性别",
+        "slug": "I7",
+        "url": "/zh-hans/sub-categories/I7",
+        "count": 3
+      },
+      {
+        "category": "✖数学",
+        "title": "数学",
+        "slug": "I8",
+        "url": "/zh-hans/sub-categories/I8",
+        "count": 6
+      },
+      {
+        "category": "‼标点",
+        "title": "标点",
+        "slug": "I9",
+        "url": "/zh-hans/sub-categories/I9",
+        "count": 7
+      },
+      {
+        "category": "💲货币",
+        "title": "货币",
+        "slug": "I10",
+        "url": "/zh-hans/sub-categories/I10",
+        "count": 2
+      },
+      {
+        "category": "☑️其他符号",
+        "title": "其他符号",
+        "slug": "I11",
+        "url": "/zh-hans/sub-categories/I11",
+        "count": 21
+      },
+      {
+        "category": "0️⃣键帽",
+        "title": "键帽",
+        "slug": "I12",
+        "url": "/zh-hans/sub-categories/I12",
+        "count": 13
+      },
+      {
+        "category": "🅰字符",
+        "title": "字符",
+        "slug": "I13",
+        "url": "/zh-hans/sub-categories/I13",
+        "count": 39
+      },
+      {
+        "category": "⚪️几何",
+        "title": "几何",
+        "slug": "I14",
+        "url": "/zh-hans/sub-categories/I14",
+        "count": 34
+      }
+    ]
+  },
+  {
+    "category": "🏁旗帜",
+    "title": "旗帜",
+    "slug": "J",
+    "url": "/zh-hans/categories/J",
+    "count": 268,
+    "subs": [
+      {
+        "category": "🚩普通旗帜",
+        "title": "普通旗帜",
+        "slug": "J1",
+        "url": "/zh-hans/sub-categories/J1",
+        "count": 8
+      },
+      {
+        "category": "🇬🇧国家和地区旗帜",
+        "title": "国家和地区旗帜",
+        "slug": "J2",
+        "url": "/zh-hans/sub-categories/J2",
+        "count": 257
+      },
+      {
+        "category": "🏴󠁧󠁢󠁥󠁮󠁧󠁿特殊地区旗帜",
+        "title": "特殊地区旗帜",
+        "slug": "J3",
+        "url": "/zh-hans/sub-categories/J3",
+        "count": 3
+      }
+    ]
+  }
+]

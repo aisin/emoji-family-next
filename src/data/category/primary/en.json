@@ -1,0 +1,62 @@
+[
+  {
+    "category": "😂Smileys & Emotion",
+    "title": "Smileys & Emotion",
+    "slug": "A",
+    "url": "/en/categories/A"
+  },
+  {
+    "category": "👌People & Body",
+    "title": "People & Body",
+    "slug": "B",
+    "url": "/en/categories/B"
+  },
+  {
+    "category": "🏼Component",
+    "title": "Component",
+    "slug": "C",
+    "url": "/en/categories/C"
+  },
+  {
+    "category": "🐵Animals & Nature",
+    "title": "Animals & Nature",
+    "slug": "D",
+    "url": "/en/categories/D"
+  },
+  {
+    "category": "🍓Food & Drink",
+    "title": "Food & Drink",
+    "slug": "E",
+    "url": "/en/categories/E"
+  },
+  {
+    "category": "🚌Travel & Places",
+    "title": "Travel & Places",
+    "slug": "F",
+    "url": "/en/categories/F"
+  },
+  {
+    "category": "⚽Activities",
+    "title": "Activities",
+    "slug": "G",
+    "url": "/en/categories/G"
+  },
+  {
+    "category": "⌚Objects",
+    "title": "Objects",
+    "slug": "H",
+    "url": "/en/categories/H"
+  },
+  {
+    "category": "🛑Symbols",
+    "title": "Symbols",
+    "slug": "I",
+    "url": "/en/categories/I"
+  },
+  {
+    "category": "🏁Flags",
+    "title": "Flags",
+    "slug": "J",
+    "url": "/en/categories/J"
+  }
+]

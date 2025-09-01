@@ -1,0 +1,799 @@
+[
+  {
+    "category": "😂Smileys & Emotion",
+    "title": "Smileys & Emotion",
+    "slug": "A",
+    "url": "/en/categories/A",
+    "count": 162,
+    "subs": [
+      {
+        "category": "😄Smiling Face",
+        "title": "Smiling Face",
+        "slug": "A1",
+        "url": "/en/sub-categories/A1",
+        "count": 14
+      },
+      {
+        "category": "😍Affectionate Face",
+        "title": "Affectionate Face",
+        "slug": "A2",
+        "url": "/en/sub-categories/A2",
+        "count": 9
+      },
+      {
+        "category": "😛Face with Tongue",
+        "title": "Face with Tongue",
+        "slug": "A3",
+        "url": "/en/sub-categories/A3",
+        "count": 6
+      },
+      {
+        "category": "🤔Face with Hand",
+        "title": "Face with Hand",
+        "slug": "A4",
+        "url": "/en/sub-categories/A4",
+        "count": 7
+      },
+      {
+        "category": "🤐Neutral & Skeptical Face",
+        "title": "Neutral & Skeptical Face",
+        "slug": "A5",
+        "url": "/en/sub-categories/A5",
+        "count": 13
+      },
+      {
+        "category": "😴Sleepy Face",
+        "title": "Sleepy Face",
+        "slug": "A6",
+        "url": "/en/sub-categories/A6",
+        "count": 5
+      },
+      {
+        "category": "🤧Unwell Face",
+        "title": "Unwell Face",
+        "slug": "A7",
+        "url": "/en/sub-categories/A7",
+        "count": 12
+      },
+      {
+        "category": "🤠Face with Hat",
+        "title": "Face with Hat",
+        "slug": "A8",
+        "url": "/en/sub-categories/A8",
+        "count": 3
+      },
+      {
+        "category": "😎Face with Glasses",
+        "title": "Face with Glasses",
+        "slug": "A9",
+        "url": "/en/sub-categories/A9",
+        "count": 3
+      },
+      {
+        "category": "😞Concerned Face",
+        "title": "Concerned Face",
+        "slug": "A10",
+        "url": "/en/sub-categories/A10",
+        "count": 26
+      },
+      {
+        "category": "😠Negative Face",
+        "title": "Negative Face",
+        "slug": "A11",
+        "url": "/en/sub-categories/A11",
+        "count": 8
+      },
+      {
+        "category": "💩Costumed Face",
+        "title": "Costumed Face",
+        "slug": "A12",
+        "url": "/en/sub-categories/A12",
+        "count": 8
+      },
+      {
+        "category": "😸Cat Face",
+        "title": "Cat Face",
+        "slug": "A13",
+        "url": "/en/sub-categories/A13",
+        "count": 9
+      },
+      {
+        "category": "🙈Monkey Face",
+        "title": "Monkey Face",
+        "slug": "A14",
+        "url": "/en/sub-categories/A14",
+        "count": 3
+      },
+      {
+        "category": "❤Heart",
+        "title": "Heart",
+        "slug": "A15",
+        "url": "/en/sub-categories/A15",
+        "count": 22
+      },
+      {
+        "category": "💋Emotion",
+        "title": "Emotion",
+        "slug": "A16",
+        "url": "/en/sub-categories/A16",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "category": "👌People & Body",
+    "title": "People & Body",
+    "slug": "B",
+    "url": "/en/categories/B",
+    "count": 361,
+    "subs": [
+      {
+        "category": "🖐Open Hand",
+        "title": "Open Hand",
+        "slug": "B1",
+        "url": "/en/sub-categories/B1",
+        "count": 9
+      },
+      {
+        "category": "👌Hand Gesture",
+        "title": "Hand Gesture",
+        "slug": "B2",
+        "url": "/en/sub-categories/B2",
+        "count": 9
+      },
+      {
+        "category": "👈Pointing Hand",
+        "title": "Pointing Hand",
+        "slug": "B3",
+        "url": "/en/sub-categories/B3",
+        "count": 7
+      },
+      {
+        "category": "👍Fisted Hand",
+        "title": "Fisted Hand",
+        "slug": "B4",
+        "url": "/en/sub-categories/B4",
+        "count": 6
+      },
+      {
+        "category": "🤝Two Hands",
+        "title": "Two Hands",
+        "slug": "B5",
+        "url": "/en/sub-categories/B5",
+        "count": 7
+      },
+      {
+        "category": "✍️Hand with Prop",
+        "title": "Hand with Prop",
+        "slug": "B6",
+        "url": "/en/sub-categories/B6",
+        "count": 3
+      },
+      {
+        "category": "👃Body Part",
+        "title": "Body Part",
+        "slug": "B7",
+        "url": "/en/sub-categories/B7",
+        "count": 18
+      },
+      {
+        "category": "👦People",
+        "title": "People",
+        "slug": "B8",
+        "url": "/en/sub-categories/B8",
+        "count": 28
+      },
+      {
+        "category": "🙋Gesture",
+        "title": "Gesture",
+        "slug": "B9",
+        "url": "/en/sub-categories/B9",
+        "count": 30
+      },
+      {
+        "category": "👨‍🍳Profession & Role",
+        "title": "Profession & Role",
+        "slug": "B10",
+        "url": "/en/sub-categories/B10",
+        "count": 82
+      },
+      {
+        "category": "🎅Fantasy",
+        "title": "Fantasy",
+        "slug": "B11",
+        "url": "/en/sub-categories/B11",
+        "count": 32
+      },
+      {
+        "category": "🏃Activity",
+        "title": "Activity",
+        "slug": "B12",
+        "url": "/en/sub-categories/B12",
+        "count": 39
+      },
+      {
+        "category": "🚴Sport",
+        "title": "Sport",
+        "slug": "B13",
+        "url": "/en/sub-categories/B13",
+        "count": 43
+      },
+      {
+        "category": "🛌Relaxation",
+        "title": "Relaxation",
+        "slug": "B14",
+        "url": "/en/sub-categories/B14",
+        "count": 5
+      },
+      {
+        "category": "👨‍👩‍👧‍👦Family & Couple",
+        "title": "Family & Couple",
+        "slug": "B15",
+        "url": "/en/sub-categories/B15",
+        "count": 37
+      },
+      {
+        "category": "👣Figure Symbol",
+        "title": "Figure Symbol",
+        "slug": "B16",
+        "url": "/en/sub-categories/B16",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "category": "🏼Component",
+    "title": "Component",
+    "slug": "C",
+    "url": "/en/categories/C",
+    "count": 9,
+    "subs": [
+      {
+        "category": "🏽Skin Tone",
+        "title": "Skin Tone",
+        "slug": "C1",
+        "url": "/en/sub-categories/C1",
+        "count": 5
+      },
+      {
+        "category": "🦱Hairstyle",
+        "title": "Hairstyle",
+        "slug": "C2",
+        "url": "/en/sub-categories/C2",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "category": "🐵Animals & Nature",
+    "title": "Animals & Nature",
+    "slug": "D",
+    "url": "/en/categories/D",
+    "count": 145,
+    "subs": [
+      {
+        "category": "🐀Mammal",
+        "title": "Mammal",
+        "slug": "D1",
+        "url": "/en/sub-categories/D1",
+        "count": 64
+      },
+      {
+        "category": "🐓Bird",
+        "title": "Bird",
+        "slug": "D2",
+        "url": "/en/sub-categories/D2",
+        "count": 18
+      },
+      {
+        "category": "🐸Amphibian",
+        "title": "Amphibian",
+        "slug": "D3",
+        "url": "/en/sub-categories/D3",
+        "count": 1
+      },
+      {
+        "category": "🐍Reptile",
+        "title": "Reptile",
+        "slug": "D4",
+        "url": "/en/sub-categories/D4",
+        "count": 8
+      },
+      {
+        "category": "🐟Marine",
+        "title": "Marine",
+        "slug": "D5",
+        "url": "/en/sub-categories/D5",
+        "count": 11
+      },
+      {
+        "category": "🐛Bug",
+        "title": "Bug",
+        "slug": "D6",
+        "url": "/en/sub-categories/D6",
+        "count": 16
+      },
+      {
+        "category": "🌹Flower",
+        "title": "Flower",
+        "slug": "D7",
+        "url": "/en/sub-categories/D7",
+        "count": 11
+      },
+      {
+        "category": "🌴Other Plants",
+        "title": "Other Plants",
+        "slug": "D8",
+        "url": "/en/sub-categories/D8",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "category": "🍓Food & Drink",
+    "title": "Food & Drink",
+    "slug": "E",
+    "url": "/en/categories/E",
+    "count": 131,
+    "subs": [
+      {
+        "category": "🍅Fruit",
+        "title": "Fruit",
+        "slug": "E1",
+        "url": "/en/sub-categories/E1",
+        "count": 19
+      },
+      {
+        "category": "🥬Vegetable",
+        "title": "Vegetable",
+        "slug": "E2",
+        "url": "/en/sub-categories/E2",
+        "count": 15
+      },
+      {
+        "category": "🍕Prepared Food",
+        "title": "Prepared Food",
+        "slug": "E3",
+        "url": "/en/sub-categories/E3",
+        "count": 34
+      },
+      {
+        "category": "🍚Asian Food",
+        "title": "Asian Food",
+        "slug": "E4",
+        "url": "/en/sub-categories/E4",
+        "count": 17
+      },
+      {
+        "category": "🦀Seafood",
+        "title": "Seafood",
+        "slug": "E5",
+        "url": "/en/sub-categories/E5",
+        "count": 5
+      },
+      {
+        "category": "🍦Dessert",
+        "title": "Dessert",
+        "slug": "E6",
+        "url": "/en/sub-categories/E6",
+        "count": 14
+      },
+      {
+        "category": "☕Drink",
+        "title": "Drink",
+        "slug": "E7",
+        "url": "/en/sub-categories/E7",
+        "count": 20
+      },
+      {
+        "category": "🍴Dishware",
+        "title": "Dishware",
+        "slug": "E8",
+        "url": "/en/sub-categories/E8",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "category": "🚌Travel & Places",
+    "title": "Travel & Places",
+    "slug": "F",
+    "url": "/en/categories/F",
+    "count": 218,
+    "subs": [
+      {
+        "category": "🌍Map",
+        "title": "Map",
+        "slug": "F1",
+        "url": "/en/sub-categories/F1",
+        "count": 7
+      },
+      {
+        "category": "🌋Geography",
+        "title": "Geography",
+        "slug": "F2",
+        "url": "/en/sub-categories/F2",
+        "count": 9
+      },
+      {
+        "category": "🏗️Building",
+        "title": "Building",
+        "slug": "F3",
+        "url": "/en/sub-categories/F3",
+        "count": 27
+      },
+      {
+        "category": "⛪Religious Place",
+        "title": "Religious Place",
+        "slug": "F4",
+        "url": "/en/sub-categories/F4",
+        "count": 6
+      },
+      {
+        "category": "⛲Other Places",
+        "title": "Other Places",
+        "slug": "F5",
+        "url": "/en/sub-categories/F5",
+        "count": 17
+      },
+      {
+        "category": "⛽Ground Transport",
+        "title": "Ground Transport",
+        "slug": "F6",
+        "url": "/en/sub-categories/F6",
+        "count": 50
+      },
+      {
+        "category": "🚢Water Transport",
+        "title": "Water Transport",
+        "slug": "F7",
+        "url": "/en/sub-categories/F7",
+        "count": 9
+      },
+      {
+        "category": "✈️Air Transport",
+        "title": "Air Transport",
+        "slug": "F8",
+        "url": "/en/sub-categories/F8",
+        "count": 13
+      },
+      {
+        "category": "🛎️Hotel",
+        "title": "Hotel",
+        "slug": "F9",
+        "url": "/en/sub-categories/F9",
+        "count": 2
+      },
+      {
+        "category": "⌚Time",
+        "title": "Time",
+        "slug": "F10",
+        "url": "/en/sub-categories/F10",
+        "count": 31
+      },
+      {
+        "category": "☂️Sky & Weather",
+        "title": "Sky & Weather",
+        "slug": "F11",
+        "url": "/en/sub-categories/F11",
+        "count": 47
+      }
+    ]
+  },
+  {
+    "category": "⚽Activities",
+    "title": "Activities",
+    "slug": "G",
+    "url": "/en/categories/G",
+    "count": 85,
+    "subs": [
+      {
+        "category": "🎈Event",
+        "title": "Event",
+        "slug": "G1",
+        "url": "/en/sub-categories/G1",
+        "count": 21
+      },
+      {
+        "category": "🏅Award & Medal",
+        "title": "Award & Medal",
+        "slug": "G2",
+        "url": "/en/sub-categories/G2",
+        "count": 6
+      },
+      {
+        "category": "🏀Sport",
+        "title": "Sport",
+        "slug": "G3",
+        "url": "/en/sub-categories/G3",
+        "count": 27
+      },
+      {
+        "category": "🎯Game",
+        "title": "Game",
+        "slug": "G4",
+        "url": "/en/sub-categories/G4",
+        "count": 24
+      },
+      {
+        "category": "🎨Art & Craft",
+        "title": "Art & Craft",
+        "slug": "G5",
+        "url": "/en/sub-categories/G5",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "category": "⌚Objects",
+    "title": "Objects",
+    "slug": "H",
+    "url": "/en/categories/H",
+    "count": 257,
+    "subs": [
+      {
+        "category": "👖Clothing",
+        "title": "Clothing",
+        "slug": "H1",
+        "url": "/en/sub-categories/H1",
+        "count": 45
+      },
+      {
+        "category": "📢Sound",
+        "title": "Sound",
+        "slug": "H2",
+        "url": "/en/sub-categories/H2",
+        "count": 9
+      },
+      {
+        "category": "🎵Music",
+        "title": "Music",
+        "slug": "H3",
+        "url": "/en/sub-categories/H3",
+        "count": 9
+      },
+      {
+        "category": "🎹Musical Instrument",
+        "title": "Musical Instrument",
+        "slug": "H4",
+        "url": "/en/sub-categories/H4",
+        "count": 9
+      },
+      {
+        "category": "📞Phone",
+        "title": "Phone",
+        "slug": "H5",
+        "url": "/en/sub-categories/H5",
+        "count": 6
+      },
+      {
+        "category": "🖱️Computer",
+        "title": "Computer",
+        "slug": "H6",
+        "url": "/en/sub-categories/H6",
+        "count": 14
+      },
+      {
+        "category": "💡Light & Video",
+        "title": "Light & Video",
+        "slug": "H7",
+        "url": "/en/sub-categories/H7",
+        "count": 16
+      },
+      {
+        "category": "📒Book & Paper",
+        "title": "Book & Paper",
+        "slug": "H8",
+        "url": "/en/sub-categories/H8",
+        "count": 17
+      },
+      {
+        "category": "💲Money",
+        "title": "Money",
+        "slug": "H9",
+        "url": "/en/sub-categories/H9",
+        "count": 10
+      },
+      {
+        "category": "✉️Mail",
+        "title": "Mail",
+        "slug": "H10",
+        "url": "/en/sub-categories/H10",
+        "count": 13
+      },
+      {
+        "category": "✏️Writing",
+        "title": "Writing",
+        "slug": "H11",
+        "url": "/en/sub-categories/H11",
+        "count": 7
+      },
+      {
+        "category": "✂️Office",
+        "title": "Office",
+        "slug": "H12",
+        "url": "/en/sub-categories/H12",
+        "count": 23
+      },
+      {
+        "category": "🔏Lock & Key",
+        "title": "Lock & Key",
+        "slug": "H13",
+        "url": "/en/sub-categories/H13",
+        "count": 6
+      },
+      {
+        "category": "⛏️Tool",
+        "title": "Tool",
+        "slug": "H14",
+        "url": "/en/sub-categories/H14",
+        "count": 25
+      },
+      {
+        "category": "🔭Science",
+        "title": "Science",
+        "slug": "H15",
+        "url": "/en/sub-categories/H15",
+        "count": 7
+      },
+      {
+        "category": "💊Medicine",
+        "title": "Medicine",
+        "slug": "H16",
+        "url": "/en/sub-categories/H16",
+        "count": 7
+      },
+      {
+        "category": "🚽Household",
+        "title": "Household",
+        "slug": "H17",
+        "url": "/en/sub-categories/H17",
+        "count": 25
+      },
+      {
+        "category": "🚬Other Objects",
+        "title": "Other Objects",
+        "slug": "H18",
+        "url": "/en/sub-categories/H18",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "category": "🛑Symbols",
+    "title": "Symbols",
+    "slug": "I",
+    "url": "/en/categories/I",
+    "count": 221,
+    "subs": [
+      {
+        "category": "🚻Public Symbol",
+        "title": "Public Symbol",
+        "slug": "I1",
+        "url": "/en/sub-categories/I1",
+        "count": 13
+      },
+      {
+        "category": "⚠️Warning",
+        "title": "Warning",
+        "slug": "I2",
+        "url": "/en/sub-categories/I2",
+        "count": 13
+      },
+      {
+        "category": "↩️Arrow",
+        "title": "Arrow",
+        "slug": "I3",
+        "url": "/en/sub-categories/I3",
+        "count": 21
+      },
+      {
+        "category": "☪️Religion",
+        "title": "Religion",
+        "slug": "I4",
+        "url": "/en/sub-categories/I4",
+        "count": 12
+      },
+      {
+        "category": "♈Zodiac",
+        "title": "Zodiac",
+        "slug": "I5",
+        "url": "/en/sub-categories/I5",
+        "count": 13
+      },
+      {
+        "category": "⏏️Audio & Video Symbol",
+        "title": "Audio & Video Symbol",
+        "slug": "I6",
+        "url": "/en/sub-categories/I6",
+        "count": 24
+      },
+      {
+        "category": "♀️Gender",
+        "title": "Gender",
+        "slug": "I7",
+        "url": "/en/sub-categories/I7",
+        "count": 3
+      },
+      {
+        "category": "✖Math",
+        "title": "Math",
+        "slug": "I8",
+        "url": "/en/sub-categories/I8",
+        "count": 6
+      },
+      {
+        "category": "‼Punctuation",
+        "title": "Punctuation",
+        "slug": "I9",
+        "url": "/en/sub-categories/I9",
+        "count": 7
+      },
+      {
+        "category": "💲Currency",
+        "title": "Currency",
+        "slug": "I10",
+        "url": "/en/sub-categories/I10",
+        "count": 2
+      },
+      {
+        "category": "☑️Other Symbols",
+        "title": "Other Symbols",
+        "slug": "I11",
+        "url": "/en/sub-categories/I11",
+        "count": 21
+      },
+      {
+        "category": "0️⃣Keycap",
+        "title": "Keycap",
+        "slug": "I12",
+        "url": "/en/sub-categories/I12",
+        "count": 13
+      },
+      {
+        "category": "🅰Alphanumerics",
+        "title": "Alphanumerics",
+        "slug": "I13",
+        "url": "/en/sub-categories/I13",
+        "count": 39
+      },
+      {
+        "category": "⚪️Geometric",
+        "title": "Geometric",
+        "slug": "I14",
+        "url": "/en/sub-categories/I14",
+        "count": 34
+      }
+    ]
+  },
+  {
+    "category": "🏁Flags",
+    "title": "Flags",
+    "slug": "J",
+    "url": "/en/categories/J",
+    "count": 268,
+    "subs": [
+      {
+        "category": "🚩Symbolic Flag",
+        "title": "Symbolic Flag",
+        "slug": "J1",
+        "url": "/en/sub-categories/J1",
+        "count": 8
+      },
+      {
+        "category": "🇬🇧Country & Region Flag",
+        "title": "Country & Region Flag",
+        "slug": "J2",
+        "url": "/en/sub-categories/J2",
+        "count": 257
+      },
+      {
+        "category": "🏴󠁧󠁢󠁥󠁮󠁧󠁿Subdivision Flag",
+        "title": "Subdivision Flag",
+        "slug": "J3",
+        "url": "/en/sub-categories/J3",
+        "count": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,736 @@
+[
+  {
+    "emoji": "🏻",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%BB",
+    "base_info": {
+      "emoji": "🏻",
+      "short_name": "较浅肤色",
+      "undefined": "白皮肤",
+      "unicode": "U+1F3FB",
+      "decimal": "ALT+127995",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🏽 肤色",
+      "keywords": [
+        "肤色",
+        "较浅肤色"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏻 بشرة بلون فاتح"
+      },
+      {
+        "lang": "bg",
+        "name": "🏻 светла кожа"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏻 白皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏻 svijetla boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏻 světlý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏻 lys teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏻 lichte huidskleur"
+      },
+      {
+        "lang": "en",
+        "name": "🏻 light skin tone"
+      },
+      {
+        "lang": "fil",
+        "name": "🏻 light na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏻 vaalea iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🦰",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A6%B0",
+    "base_info": {
+      "emoji": "🦰",
+      "short_name": "红发",
+      "unicode": "U+1F9B0",
+      "decimal": "ALT+129456",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🦱 发型",
+      "keywords": [
+        "姜黄色",
+        "红发",
+        "红毛",
+        "配件",
+        "假发"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦰 شعر أحمر"
+      },
+      {
+        "lang": "bg",
+        "name": "🦰 рижа коса"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦰 紅髮"
+      },
+      {
+        "lang": "hr",
+        "name": "🦰 crvena kosa"
+      },
+      {
+        "lang": "cs",
+        "name": "🦰 zrzavé vlasy"
+      },
+      {
+        "lang": "da",
+        "name": "🦰 rødt hår"
+      },
+      {
+        "lang": "nl",
+        "name": "🦰 rood haar"
+      },
+      {
+        "lang": "en",
+        "name": "🦰 red hair"
+      },
+      {
+        "lang": "fil",
+        "name": "🦰 pulang buhok"
+      },
+      {
+        "lang": "fi",
+        "name": "🦰 punatukkainen"
+      }
+    ]
+  },
+  {
+    "emoji": "🦳",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A6%B3",
+    "base_info": {
+      "emoji": "🦳",
+      "short_name": "白发",
+      "unicode": "U+1F9B3",
+      "decimal": "ALT+129459",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🦱 发型",
+      "keywords": [
+        "头发",
+        "年老",
+        "灰色",
+        "白发",
+        "白色",
+        "配件",
+        "假发"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦳 شعر أبيض"
+      },
+      {
+        "lang": "bg",
+        "name": "🦳 побеляла коса"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦳 白髮"
+      },
+      {
+        "lang": "hr",
+        "name": "🦳 sijeda kosa"
+      },
+      {
+        "lang": "cs",
+        "name": "🦳 bílé vlasy"
+      },
+      {
+        "lang": "da",
+        "name": "🦳 hvidt hår"
+      },
+      {
+        "lang": "nl",
+        "name": "🦳 wit haar"
+      },
+      {
+        "lang": "en",
+        "name": "🦳 white hair"
+      },
+      {
+        "lang": "fil",
+        "name": "🦳 puting buhok"
+      },
+      {
+        "lang": "fi",
+        "name": "🦳 valkotukkainen"
+      }
+    ]
+  },
+  {
+    "emoji": "🦲",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A6%B2",
+    "base_info": {
+      "emoji": "🦲",
+      "short_name": "秃顶",
+      "unicode": "U+1F9B2",
+      "decimal": "ALT+129458",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🦱 发型",
+      "keywords": [
+        "光头",
+        "化疗",
+        "秃顶",
+        "配件",
+        "假发"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦲 أصلع"
+      },
+      {
+        "lang": "bg",
+        "name": "🦲 плешив човек"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦲 禿頭"
+      },
+      {
+        "lang": "hr",
+        "name": "🦲 bez kose"
+      },
+      {
+        "lang": "cs",
+        "name": "🦲 bez vlasů"
+      },
+      {
+        "lang": "da",
+        "name": "🦲 skaldet"
+      },
+      {
+        "lang": "nl",
+        "name": "🦲 kaal"
+      },
+      {
+        "lang": "en",
+        "name": "🦲 bald"
+      },
+      {
+        "lang": "fil",
+        "name": "🦲 kalbo"
+      },
+      {
+        "lang": "fi",
+        "name": "🦲 kalju"
+      }
+    ]
+  },
+  {
+    "emoji": "🏼",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%BC",
+    "base_info": {
+      "emoji": "🏼",
+      "short_name": "中等-浅肤色",
+      "undefined": "黄皮肤",
+      "unicode": "U+1F3FC",
+      "decimal": "ALT+127996",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🏽 肤色",
+      "keywords": [
+        "中等-浅肤色",
+        "肤色"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏼 بشرة بلون فاتح ومعتدل"
+      },
+      {
+        "lang": "bg",
+        "name": "🏼 средно светла кожа"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏼 黃皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏼 svijetlo maslinasta boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏼 středně světlý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏼 medium til lys teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏼 lichtgetinte huidskleur"
+      },
+      {
+        "lang": "en",
+        "name": "🏼 medium-light skin tone"
+      },
+      {
+        "lang": "fil",
+        "name": "🏼 katamtamang light na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏼 keskivaalea iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🦱",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%A6%B1",
+    "base_info": {
+      "emoji": "🦱",
+      "short_name": "卷发",
+      "unicode": "U+1F9B1",
+      "decimal": "ALT+129457",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🦱 发型",
+      "keywords": [
+        "卷发",
+        "蓬松发",
+        "鬈发",
+        "卷毛",
+        "配件",
+        "假发"
+      ],
+      "proposal": [
+        "L2/16‑008",
+        "L2/16‑130",
+        "L2/16‑147",
+        "L2/17‑011",
+        "L2/17‑082"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🦱 شعر مجعد"
+      },
+      {
+        "lang": "bg",
+        "name": "🦱 къдрава коса"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🦱 卷髮"
+      },
+      {
+        "lang": "hr",
+        "name": "🦱 kovrčava kosa"
+      },
+      {
+        "lang": "cs",
+        "name": "🦱 kudrnaté vlasy"
+      },
+      {
+        "lang": "da",
+        "name": "🦱 krøllet hår"
+      },
+      {
+        "lang": "nl",
+        "name": "🦱 krullend haar"
+      },
+      {
+        "lang": "en",
+        "name": "🦱 curly hair"
+      },
+      {
+        "lang": "fil",
+        "name": "🦱 kulot na buhok"
+      },
+      {
+        "lang": "fi",
+        "name": "🦱 kiharatukkainen"
+      }
+    ]
+  },
+  {
+    "emoji": "🏽",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%BD",
+    "base_info": {
+      "emoji": "🏽",
+      "short_name": "中等肤色",
+      "undefined": "浅褐皮肤",
+      "unicode": "U+1F3FD",
+      "decimal": "ALT+127997",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🏽 肤色",
+      "keywords": [
+        "中等肤色",
+        "肤色"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏽 بشرة بلون معتدل"
+      },
+      {
+        "lang": "bg",
+        "name": "🏽 средна на цвят кожа"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏽 淺褐皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏽 maslinasta boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏽 střední odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏽 medium teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏽 getinte huidskleur"
+      },
+      {
+        "lang": "en",
+        "name": "🏽 medium skin tone"
+      },
+      {
+        "lang": "fil",
+        "name": "🏽 katamtamang kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏽 tummanvaalea iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🏾",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%BE",
+    "base_info": {
+      "emoji": "🏾",
+      "short_name": "中等-深肤色",
+      "undefined": "褐皮肤",
+      "unicode": "U+1F3FE",
+      "decimal": "ALT+127998",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🏽 肤色",
+      "keywords": [
+        "中等-深肤色",
+        "肤色"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏾 بشرة بلون معتدل مائل للغامق"
+      },
+      {
+        "lang": "bg",
+        "name": "🏾 средно тъмна кожа"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏾 褐皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏾 smeđa boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏾 středně tmavý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏾 medium til mørk teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏾 donkergetinte huidskleur"
+      },
+      {
+        "lang": "en",
+        "name": "🏾 medium-dark skin tone"
+      },
+      {
+        "lang": "fil",
+        "name": "🏾 katamtamang dark na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏾 keskitumma iho"
+      }
+    ]
+  },
+  {
+    "emoji": "🏿",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "8.3+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/zh-hans/image/%F0%9F%8F%BF",
+    "base_info": {
+      "emoji": "🏿",
+      "short_name": "较深肤色",
+      "undefined": "黑皮肤",
+      "unicode": "U+1F3FF",
+      "decimal": "ALT+127999",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "🏼 肤色和发型",
+      "sub_category": "🏽 肤色",
+      "keywords": [
+        "肤色",
+        "较深肤色"
+      ],
+      "proposal": [
+        "L2/14‑154",
+        "L2/14‑173"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏿 بشرة بلون غامق"
+      },
+      {
+        "lang": "bg",
+        "name": "🏿 тъмна кожа"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏿 黑皮膚"
+      },
+      {
+        "lang": "hr",
+        "name": "🏿 tamno smeđa boja kože"
+      },
+      {
+        "lang": "cs",
+        "name": "🏿 tmavý odstín pleti"
+      },
+      {
+        "lang": "da",
+        "name": "🏿 mørk teint"
+      },
+      {
+        "lang": "nl",
+        "name": "🏿 donkere huidskleur"
+      },
+      {
+        "lang": "en",
+        "name": "🏿 dark skin tone"
+      },
+      {
+        "lang": "fil",
+        "name": "🏿 dark na kulay ng balat"
+      },
+      {
+        "lang": "fi",
+        "name": "🏿 tumma iho"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7096 @@
+[
+  {
+    "emoji": "🎋",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%8B",
+    "base_info": {
+      "emoji": "🎋",
+      "short_name": "tanabata tree",
+      "apple_name": "tanabata tree",
+      "known_as": [
+        "Wish Tree"
+      ],
+      "unicode": "U+1F38B",
+      "short_code": ":tanabata_tree:",
+      "decimal": "ALT+127883",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "banner",
+        "celebration",
+        "Japanese",
+        "tanabata tree",
+        "tree"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎋 شجرة احتفال"
+      },
+      {
+        "lang": "bg",
+        "name": "🎋 дърво за танабата"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎋 七夕树"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎋 七夕"
+      },
+      {
+        "lang": "hr",
+        "name": "🎋 drvo tanabata"
+      },
+      {
+        "lang": "cs",
+        "name": "🎋 strom přání"
+      },
+      {
+        "lang": "da",
+        "name": "🎋 træ med papirpynt"
+      },
+      {
+        "lang": "nl",
+        "name": "🎋 tanabataboom"
+      },
+      {
+        "lang": "fil",
+        "name": "🎋 tanabata tree"
+      },
+      {
+        "lang": "fi",
+        "name": "🎋 tanabatapuu"
+      }
+    ]
+  },
+  {
+    "emoji": "🎆",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%86",
+    "base_info": {
+      "emoji": "🎆",
+      "short_name": "fireworks",
+      "apple_name": "fireworks",
+      "known_as": [
+        "Explosion"
+      ],
+      "unicode": "U+1F386",
+      "short_code": ":fireworks:",
+      "decimal": "ALT+127878",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "fireworks"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎆 ألعاب نارية"
+      },
+      {
+        "lang": "bg",
+        "name": "🎆 фойерверки"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎆 焰火"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎆 爆竹"
+      },
+      {
+        "lang": "hr",
+        "name": "🎆 vatromet"
+      },
+      {
+        "lang": "cs",
+        "name": "🎆 ohňostroj"
+      },
+      {
+        "lang": "da",
+        "name": "🎆 fyrværkeri"
+      },
+      {
+        "lang": "nl",
+        "name": "🎆 vuurwerk"
+      },
+      {
+        "lang": "fil",
+        "name": "🎆 fireworks"
+      },
+      {
+        "lang": "fi",
+        "name": "🎆 ilotulitus"
+      }
+    ]
+  },
+  {
+    "emoji": "🎉",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%89",
+    "base_info": {
+      "emoji": "🎉",
+      "short_name": "party popper",
+      "apple_name": "party popper",
+      "known_as": [
+        "Celebration",
+        "Party Hat"
+      ],
+      "unicode": "U+1F389",
+      "short_code": ":tada:",
+      "decimal": "ALT+127881",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "party",
+        "popper",
+        "tada"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎉 فرقعة حفلة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎉 конфети"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎉 拉炮彩带"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎉 拉炮"
+      },
+      {
+        "lang": "hr",
+        "name": "🎉 ispaljivač konfeta"
+      },
+      {
+        "lang": "cs",
+        "name": "🎉 vystřelovací konfety"
+      },
+      {
+        "lang": "da",
+        "name": "🎉 bordbombe"
+      },
+      {
+        "lang": "nl",
+        "name": "🎉 feestknaller"
+      },
+      {
+        "lang": "fil",
+        "name": "🎉 party popper"
+      },
+      {
+        "lang": "fi",
+        "name": "🎉 paukkuserpentiini"
+      }
+    ]
+  },
+  {
+    "emoji": "🎄",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%84",
+    "base_info": {
+      "emoji": "🎄",
+      "short_name": "Christmas tree",
+      "apple_name": "Christmas tree",
+      "known_as": [
+        "Christmas",
+        "Xmas Tree"
+      ],
+      "unicode": "U+1F384",
+      "short_code": ":christmas_tree:",
+      "decimal": "ALT+127876",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "Christmas",
+        "tree"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎄 شجرة عيد الميلاد"
+      },
+      {
+        "lang": "bg",
+        "name": "🎄 коледна елха"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎄 圣诞树"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎄 聖誕樹"
+      },
+      {
+        "lang": "hr",
+        "name": "🎄 božićno drvce"
+      },
+      {
+        "lang": "cs",
+        "name": "🎄 vánoční stromeček"
+      },
+      {
+        "lang": "da",
+        "name": "🎄 juletræ"
+      },
+      {
+        "lang": "nl",
+        "name": "🎄 kerstboom"
+      },
+      {
+        "lang": "fil",
+        "name": "🎄 christmas tree"
+      },
+      {
+        "lang": "fi",
+        "name": "🎄 joulukuusi"
+      }
+    ]
+  },
+  {
+    "emoji": "🎃",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%83",
+    "base_info": {
+      "emoji": "🎃",
+      "short_name": "jack-o-lantern",
+      "apple_name": "jack-o-lantern",
+      "known_as": [
+        "Halloween",
+        "Pumpkin"
+      ],
+      "unicode": "U+1F383",
+      "short_code": ":jack_o_lantern:",
+      "decimal": "ALT+127875",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "halloween",
+        "jack",
+        "jack-o-lantern",
+        "lantern"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎃 هالوين"
+      },
+      {
+        "lang": "bg",
+        "name": "🎃 тиквен фенер"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎃 南瓜灯"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎃 南瓜燈"
+      },
+      {
+        "lang": "hr",
+        "name": "🎃 izrezbarena bundeva"
+      },
+      {
+        "lang": "cs",
+        "name": "🎃 dýňová lucerna"
+      },
+      {
+        "lang": "da",
+        "name": "🎃 græskarmand"
+      },
+      {
+        "lang": "nl",
+        "name": "🎃 halloweenlantaarn"
+      },
+      {
+        "lang": "fil",
+        "name": "🎃 jack-o-lantern"
+      },
+      {
+        "lang": "fi",
+        "name": "🎃 kurpitsalyhty"
+      }
+    ]
+  },
+  {
+    "emoji": "🧨",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A7%A8",
+    "base_info": {
+      "emoji": "🧨",
+      "short_name": "firecracker",
+      "apple_name": "firecracker",
+      "known_as": [
+        "Dynamite",
+        "Fireworks"
+      ],
+      "unicode": "U+1F9E8",
+      "decimal": "ALT+129512",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "dynamite",
+        "explosive",
+        "firecracker",
+        "fireworks"
+      ],
+      "proposal": [
+        "L2/17‑025"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧨 مفرقعات"
+      },
+      {
+        "lang": "bg",
+        "name": "🧨 пиратка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🧨 爆竹"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧨 鞭炮"
+      },
+      {
+        "lang": "hr",
+        "name": "🧨 petarda"
+      },
+      {
+        "lang": "cs",
+        "name": "🧨 petarda"
+      },
+      {
+        "lang": "da",
+        "name": "🧨 kanonslag"
+      },
+      {
+        "lang": "nl",
+        "name": "🧨 rotje"
+      },
+      {
+        "lang": "fil",
+        "name": "🧨 paputok"
+      },
+      {
+        "lang": "fi",
+        "name": "🧨 sähikäinen"
+      }
+    ]
+  },
+  {
+    "emoji": "🎈",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%88",
+    "base_info": {
+      "emoji": "🎈",
+      "short_name": "balloon",
+      "apple_name": "balloon",
+      "known_as": [
+        "Party",
+        "Red Balloon"
+      ],
+      "unicode": "U+1F388",
+      "short_code": ":balloon:",
+      "decimal": "ALT+127880",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "balloon",
+        "celebration"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎈 بالون"
+      },
+      {
+        "lang": "bg",
+        "name": "🎈 балон"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎈 气球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎈 氣球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎈 balon"
+      },
+      {
+        "lang": "cs",
+        "name": "🎈 balónek"
+      },
+      {
+        "lang": "da",
+        "name": "🎈 ballon"
+      },
+      {
+        "lang": "nl",
+        "name": "🎈 ballon"
+      },
+      {
+        "lang": "fil",
+        "name": "🎈 lobo"
+      },
+      {
+        "lang": "fi",
+        "name": "🎈 ilmapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🎊",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%8A",
+    "base_info": {
+      "emoji": "🎊",
+      "short_name": "confetti ball",
+      "apple_name": "confetti ball",
+      "known_as": [
+        "Congratulations"
+      ],
+      "unicode": "U+1F38A",
+      "short_code": ":confetti_ball:",
+      "decimal": "ALT+127882",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "ball",
+        "celebration",
+        "confetti"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎊 كرة أوراق ملونة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎊 топка с конфети"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎊 五彩纸屑球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎊 五彩紙屑"
+      },
+      {
+        "lang": "hr",
+        "name": "🎊 kugla s konfetima"
+      },
+      {
+        "lang": "cs",
+        "name": "🎊 konfetová koule"
+      },
+      {
+        "lang": "da",
+        "name": "🎊 konfetti"
+      },
+      {
+        "lang": "nl",
+        "name": "🎊 confettibal"
+      },
+      {
+        "lang": "fil",
+        "name": "🎊 confetti ball"
+      },
+      {
+        "lang": "fi",
+        "name": "🎊 konfettipallo"
+      }
+    ]
+  },
+  {
+    "emoji": "✨",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%9C%A8",
+    "base_info": {
+      "emoji": "✨",
+      "short_name": "sparkles",
+      "apple_name": "sparkles",
+      "known_as": [
+        "Glitter",
+        "Shiny"
+      ],
+      "unicode": "U+2728",
+      "short_code": ":sparkles:",
+      "decimal": "ALT+10024",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "*",
+        "sparkle",
+        "sparkles",
+        "star"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "✨ ومضات"
+      },
+      {
+        "lang": "bg",
+        "name": "✨ звездички"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "✨ 闪亮"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "✨ 閃爍"
+      },
+      {
+        "lang": "hr",
+        "name": "✨ iskre"
+      },
+      {
+        "lang": "cs",
+        "name": "✨ jiskry"
+      },
+      {
+        "lang": "da",
+        "name": "✨ stjerner"
+      },
+      {
+        "lang": "nl",
+        "name": "✨ sterretjes"
+      },
+      {
+        "lang": "fil",
+        "name": "✨ kumikinang"
+      },
+      {
+        "lang": "fi",
+        "name": "✨ säihke"
+      }
+    ]
+  },
+  {
+    "emoji": "🎇",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%87",
+    "base_info": {
+      "emoji": "🎇",
+      "short_name": "sparkler",
+      "apple_name": "firework sparkler",
+      "known_as": [
+        "Fireworks",
+        "Senko Hanabi"
+      ],
+      "unicode": "U+1F387",
+      "short_code": ":sparkler:",
+      "decimal": "ALT+127879",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "fireworks",
+        "sparkle",
+        "sparkler"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎇 ماسة نارية"
+      },
+      {
+        "lang": "bg",
+        "name": "🎇 фойерверк"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎇 烟花"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎇 煙花"
+      },
+      {
+        "lang": "hr",
+        "name": "🎇 prskalica"
+      },
+      {
+        "lang": "cs",
+        "name": "🎇 prskavka"
+      },
+      {
+        "lang": "da",
+        "name": "🎇 stjernekaster"
+      },
+      {
+        "lang": "nl",
+        "name": "🎇 sterretje"
+      },
+      {
+        "lang": "fil",
+        "name": "🎇 sparkler"
+      },
+      {
+        "lang": "fi",
+        "name": "🎇 tähtisadetikku"
+      }
+    ]
+  },
+  {
+    "emoji": "🎎",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%8E",
+    "base_info": {
+      "emoji": "🎎",
+      "short_name": "Japanese dolls",
+      "apple_name": "Japanese dolls",
+      "known_as": [
+        "Hinamatsuri",
+        "Imperial Dolls",
+        "Girl's Day"
+      ],
+      "unicode": "U+1F38E",
+      "short_code": ":dolls:",
+      "decimal": "ALT+127886",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "doll",
+        "festival",
+        "Japanese",
+        "Japanese dolls"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎎 دميتان يابانيتان"
+      },
+      {
+        "lang": "bg",
+        "name": "🎎 японски кукли"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎎 日本人形"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎎 女兒節"
+      },
+      {
+        "lang": "hr",
+        "name": "🎎 japanske lutke"
+      },
+      {
+        "lang": "cs",
+        "name": "🎎 japonské panenky"
+      },
+      {
+        "lang": "da",
+        "name": "🎎 japanske dukker"
+      },
+      {
+        "lang": "nl",
+        "name": "🎎 Japanse poppen"
+      },
+      {
+        "lang": "fil",
+        "name": "🎎 japanese na manika"
+      },
+      {
+        "lang": "fi",
+        "name": "🎎 japanilaiset nuket"
+      }
+    ]
+  },
+  {
+    "emoji": "🎏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%8F",
+    "base_info": {
+      "emoji": "🎏",
+      "short_name": "carp streamer",
+      "apple_name": "carp streamer",
+      "known_as": [
+        "Fish Flag",
+        "Koinobori",
+        "Wind Socks"
+      ],
+      "unicode": "U+1F38F",
+      "short_code": ":flags:",
+      "decimal": "ALT+127887",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "carp",
+        "celebration",
+        "streamer"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎏 قصاصات ملونة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎏 коинобори"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎏 鲤鱼旗"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎏 鯉魚旗"
+      },
+      {
+        "lang": "hr",
+        "name": "🎏 cjevasti zmaj u obliku ribe"
+      },
+      {
+        "lang": "cs",
+        "name": "🎏 koinobori"
+      },
+      {
+        "lang": "da",
+        "name": "🎏 karpevimpel"
+      },
+      {
+        "lang": "nl",
+        "name": "🎏 karperslinger"
+      },
+      {
+        "lang": "fil",
+        "name": "🎏 carp streamer"
+      },
+      {
+        "lang": "fi",
+        "name": "🎏 karppiviiri"
+      }
+    ]
+  },
+  {
+    "emoji": "🎍",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%8D",
+    "base_info": {
+      "emoji": "🎍",
+      "short_name": "pine decoration",
+      "apple_name": "pine decoration",
+      "known_as": [
+        "Bamboo",
+        "Kadomatsu",
+        "New Year Decoration"
+      ],
+      "unicode": "U+1F38D",
+      "short_code": ":bamboo:",
+      "decimal": "ALT+127885",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "bamboo",
+        "celebration",
+        "Japanese",
+        "pine",
+        "pine decoration"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎍 ديكور صنوبر"
+      },
+      {
+        "lang": "bg",
+        "name": "🎍 украса кадомацу"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎍 门松"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎍 盆栽"
+      },
+      {
+        "lang": "hr",
+        "name": "🎍 ukras od češera"
+      },
+      {
+        "lang": "cs",
+        "name": "🎍 bambusové dekorace"
+      },
+      {
+        "lang": "da",
+        "name": "🎍 fyrretræsdekoration"
+      },
+      {
+        "lang": "nl",
+        "name": "🎍 dennenboomversiering"
+      },
+      {
+        "lang": "fil",
+        "name": "🎍 pine decoration"
+      },
+      {
+        "lang": "fi",
+        "name": "🎍 puukoriste"
+      }
+    ]
+  },
+  {
+    "emoji": "🎐",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%90",
+    "base_info": {
+      "emoji": "🎐",
+      "short_name": "wind chime",
+      "apple_name": "wind chime",
+      "known_as": [
+        "Wind Bell",
+        "Furin",
+        "Jellyfish"
+      ],
+      "unicode": "U+1F390",
+      "short_code": ":wind_chime:",
+      "decimal": "ALT+127888",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "bell",
+        "celebration",
+        "chime",
+        "wind"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎐 جرس الريح"
+      },
+      {
+        "lang": "bg",
+        "name": "🎐 вятърни камбанки"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎐 风铃"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎐 風鈴"
+      },
+      {
+        "lang": "hr",
+        "name": "🎐 vjetreno zvono"
+      },
+      {
+        "lang": "cs",
+        "name": "🎐 větrný zvonek"
+      },
+      {
+        "lang": "da",
+        "name": "🎐 vindspil"
+      },
+      {
+        "lang": "nl",
+        "name": "🎐 windorgel"
+      },
+      {
+        "lang": "fil",
+        "name": "🎐 wind chime"
+      },
+      {
+        "lang": "fi",
+        "name": "🎐 tuulikello"
+      }
+    ]
+  },
+  {
+    "emoji": "🎫",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%AB",
+    "base_info": {
+      "emoji": "🎫",
+      "short_name": "ticket",
+      "apple_name": "ticket",
+      "known_as": [
+        "Ticket Stub",
+        "World Tour Ticket"
+      ],
+      "unicode": "U+1F3AB",
+      "short_code": ":ticket:",
+      "decimal": "ALT+127915",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "admission",
+        "ticket"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎫 تذكرة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎫 билет"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎫 票"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎫 門票"
+      },
+      {
+        "lang": "hr",
+        "name": "🎫 ulaznica"
+      },
+      {
+        "lang": "cs",
+        "name": "🎫 lístek"
+      },
+      {
+        "lang": "da",
+        "name": "🎫 billet"
+      },
+      {
+        "lang": "nl",
+        "name": "🎫 ticket"
+      },
+      {
+        "lang": "fil",
+        "name": "🎫 tiket"
+      },
+      {
+        "lang": "fi",
+        "name": "🎫 lippu"
+      }
+    ]
+  },
+  {
+    "emoji": "🎑",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%91",
+    "base_info": {
+      "emoji": "🎑",
+      "short_name": "moon viewing ceremony",
+      "apple_name": "moon viewing ceremony",
+      "known_as": [
+        "Mid-Autumn Festival",
+        "Grass, Dumplings and Moon",
+        "Harvest Moon",
+        "Tsukimi",
+        "Zhongqiu"
+      ],
+      "unicode": "U+1F391",
+      "short_code": ":rice_scene:",
+      "decimal": "ALT+127889",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "ceremony",
+        "moon",
+        "moon viewing ceremony"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎑 احتفال برؤية القمر"
+      },
+      {
+        "lang": "bg",
+        "name": "🎑 церемония цукими"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎑 赏月"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎑 賞月"
+      },
+      {
+        "lang": "hr",
+        "name": "🎑 mjesečeva svečanost"
+      },
+      {
+        "lang": "cs",
+        "name": "🎑 slavnosti měsíce"
+      },
+      {
+        "lang": "da",
+        "name": "🎑 måneceremoni"
+      },
+      {
+        "lang": "nl",
+        "name": "🎑 maanobservatieceremonie"
+      },
+      {
+        "lang": "fil",
+        "name": "🎑 moon viewing ceremony"
+      },
+      {
+        "lang": "fi",
+        "name": "🎑 kuuseremonia"
+      }
+    ]
+  },
+  {
+    "emoji": "🧧",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A7%A7",
+    "base_info": {
+      "emoji": "🧧",
+      "short_name": "red envelope",
+      "apple_name": "red gift envelope",
+      "known_as": [
+        "Ang Pao",
+        "Hóngbāo",
+        "Lai See",
+        "Red Packet"
+      ],
+      "unicode": "U+1F9E7",
+      "decimal": "ALT+129511",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "gift",
+        "good luck",
+        "hóngbāo",
+        "lai see",
+        "money",
+        "red envelope"
+      ],
+      "proposal": [
+        "L2/17‑023"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧧 ظرف أحمر بكتابة صينية"
+      },
+      {
+        "lang": "bg",
+        "name": "🧧 червен плик"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🧧 红包"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧧 紅包"
+      },
+      {
+        "lang": "hr",
+        "name": "🧧 crvena omotnica"
+      },
+      {
+        "lang": "cs",
+        "name": "🧧 červená obálka"
+      },
+      {
+        "lang": "da",
+        "name": "🧧 pengegave"
+      },
+      {
+        "lang": "nl",
+        "name": "🧧 rode envelop"
+      },
+      {
+        "lang": "fil",
+        "name": "🧧 ampao"
+      },
+      {
+        "lang": "fi",
+        "name": "🧧 punainen kirjekuori"
+      }
+    ]
+  },
+  {
+    "emoji": "🎁",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%81",
+    "base_info": {
+      "emoji": "🎁",
+      "short_name": "wrapped gift",
+      "apple_name": "present",
+      "known_as": [
+        "Birthday Present",
+        "Christmas Present",
+        "Gift Box"
+      ],
+      "unicode": "U+1F381",
+      "short_code": ":gift:",
+      "decimal": "ALT+127873",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "box",
+        "celebration",
+        "gift",
+        "present",
+        "wrapped"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎁 هدية ملفوفة"
+      },
+      {
+        "lang": "bg",
+        "name": "🎁 опакован подарък"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎁 礼物"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎁 禮物"
+      },
+      {
+        "lang": "hr",
+        "name": "🎁 umotani poklon"
+      },
+      {
+        "lang": "cs",
+        "name": "🎁 zabalený dárek"
+      },
+      {
+        "lang": "da",
+        "name": "🎁 gave"
+      },
+      {
+        "lang": "nl",
+        "name": "🎁 ingepakt cadeau"
+      },
+      {
+        "lang": "fil",
+        "name": "🎁 nakabalot na regalo"
+      },
+      {
+        "lang": "fi",
+        "name": "🎁 lahjapaketti"
+      }
+    ]
+  },
+  {
+    "emoji": "🎗️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%97%EF%B8%8F",
+    "base_info": {
+      "emoji": "🎗️",
+      "short_name": "reminder ribbon",
+      "apple_name": "Reminder Ribbon",
+      "unicode": "U+1F397 FE0F \n\n\n1F397 - 🎗 reminder ribbon\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "decimal": "ALT+127895 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "reminder",
+        "ribbon"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎗️ شريطة تذكير"
+      },
+      {
+        "lang": "bg",
+        "name": "🎗️ Лента за напомняне"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎗️ 提示丝带"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎗️ 黃絲帶"
+      },
+      {
+        "lang": "hr",
+        "name": "🎗️ spomen-traka"
+      },
+      {
+        "lang": "cs",
+        "name": "🎗️ symbolická stužka"
+      },
+      {
+        "lang": "da",
+        "name": "🎗️ mindebånd"
+      },
+      {
+        "lang": "nl",
+        "name": "🎗️ bewustzijnslintje"
+      },
+      {
+        "lang": "fil",
+        "name": "🎗️ nagpapaalalang ribbon"
+      },
+      {
+        "lang": "fi",
+        "name": "🎗️ tietoisuusnauha"
+      }
+    ]
+  },
+  {
+    "emoji": "🎖️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%96%EF%B8%8F",
+    "base_info": {
+      "emoji": "🎖️",
+      "short_name": "military medal",
+      "apple_name": "Military Medal",
+      "known_as": [
+        "Military Decoration",
+        "Medal",
+        "Medallion"
+      ],
+      "unicode": "U+1F396 FE0F \n\n\n1F396 - 🎖 military medal\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "decimal": "ALT+127894 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏅 Award & Medal",
+      "keywords": [
+        "celebration",
+        "medal",
+        "military"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎖️ ميدالية عسكرية"
+      },
+      {
+        "lang": "bg",
+        "name": "🎖️ Военен медал"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎖️ 军功章"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎖️ 軍事獎章"
+      },
+      {
+        "lang": "hr",
+        "name": "🎖️ vojna medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🎖️ vojenská medaile"
+      },
+      {
+        "lang": "da",
+        "name": "🎖️ militærmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🎖️ militaire medaille"
+      },
+      {
+        "lang": "fil",
+        "name": "🎖️ medalyang pangmilitar"
+      },
+      {
+        "lang": "fi",
+        "name": "🎖️ kunniamerkki"
+      }
+    ]
+  },
+  {
+    "emoji": "🎟️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%9F%EF%B8%8F",
+    "base_info": {
+      "emoji": "🎟️",
+      "short_name": "admission tickets",
+      "apple_name": "Admission Ticket",
+      "unicode": "U+1F39F FE0F \n\n\n1F39F - 🎟 admission tickets\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "decimal": "ALT+127903 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "admission",
+        "admission tickets",
+        "ticket"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎟️ تذكرتا دخول"
+      },
+      {
+        "lang": "bg",
+        "name": "🎟️ Билети за вход"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎟️ 入场券"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎟️ 入場券"
+      },
+      {
+        "lang": "hr",
+        "name": "🎟️ ulaznice"
+      },
+      {
+        "lang": "cs",
+        "name": "🎟️ vstupenky"
+      },
+      {
+        "lang": "da",
+        "name": "🎟️ adgangsbillet"
+      },
+      {
+        "lang": "nl",
+        "name": "🎟️ entreekaartjes"
+      },
+      {
+        "lang": "fil",
+        "name": "🎟️ mga admission ticket"
+      },
+      {
+        "lang": "fi",
+        "name": "🎟️ pääsylippu"
+      }
+    ]
+  },
+  {
+    "emoji": "🏅",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%85",
+    "base_info": {
+      "emoji": "🏅",
+      "short_name": "sports medal",
+      "apple_name": "sports medal",
+      "unicode": "U+1F3C5",
+      "decimal": "ALT+127941",
+      "unicode_version": "7.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏅 Award & Medal",
+      "keywords": [
+        "medal",
+        "sports medal"
+      ],
+      "proposal": [
+        "L2/11‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏅 ميدالية رياضية"
+      },
+      {
+        "lang": "bg",
+        "name": "🏅 спортен медал"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏅 奖牌"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏅 獎牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🏅 sportska medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🏅 medaile"
+      },
+      {
+        "lang": "da",
+        "name": "🏅 sportsmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🏅 sportmedaille"
+      },
+      {
+        "lang": "fil",
+        "name": "🏅 medalyang pang-sports"
+      },
+      {
+        "lang": "fi",
+        "name": "🏅 urheilumitali"
+      }
+    ]
+  },
+  {
+    "emoji": "🏆",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%86",
+    "base_info": {
+      "emoji": "🏆",
+      "short_name": "trophy",
+      "apple_name": "trophy",
+      "known_as": [
+        "Championship Trophy",
+        "Winners Trophy"
+      ],
+      "unicode": "U+1F3C6",
+      "short_code": ":trophy:",
+      "decimal": "ALT+127942",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏅 Award & Medal",
+      "keywords": [
+        "prize",
+        "trophy"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏆 كأس"
+      },
+      {
+        "lang": "bg",
+        "name": "🏆 спортна купа"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏆 奖杯"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏆 獎盃"
+      },
+      {
+        "lang": "hr",
+        "name": "🏆 trofej"
+      },
+      {
+        "lang": "cs",
+        "name": "🏆 trofejní pohár"
+      },
+      {
+        "lang": "da",
+        "name": "🏆 pokal"
+      },
+      {
+        "lang": "nl",
+        "name": "🏆 trofee"
+      },
+      {
+        "lang": "fil",
+        "name": "🏆 trophy"
+      },
+      {
+        "lang": "fi",
+        "name": "🏆 pokaali"
+      }
+    ]
+  },
+  {
+    "emoji": "🎀",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%80",
+    "base_info": {
+      "emoji": "🎀",
+      "short_name": "ribbon",
+      "apple_name": "ribbon bow",
+      "known_as": [
+        "Pink Bow"
+      ],
+      "unicode": "U+1F380",
+      "short_code": ":ribbon:",
+      "decimal": "ALT+127872",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎈 Event",
+      "keywords": [
+        "celebration",
+        "ribbon"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎀 شريط"
+      },
+      {
+        "lang": "bg",
+        "name": "🎀 панделка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎀 蝴蝶结"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎀 蝴蝶結"
+      },
+      {
+        "lang": "hr",
+        "name": "🎀 mašna"
+      },
+      {
+        "lang": "cs",
+        "name": "🎀 mašle"
+      },
+      {
+        "lang": "da",
+        "name": "🎀 sløjfe"
+      },
+      {
+        "lang": "nl",
+        "name": "🎀 strik"
+      },
+      {
+        "lang": "fil",
+        "name": "🎀 ribbon"
+      },
+      {
+        "lang": "fi",
+        "name": "🎀 rusetti"
+      }
+    ]
+  },
+  {
+    "emoji": "⚽",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%9A%BD",
+    "base_info": {
+      "emoji": "⚽",
+      "short_name": "soccer ball",
+      "apple_name": "Soccer Ball",
+      "known_as": [
+        "Football",
+        "Soccer"
+      ],
+      "unicode": "U+26BD",
+      "short_code": ":soccer:",
+      "decimal": "ALT+9917",
+      "unicode_version": "5.2",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "football",
+        "soccer"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⚽ كرة قدم"
+      },
+      {
+        "lang": "bg",
+        "name": "⚽ футболна топка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "⚽ 足球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⚽ 足球"
+      },
+      {
+        "lang": "hr",
+        "name": "⚽ nogometna lopta"
+      },
+      {
+        "lang": "cs",
+        "name": "⚽ fotbalový míč"
+      },
+      {
+        "lang": "da",
+        "name": "⚽ fodbold"
+      },
+      {
+        "lang": "nl",
+        "name": "⚽ voetbal"
+      },
+      {
+        "lang": "fil",
+        "name": "⚽ bola ng soccer"
+      },
+      {
+        "lang": "fi",
+        "name": "⚽ jalkapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🥇",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%87",
+    "base_info": {
+      "emoji": "🥇",
+      "short_name": "1st place medal",
+      "apple_name": "gold medal",
+      "known_as": [
+        "Gold Medal"
+      ],
+      "unicode": "U+1F947",
+      "decimal": "ALT+129351",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏅 Award & Medal",
+      "keywords": [
+        "1st place medal",
+        "first",
+        "gold",
+        "medal"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥇 ميدالية مركز أول"
+      },
+      {
+        "lang": "bg",
+        "name": "🥇 медал за първо място"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥇 金牌"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥇 金牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🥇 zlatna medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🥇 medaile za 1. místo"
+      },
+      {
+        "lang": "da",
+        "name": "🥇 guldmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🥇 medaille 1e plaats"
+      },
+      {
+        "lang": "fil",
+        "name": "🥇 medalyang 1st place"
+      },
+      {
+        "lang": "fi",
+        "name": "🥇 kultamitali"
+      }
+    ]
+  },
+  {
+    "emoji": "🥈",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%88",
+    "base_info": {
+      "emoji": "🥈",
+      "short_name": "2nd place medal",
+      "apple_name": "silver medal",
+      "known_as": [
+        "Silver Medal"
+      ],
+      "unicode": "U+1F948",
+      "decimal": "ALT+129352",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏅 Award & Medal",
+      "keywords": [
+        "2nd place medal",
+        "medal",
+        "second",
+        "silver"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥈 ميدالية مركز ثانٍ"
+      },
+      {
+        "lang": "bg",
+        "name": "🥈 медал за второ място"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥈 银牌"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥈 銀牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🥈 srebrna medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🥈 medaile za 2. místo"
+      },
+      {
+        "lang": "da",
+        "name": "🥈 sølvmedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🥈 medaille 2e plaats"
+      },
+      {
+        "lang": "fil",
+        "name": "🥈 medalyang 2nd place"
+      },
+      {
+        "lang": "fi",
+        "name": "🥈 hopeamitali"
+      }
+    ]
+  },
+  {
+    "emoji": "🥉",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%89",
+    "base_info": {
+      "emoji": "🥉",
+      "short_name": "3rd place medal",
+      "apple_name": "bronze medal",
+      "known_as": [
+        "Bronze Medal"
+      ],
+      "unicode": "U+1F949",
+      "decimal": "ALT+129353",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏅 Award & Medal",
+      "keywords": [
+        "3rd place medal",
+        "bronze",
+        "medal",
+        "third"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥉 ميدالية مركز ثالث"
+      },
+      {
+        "lang": "bg",
+        "name": "🥉 медал за трето място"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥉 铜牌"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥉 銅牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🥉 brončana medalja"
+      },
+      {
+        "lang": "cs",
+        "name": "🥉 medaile za 3. místo"
+      },
+      {
+        "lang": "da",
+        "name": "🥉 bronzemedalje"
+      },
+      {
+        "lang": "nl",
+        "name": "🥉 medaille 3e plaats"
+      },
+      {
+        "lang": "fil",
+        "name": "🥉 medalyang 3rd place"
+      },
+      {
+        "lang": "fi",
+        "name": "🥉 pronssimitali"
+      }
+    ]
+  },
+  {
+    "emoji": "🏀",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%80",
+    "base_info": {
+      "emoji": "🏀",
+      "short_name": "basketball",
+      "apple_name": "basketball",
+      "known_as": [
+        "NBA",
+        "Orange Ball"
+      ],
+      "unicode": "U+1F3C0",
+      "short_code": ":basketball:",
+      "decimal": "ALT+127936",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "basketball",
+        "hoop"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏀 كرة سلة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏀 баскетболна топка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏀 篮球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏀 籃球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏀 košarkaška lopta"
+      },
+      {
+        "lang": "cs",
+        "name": "🏀 basketbalový míč"
+      },
+      {
+        "lang": "da",
+        "name": "🏀 basketball"
+      },
+      {
+        "lang": "nl",
+        "name": "🏀 basketbal"
+      },
+      {
+        "lang": "fil",
+        "name": "🏀 basketball"
+      },
+      {
+        "lang": "fi",
+        "name": "🏀 koripallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🏐",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%90",
+    "base_info": {
+      "emoji": "🏐",
+      "short_name": "volleyball",
+      "apple_name": "volleyball",
+      "known_as": [
+        "beach ball"
+      ],
+      "unicode": "U+1F3D0",
+      "decimal": "ALT+127952",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "game",
+        "volleyball"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏐 كرة طائرة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏐 волейбол"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏐 排球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏐 排球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏐 odbojkaška lopta"
+      },
+      {
+        "lang": "cs",
+        "name": "🏐 volejbalový míč"
+      },
+      {
+        "lang": "da",
+        "name": "🏐 volleyball"
+      },
+      {
+        "lang": "nl",
+        "name": "🏐 volleybal"
+      },
+      {
+        "lang": "fil",
+        "name": "🏐 volleyball"
+      },
+      {
+        "lang": "fi",
+        "name": "🏐 lentopallo"
+      }
+    ]
+  },
+  {
+    "emoji": "⚾",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%9A%BE",
+    "base_info": {
+      "emoji": "⚾",
+      "short_name": "baseball",
+      "apple_name": "Baseball",
+      "known_as": [
+        "Softball"
+      ],
+      "unicode": "U+26BE",
+      "short_code": ":baseball:",
+      "decimal": "ALT+9918",
+      "unicode_version": "5.2",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "baseball"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⚾ بيسبول"
+      },
+      {
+        "lang": "bg",
+        "name": "⚾ бейзболна топка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "⚾ 棒球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⚾ 棒球"
+      },
+      {
+        "lang": "hr",
+        "name": "⚾ lopta za bejzbol"
+      },
+      {
+        "lang": "cs",
+        "name": "⚾ baseballový míček"
+      },
+      {
+        "lang": "da",
+        "name": "⚾ baseball"
+      },
+      {
+        "lang": "nl",
+        "name": "⚾ honkbal"
+      },
+      {
+        "lang": "fil",
+        "name": "⚾ baseball"
+      },
+      {
+        "lang": "fi",
+        "name": "⚾ pesäpallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🥎",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%8E",
+    "base_info": {
+      "emoji": "🥎",
+      "short_name": "softball",
+      "apple_name": "softball",
+      "unicode": "U+1F94E",
+      "decimal": "ALT+129358",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "glove",
+        "softball",
+        "underarm"
+      ],
+      "proposal": [
+        "L2/17‑184",
+        "L2/17‑277"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥎 كرة ليّنة"
+      },
+      {
+        "lang": "bg",
+        "name": "🥎 софтбол"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥎 垒球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥎 壘球"
+      },
+      {
+        "lang": "hr",
+        "name": "🥎 lopta za softball"
+      },
+      {
+        "lang": "cs",
+        "name": "🥎 softballový míček"
+      },
+      {
+        "lang": "da",
+        "name": "🥎 softball"
+      },
+      {
+        "lang": "nl",
+        "name": "🥎 softbal"
+      },
+      {
+        "lang": "fil",
+        "name": "🥎 softball"
+      },
+      {
+        "lang": "fi",
+        "name": "🥎 softball"
+      }
+    ]
+  },
+  {
+    "emoji": "🏉",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.4+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%89",
+    "base_info": {
+      "emoji": "🏉",
+      "short_name": "rugby football",
+      "apple_name": "rugby football",
+      "known_as": [
+        "Football",
+        "Rugby",
+        "Union"
+      ],
+      "unicode": "U+1F3C9",
+      "short_code": ":rugby_football:",
+      "decimal": "ALT+127945",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "football",
+        "rugby"
+      ],
+      "proposal": [
+        "L2/09‑114"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏉 كرة رجبي"
+      },
+      {
+        "lang": "bg",
+        "name": "🏉 топка за ръгби"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏉 英式橄榄球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏉 橄欖球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏉 ragbi"
+      },
+      {
+        "lang": "cs",
+        "name": "🏉 míč na rugby"
+      },
+      {
+        "lang": "da",
+        "name": "🏉 rugbybold"
+      },
+      {
+        "lang": "nl",
+        "name": "🏉 rugby"
+      },
+      {
+        "lang": "fil",
+        "name": "🏉 rugby football"
+      },
+      {
+        "lang": "fi",
+        "name": "🏉 rugby-pallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🏈",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%88",
+    "base_info": {
+      "emoji": "🏈",
+      "short_name": "american football",
+      "apple_name": "American football",
+      "known_as": [
+        "Football",
+        "Gridiron",
+        "Superbowl"
+      ],
+      "unicode": "U+1F3C8",
+      "short_code": ":football:",
+      "decimal": "ALT+127944",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "american",
+        "ball",
+        "football"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏈 كرة قدم أمريكية"
+      },
+      {
+        "lang": "bg",
+        "name": "🏈 топка за американски футбол"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏈 美式橄榄球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏈 美式足球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏈 američki nogomet"
+      },
+      {
+        "lang": "cs",
+        "name": "🏈 míč na americký fotbal"
+      },
+      {
+        "lang": "da",
+        "name": "🏈 amerikansk fodbold"
+      },
+      {
+        "lang": "nl",
+        "name": "🏈 american football"
+      },
+      {
+        "lang": "fil",
+        "name": "🏈 american football"
+      },
+      {
+        "lang": "fi",
+        "name": "🏈 amerikkalainen jalkapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🎾",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%BE",
+    "base_info": {
+      "emoji": "🎾",
+      "short_name": "tennis",
+      "apple_name": "tennis ball",
+      "known_as": [
+        "Tennis Racket",
+        "Tennis Ball",
+        "Tennis Racquet"
+      ],
+      "unicode": "U+1F3BE",
+      "short_code": ":tennis:",
+      "decimal": "ALT+127934",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "racquet",
+        "tennis"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎾 تنس"
+      },
+      {
+        "lang": "bg",
+        "name": "🎾 тенис"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎾 网球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎾 網球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎾 tenis"
+      },
+      {
+        "lang": "cs",
+        "name": "🎾 tenis"
+      },
+      {
+        "lang": "da",
+        "name": "🎾 tennis"
+      },
+      {
+        "lang": "nl",
+        "name": "🎾 tennis"
+      },
+      {
+        "lang": "fil",
+        "name": "🎾 tennis"
+      },
+      {
+        "lang": "fi",
+        "name": "🎾 tennis"
+      }
+    ]
+  },
+  {
+    "emoji": "🎳",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%B3",
+    "base_info": {
+      "emoji": "🎳",
+      "short_name": "bowling",
+      "apple_name": "bowling ball and pins",
+      "known_as": [
+        "Bowling Ball",
+        "Pins",
+        "Skittles",
+        "Ten Pin Bowling"
+      ],
+      "unicode": "U+1F3B3",
+      "short_code": ":bowling:",
+      "decimal": "ALT+127923",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "bowling",
+        "game"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎳 بولينغ"
+      },
+      {
+        "lang": "bg",
+        "name": "🎳 боулинг"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎳 保龄球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎳 保齡球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎳 kuglanje"
+      },
+      {
+        "lang": "cs",
+        "name": "🎳 bowling"
+      },
+      {
+        "lang": "da",
+        "name": "🎳 bowling"
+      },
+      {
+        "lang": "nl",
+        "name": "🎳 bowlen"
+      },
+      {
+        "lang": "fil",
+        "name": "🎳 bowling"
+      },
+      {
+        "lang": "fi",
+        "name": "🎳 keilailu"
+      }
+    ]
+  },
+  {
+    "emoji": "🥏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%8F",
+    "base_info": {
+      "emoji": "🥏",
+      "short_name": "flying disc",
+      "apple_name": "flying disc",
+      "unicode": "U+1F94F",
+      "decimal": "ALT+129359",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "flying disc",
+        "ultimate"
+      ],
+      "proposal": [
+        "L2/17‑257",
+        "L2/17‑277"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥏 قرص طائر"
+      },
+      {
+        "lang": "bg",
+        "name": "🥏 фризби"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥏 飞盘"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥏 飛盤"
+      },
+      {
+        "lang": "hr",
+        "name": "🥏 frizbi"
+      },
+      {
+        "lang": "cs",
+        "name": "🥏 frisbee"
+      },
+      {
+        "lang": "da",
+        "name": "🥏 frisbee"
+      },
+      {
+        "lang": "nl",
+        "name": "🥏 frisbee"
+      },
+      {
+        "lang": "fil",
+        "name": "🥏 lumilipad na disk"
+      },
+      {
+        "lang": "fi",
+        "name": "🥏 liitokiekko"
+      }
+    ]
+  },
+  {
+    "emoji": "🏏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%8F",
+    "base_info": {
+      "emoji": "🏏",
+      "short_name": "cricket game",
+      "apple_name": "cricket bat and ball",
+      "unicode": "U+1F3CF",
+      "decimal": "ALT+127951",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "bat",
+        "cricket game",
+        "game"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏏 كريكيت"
+      },
+      {
+        "lang": "bg",
+        "name": "🏏 крикет"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏏 板球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏏 板球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏏 kriket"
+      },
+      {
+        "lang": "cs",
+        "name": "🏏 kriket"
+      },
+      {
+        "lang": "da",
+        "name": "🏏 cricket"
+      },
+      {
+        "lang": "nl",
+        "name": "🏏 cricket"
+      },
+      {
+        "lang": "fil",
+        "name": "🏏 cricket"
+      },
+      {
+        "lang": "fi",
+        "name": "🏏 kriketti"
+      }
+    ]
+  },
+  {
+    "emoji": "🏑",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%91",
+    "base_info": {
+      "emoji": "🏑",
+      "short_name": "field hockey",
+      "apple_name": "field hockey stick and ball",
+      "known_as": [
+        "hockey"
+      ],
+      "unicode": "U+1F3D1",
+      "decimal": "ALT+127953",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "field",
+        "game",
+        "hockey",
+        "stick"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏑 هوكي أرضي"
+      },
+      {
+        "lang": "bg",
+        "name": "🏑 хокей на трева"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏑 曲棍球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏑 曲棍球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏑 hokej na travi"
+      },
+      {
+        "lang": "cs",
+        "name": "🏑 pozemní hokej"
+      },
+      {
+        "lang": "da",
+        "name": "🏑 hockey"
+      },
+      {
+        "lang": "nl",
+        "name": "🏑 hockey"
+      },
+      {
+        "lang": "fil",
+        "name": "🏑 field hockey"
+      },
+      {
+        "lang": "fi",
+        "name": "🏑 maahockey"
+      }
+    ]
+  },
+  {
+    "emoji": "🏓",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%93",
+    "base_info": {
+      "emoji": "🏓",
+      "short_name": "ping pong",
+      "apple_name": "table tennis paddle and ball",
+      "known_as": [
+        "Table Tennis"
+      ],
+      "unicode": "U+1F3D3",
+      "decimal": "ALT+127955",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "bat",
+        "game",
+        "paddle",
+        "ping pong",
+        "table tennis"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏓 تنس الطاولة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏓 тенис на маса"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏓 乒乓球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏓 桌球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏓 stolni tenis"
+      },
+      {
+        "lang": "cs",
+        "name": "🏓 stolní tenis"
+      },
+      {
+        "lang": "da",
+        "name": "🏓 bordtennis"
+      },
+      {
+        "lang": "nl",
+        "name": "🏓 pingpong"
+      },
+      {
+        "lang": "fil",
+        "name": "🏓 ping pong"
+      },
+      {
+        "lang": "fi",
+        "name": "🏓 pingis"
+      }
+    ]
+  },
+  {
+    "emoji": "🥍",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%8D",
+    "base_info": {
+      "emoji": "🥍",
+      "short_name": "lacrosse",
+      "apple_name": "lacrosse stick and ball",
+      "unicode": "U+1F94D",
+      "decimal": "ALT+129357",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ball",
+        "goal",
+        "lacrosse",
+        "stick"
+      ],
+      "proposal": [
+        "L2/16‑382",
+        "L2/17‑277"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥍 لاكروس"
+      },
+      {
+        "lang": "bg",
+        "name": "🥍 лакрос"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥍 袋棍球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥍 袋棍球"
+      },
+      {
+        "lang": "hr",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "cs",
+        "name": "🥍 lakros"
+      },
+      {
+        "lang": "da",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "nl",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "fil",
+        "name": "🥍 lacrosse"
+      },
+      {
+        "lang": "fi",
+        "name": "🥍 lacrosse"
+      }
+    ]
+  },
+  {
+    "emoji": "🏒",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%92",
+    "base_info": {
+      "emoji": "🏒",
+      "short_name": "ice hockey",
+      "apple_name": "ice hockey stick and puck",
+      "unicode": "U+1F3D2",
+      "decimal": "ALT+127954",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "game",
+        "hockey",
+        "ice",
+        "puck",
+        "stick"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏒 عصا هوكي جليد"
+      },
+      {
+        "lang": "bg",
+        "name": "🏒 стик и шайба за хокей на лед"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏒 冰球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏒 冰上曲棍球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏒 palica i pak za hokej na ledu"
+      },
+      {
+        "lang": "cs",
+        "name": "🏒 lední hokej"
+      },
+      {
+        "lang": "da",
+        "name": "🏒 ishockey"
+      },
+      {
+        "lang": "nl",
+        "name": "🏒 ijshockeystick en puck"
+      },
+      {
+        "lang": "fil",
+        "name": "🏒 stick at puck sa ice hockey"
+      },
+      {
+        "lang": "fi",
+        "name": "🏒 jääkiekko ja maila"
+      }
+    ]
+  },
+  {
+    "emoji": "🏸",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8F%B8",
+    "base_info": {
+      "emoji": "🏸",
+      "short_name": "badminton",
+      "apple_name": "badminton racquet and shuttlecock",
+      "unicode": "U+1F3F8",
+      "decimal": "ALT+127992",
+      "unicode_version": "8.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "badminton",
+        "birdie",
+        "game",
+        "racquet",
+        "shuttlecock"
+      ],
+      "proposal": [
+        "L2/14‑174"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🏸 تنس الريشة"
+      },
+      {
+        "lang": "bg",
+        "name": "🏸 бадминтон"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🏸 羽毛球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🏸 羽毛球"
+      },
+      {
+        "lang": "hr",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "cs",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "da",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "nl",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "fil",
+        "name": "🏸 badminton"
+      },
+      {
+        "lang": "fi",
+        "name": "🏸 sulkapallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🥅",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%85",
+    "base_info": {
+      "emoji": "🥅",
+      "short_name": "goal net",
+      "apple_name": "goal net",
+      "unicode": "U+1F945",
+      "decimal": "ALT+129349",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "goal",
+        "net"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥅 شبكة المرمى"
+      },
+      {
+        "lang": "bg",
+        "name": "🥅 мрежа за голове"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥅 球门"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥅 球門"
+      },
+      {
+        "lang": "hr",
+        "name": "🥅 gol"
+      },
+      {
+        "lang": "cs",
+        "name": "🥅 sportovní branka"
+      },
+      {
+        "lang": "da",
+        "name": "🥅 målnet"
+      },
+      {
+        "lang": "nl",
+        "name": "🥅 doelnet"
+      },
+      {
+        "lang": "fil",
+        "name": "🥅 net ng goal"
+      },
+      {
+        "lang": "fi",
+        "name": "🥅 maaliverkko"
+      }
+    ]
+  },
+  {
+    "emoji": "⛳",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%9B%B3",
+    "base_info": {
+      "emoji": "⛳",
+      "short_name": "flag in hole",
+      "apple_name": "Golf Hole With Flag",
+      "known_as": [
+        "Golf",
+        "Golf Flag"
+      ],
+      "unicode": "U+26F3",
+      "decimal": "ALT+9971",
+      "unicode_version": "5.2",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "flag in hole",
+        "golf",
+        "hole"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⛳ علم على حفرة"
+      },
+      {
+        "lang": "bg",
+        "name": "⛳ флагче в дупка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "⛳ 高尔夫球洞"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⛳ 高爾夫"
+      },
+      {
+        "lang": "hr",
+        "name": "⛳ zastavica u rupi"
+      },
+      {
+        "lang": "cs",
+        "name": "⛳ jamka s vlajkou"
+      },
+      {
+        "lang": "da",
+        "name": "⛳ golfhul med flag"
+      },
+      {
+        "lang": "nl",
+        "name": "⛳ vlag in hole"
+      },
+      {
+        "lang": "fil",
+        "name": "⛳ flag sa butas"
+      },
+      {
+        "lang": "fi",
+        "name": "⛳ lippu reiän päällä"
+      }
+    ]
+  },
+  {
+    "emoji": "🎣",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%A3",
+    "base_info": {
+      "emoji": "🎣",
+      "short_name": "fishing pole",
+      "apple_name": "fishing pole and fish",
+      "known_as": [
+        "Fishing",
+        "Fishing Rod"
+      ],
+      "unicode": "U+1F3A3",
+      "short_code": ":fishing_pole_and_fish:",
+      "decimal": "ALT+127907",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "fish",
+        "fishing pole",
+        "pole"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎣 صنارة صيد"
+      },
+      {
+        "lang": "bg",
+        "name": "🎣 въдица"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎣 钓鱼竿"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎣 釣魚"
+      },
+      {
+        "lang": "hr",
+        "name": "🎣 ribički štap"
+      },
+      {
+        "lang": "cs",
+        "name": "🎣 rybářský prut"
+      },
+      {
+        "lang": "da",
+        "name": "🎣 fiskestang"
+      },
+      {
+        "lang": "nl",
+        "name": "🎣 vishengel"
+      },
+      {
+        "lang": "fil",
+        "name": "🎣 pamingwit"
+      },
+      {
+        "lang": "fi",
+        "name": "🎣 onkivapa"
+      }
+    ]
+  },
+  {
+    "emoji": "⛸️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%E2%9B%B8%EF%B8%8F",
+    "base_info": {
+      "emoji": "⛸️",
+      "short_name": "ice skate",
+      "apple_name": "Ice Skate",
+      "known_as": [
+        "Ice Skating"
+      ],
+      "unicode": "U+26F8 FE0F \n\n\n26F8 - ⛸ ice skate\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "decimal": "ALT+9976 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ice",
+        "skate"
+      ],
+      "proposal": [
+        "L2/07‑259"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "⛸️ حذاء تزلج"
+      },
+      {
+        "lang": "bg",
+        "name": "⛸️ Кънка за лед"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "⛸️ 滑冰"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "⛸️ 溜冰鞋"
+      },
+      {
+        "lang": "hr",
+        "name": "⛸️ klizaljka"
+      },
+      {
+        "lang": "cs",
+        "name": "⛸️ brusle"
+      },
+      {
+        "lang": "da",
+        "name": "⛸️ skøjte"
+      },
+      {
+        "lang": "nl",
+        "name": "⛸️ schaats"
+      },
+      {
+        "lang": "fil",
+        "name": "⛸️ ice skate"
+      },
+      {
+        "lang": "fi",
+        "name": "⛸️ luistin"
+      }
+    ]
+  },
+  {
+    "emoji": "🛷",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "11.1+"
+      },
+      {
+        "type": "android",
+        "value": "8.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%9B%B7",
+    "base_info": {
+      "emoji": "🛷",
+      "short_name": "sled",
+      "apple_name": "sled",
+      "unicode": "U+1F6F7",
+      "decimal": "ALT+128759",
+      "unicode_version": "10.0",
+      "emoji_version": "5.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "sled",
+        "sledge",
+        "sleigh"
+      ],
+      "proposal": [
+        "L2/16‑127R2"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🛷 مزلجة"
+      },
+      {
+        "lang": "bg",
+        "name": "🛷 шейна"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🛷 雪橇"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🛷 雪橇"
+      },
+      {
+        "lang": "hr",
+        "name": "🛷 sanjke"
+      },
+      {
+        "lang": "cs",
+        "name": "🛷 sáňky"
+      },
+      {
+        "lang": "da",
+        "name": "🛷 kælk"
+      },
+      {
+        "lang": "nl",
+        "name": "🛷 slee"
+      },
+      {
+        "lang": "fil",
+        "name": "🛷 sled"
+      },
+      {
+        "lang": "fi",
+        "name": "🛷 kelkka"
+      }
+    ]
+  },
+  {
+    "emoji": "🤿",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "13.2+"
+      },
+      {
+        "type": "android",
+        "value": "10.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A4%BF",
+    "base_info": {
+      "emoji": "🤿",
+      "short_name": "diving mask",
+      "unicode": "U+1F93F",
+      "decimal": "ALT+129343",
+      "unicode_version": "12.0",
+      "emoji_version": "12.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "diving",
+        "diving mask",
+        "scuba",
+        "snorkeling"
+      ],
+      "proposal": [
+        "L2/17‑381"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🤿 قناع غطس"
+      },
+      {
+        "lang": "bg",
+        "name": "🤿 маска за гмуркане"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🤿 潜水面罩"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🤿 潛水面罩"
+      },
+      {
+        "lang": "hr",
+        "name": "🤿 maska za ronjenje"
+      },
+      {
+        "lang": "cs",
+        "name": "🤿 potápěčská maska"
+      },
+      {
+        "lang": "da",
+        "name": "🤿 dykkermaske"
+      },
+      {
+        "lang": "nl",
+        "name": "🤿 duikbril"
+      },
+      {
+        "lang": "fil",
+        "name": "🤿 diving mask"
+      },
+      {
+        "lang": "fi",
+        "name": "🤿 sukellusmaski"
+      }
+    ]
+  },
+  {
+    "emoji": "🎿",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%BF",
+    "base_info": {
+      "emoji": "🎿",
+      "short_name": "skis",
+      "apple_name": "skis",
+      "known_as": [
+        "Skiing"
+      ],
+      "unicode": "U+1F3BF",
+      "short_code": ":ski:",
+      "decimal": "ALT+127935",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "ski",
+        "skis",
+        "snow"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎿 تزلج"
+      },
+      {
+        "lang": "bg",
+        "name": "🎿 ски"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎿 滑雪"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎿 滑雪"
+      },
+      {
+        "lang": "hr",
+        "name": "🎿 skije"
+      },
+      {
+        "lang": "cs",
+        "name": "🎿 lyže"
+      },
+      {
+        "lang": "da",
+        "name": "🎿 ski"
+      },
+      {
+        "lang": "nl",
+        "name": "🎿 ski’s"
+      },
+      {
+        "lang": "fil",
+        "name": "🎿 mga ski"
+      },
+      {
+        "lang": "fi",
+        "name": "🎿 sukset"
+      }
+    ]
+  },
+  {
+    "emoji": "🎽",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%BD",
+    "base_info": {
+      "emoji": "🎽",
+      "short_name": "running shirt",
+      "apple_name": "running shirt",
+      "known_as": [
+        "Singlet"
+      ],
+      "unicode": "U+1F3BD",
+      "short_code": ":running_shirt_with_sash:",
+      "decimal": "ALT+127933",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "athletics",
+        "running",
+        "sash",
+        "shirt"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎽 قميص رياضي"
+      },
+      {
+        "lang": "bg",
+        "name": "🎽 фланелка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎽 运动背心"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎽 運動服"
+      },
+      {
+        "lang": "hr",
+        "name": "🎽 majica za trčanje"
+      },
+      {
+        "lang": "cs",
+        "name": "🎽 běžecké tričko"
+      },
+      {
+        "lang": "da",
+        "name": "🎽 løbetrøje"
+      },
+      {
+        "lang": "nl",
+        "name": "🎽 hardloopshirt"
+      },
+      {
+        "lang": "fil",
+        "name": "🎽 running shirt"
+      },
+      {
+        "lang": "fi",
+        "name": "🎽 juoksupaita"
+      }
+    ]
+  },
+  {
+    "emoji": "🥌",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "11.1+"
+      },
+      {
+        "type": "android",
+        "value": "8.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%8C",
+    "base_info": {
+      "emoji": "🥌",
+      "short_name": "curling stone",
+      "apple_name": "curling stone",
+      "unicode": "U+1F94C",
+      "decimal": "ALT+129356",
+      "unicode_version": "10.0",
+      "emoji_version": "5.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "curling stone",
+        "game",
+        "rock"
+      ],
+      "proposal": [
+        "L2/16‑127R2"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥌 حجرة لعبة الكرلنغ"
+      },
+      {
+        "lang": "bg",
+        "name": "🥌 камък за кърлинг"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥌 冰壶"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥌 冰石壺"
+      },
+      {
+        "lang": "hr",
+        "name": "🥌 kamen za karling"
+      },
+      {
+        "lang": "cs",
+        "name": "🥌 curlingový kámen"
+      },
+      {
+        "lang": "da",
+        "name": "🥌 curlingsten"
+      },
+      {
+        "lang": "nl",
+        "name": "🥌 curlingsteen"
+      },
+      {
+        "lang": "fil",
+        "name": "🥌 curling stone"
+      },
+      {
+        "lang": "fi",
+        "name": "🥌 curling-kivi"
+      }
+    ]
+  },
+  {
+    "emoji": "🥊",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%8A",
+    "base_info": {
+      "emoji": "🥊",
+      "short_name": "boxing glove",
+      "apple_name": "boxing glove",
+      "unicode": "U+1F94A",
+      "decimal": "ALT+129354",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "boxing",
+        "glove"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥊 قفاز ملاكمة"
+      },
+      {
+        "lang": "bg",
+        "name": "🥊 боксова ръкавица"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥊 拳击手套"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥊 拳擊手套"
+      },
+      {
+        "lang": "hr",
+        "name": "🥊 boksačka rukavica"
+      },
+      {
+        "lang": "cs",
+        "name": "🥊 boxerská rukavice"
+      },
+      {
+        "lang": "da",
+        "name": "🥊 boksehandske"
+      },
+      {
+        "lang": "nl",
+        "name": "🥊 bokshandschoen"
+      },
+      {
+        "lang": "fil",
+        "name": "🥊 boxing glove"
+      },
+      {
+        "lang": "fi",
+        "name": "🥊 nyrkkeilyhanska"
+      }
+    ]
+  },
+  {
+    "emoji": "🥋",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "10.2+"
+      },
+      {
+        "type": "android",
+        "value": "7.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A5%8B",
+    "base_info": {
+      "emoji": "🥋",
+      "short_name": "martial arts uniform",
+      "apple_name": "martial arts uniform",
+      "known_as": [
+        "Judo"
+      ],
+      "unicode": "U+1F94B",
+      "decimal": "ALT+129355",
+      "unicode_version": "9.0",
+      "emoji_version": "3.0",
+      "category": "⚽ Activities",
+      "sub_category": "🏀 Sport",
+      "keywords": [
+        "judo",
+        "karate",
+        "martial arts",
+        "martial arts uniform",
+        "taekwondo",
+        "uniform"
+      ],
+      "proposal": [
+        "L2/15‑196"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🥋 زي فنون قتالية"
+      },
+      {
+        "lang": "bg",
+        "name": "🥋 дреха за бойни изкуства"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🥋 练武服"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🥋 道服"
+      },
+      {
+        "lang": "hr",
+        "name": "🥋 uniforma za borilačke vještine"
+      },
+      {
+        "lang": "cs",
+        "name": "🥋 sportovní kimono"
+      },
+      {
+        "lang": "da",
+        "name": "🥋 karatedragt"
+      },
+      {
+        "lang": "nl",
+        "name": "🥋 pak voor vechtsporten"
+      },
+      {
+        "lang": "fil",
+        "name": "🥋 martial arts uniform"
+      },
+      {
+        "lang": "fi",
+        "name": "🥋 kamppailulajiasu"
+      }
+    ]
+  },
+  {
+    "emoji": "🎯",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%AF",
+    "base_info": {
+      "emoji": "🎯",
+      "short_name": "bullseye",
+      "apple_name": "bullseye",
+      "known_as": [
+        "Archery",
+        "Darts"
+      ],
+      "unicode": "U+1F3AF",
+      "short_code": ":dart:",
+      "decimal": "ALT+127919",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "bullseye",
+        "dart",
+        "direct hit",
+        "game",
+        "hit",
+        "target"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎯 نشان"
+      },
+      {
+        "lang": "bg",
+        "name": "🎯 точен удар"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎯 正中靶心的飞镖"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎯 命中"
+      },
+      {
+        "lang": "hr",
+        "name": "🎯 pogodak u sredinu"
+      },
+      {
+        "lang": "cs",
+        "name": "🎯 přesný zásah do terče"
+      },
+      {
+        "lang": "da",
+        "name": "🎯 pletskud"
+      },
+      {
+        "lang": "nl",
+        "name": "🎯 directe treffer"
+      },
+      {
+        "lang": "fil",
+        "name": "🎯 bullseye"
+      },
+      {
+        "lang": "fi",
+        "name": "🎯 napakymppi"
+      }
+    ]
+  },
+  {
+    "emoji": "🪀",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "13.2+"
+      },
+      {
+        "type": "android",
+        "value": "10.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%80",
+    "base_info": {
+      "emoji": "🪀",
+      "short_name": "yo-yo",
+      "unicode": "U+1FA80",
+      "decimal": "ALT+129664",
+      "unicode_version": "12.0",
+      "emoji_version": "12.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "fluctuate",
+        "toy",
+        "yo-yo"
+      ],
+      "proposal": [
+        "L2/18‑129"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪀 يويو"
+      },
+      {
+        "lang": "bg",
+        "name": "🪀 йо-йо"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪀 悠悠球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪀 溜溜球"
+      },
+      {
+        "lang": "hr",
+        "name": "🪀 jo-jo"
+      },
+      {
+        "lang": "cs",
+        "name": "🪀 jojo"
+      },
+      {
+        "lang": "da",
+        "name": "🪀 yoyo"
+      },
+      {
+        "lang": "nl",
+        "name": "🪀 jojo"
+      },
+      {
+        "lang": "fil",
+        "name": "🪀 yoyo"
+      },
+      {
+        "lang": "fi",
+        "name": "🪀 jojo"
+      }
+    ]
+  },
+  {
+    "emoji": "🪁",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "13.2+"
+      },
+      {
+        "type": "android",
+        "value": "10.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%81",
+    "base_info": {
+      "emoji": "🪁",
+      "short_name": "kite",
+      "unicode": "U+1FA81",
+      "decimal": "ALT+129665",
+      "unicode_version": "12.0",
+      "emoji_version": "12.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "fly",
+        "kite",
+        "soar"
+      ],
+      "proposal": [
+        "L2/18‑135"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪁 طائرة ورقية"
+      },
+      {
+        "lang": "bg",
+        "name": "🪁 хвърчило"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪁 风筝"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪁 風箏"
+      },
+      {
+        "lang": "hr",
+        "name": "🪁 papirnati zmaj"
+      },
+      {
+        "lang": "cs",
+        "name": "🪁 papírový drak"
+      },
+      {
+        "lang": "da",
+        "name": "🪁 legetøjsdrage"
+      },
+      {
+        "lang": "nl",
+        "name": "🪁 vlieger"
+      },
+      {
+        "lang": "fil",
+        "name": "🪁 saranggola"
+      },
+      {
+        "lang": "fi",
+        "name": "🪁 leija"
+      }
+    ]
+  },
+  {
+    "emoji": "🕹️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%95%B9%EF%B8%8F",
+    "base_info": {
+      "emoji": "🕹️",
+      "short_name": "joystick",
+      "apple_name": "Joystick",
+      "unicode": "U+1F579 FE0F \n\n\n1F579 - 🕹 joystick\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "decimal": "ALT+128377 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "game",
+        "joystick",
+        "video game"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🕹️ ذراع تحكم"
+      },
+      {
+        "lang": "bg",
+        "name": "🕹️ джойстик"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🕹️ 游戏操控杆"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🕹️ 搖桿"
+      },
+      {
+        "lang": "hr",
+        "name": "🕹️ igraća palica"
+      },
+      {
+        "lang": "cs",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "da",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "nl",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "fil",
+        "name": "🕹️ joystick"
+      },
+      {
+        "lang": "fi",
+        "name": "🕹️ joystick"
+      }
+    ]
+  },
+  {
+    "emoji": "🪄",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%84",
+    "base_info": {
+      "emoji": "🪄",
+      "short_name": "magic wand",
+      "unicode": "U+1FA84",
+      "decimal": "ALT+129668",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "magic",
+        "magic wand",
+        "witch",
+        "wizard"
+      ],
+      "proposal": [
+        "L2/18‑218"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪄 عصا سحرية"
+      },
+      {
+        "lang": "bg",
+        "name": "🪄 вълшебна пръчица"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪄 魔棒"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪄 魔杖"
+      },
+      {
+        "lang": "hr",
+        "name": "🪄 čarobni štapić"
+      },
+      {
+        "lang": "cs",
+        "name": "🪄 kouzelná hůlka"
+      },
+      {
+        "lang": "da",
+        "name": "🪄 tryllestav"
+      },
+      {
+        "lang": "nl",
+        "name": "🪄 toverstok"
+      },
+      {
+        "lang": "fil",
+        "name": "🪄 magic wand"
+      },
+      {
+        "lang": "fi",
+        "name": "🪄 taikasauva"
+      }
+    ]
+  },
+  {
+    "emoji": "🎲",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%B2",
+    "base_info": {
+      "emoji": "🎲",
+      "short_name": "game die",
+      "apple_name": "game die",
+      "known_as": [
+        "Dice"
+      ],
+      "unicode": "U+1F3B2",
+      "short_code": ":game_die:",
+      "decimal": "ALT+127922",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "dice",
+        "die",
+        "game"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎲 زهر"
+      },
+      {
+        "lang": "bg",
+        "name": "🎲 зар за игра"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎲 骰子"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎲 骰子"
+      },
+      {
+        "lang": "hr",
+        "name": "🎲 igraća kocka"
+      },
+      {
+        "lang": "cs",
+        "name": "🎲 hrací kostka"
+      },
+      {
+        "lang": "da",
+        "name": "🎲 terning"
+      },
+      {
+        "lang": "nl",
+        "name": "🎲 dobbelsteen"
+      },
+      {
+        "lang": "fil",
+        "name": "🎲 dice"
+      },
+      {
+        "lang": "fi",
+        "name": "🎲 noppa"
+      }
+    ]
+  },
+  {
+    "emoji": "🔮",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%94%AE",
+    "base_info": {
+      "emoji": "🔮",
+      "short_name": "crystal ball",
+      "apple_name": "crystal ball",
+      "known_as": [
+        "Clairvoyant",
+        "Fortune Teller",
+        "Gypsy",
+        "Psychic",
+        "Purple Crystal",
+        "Shew Stone"
+      ],
+      "unicode": "U+1F52E",
+      "short_code": ":crystal_ball:",
+      "decimal": "ALT+128302",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "ball",
+        "crystal",
+        "fairy tale",
+        "fantasy",
+        "fortune",
+        "tool"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🔮 كرة كريستال"
+      },
+      {
+        "lang": "bg",
+        "name": "🔮 Кристално кълбо"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🔮 水晶球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🔮 水晶球"
+      },
+      {
+        "lang": "hr",
+        "name": "🔮 kristalna kugla"
+      },
+      {
+        "lang": "cs",
+        "name": "🔮 křišťálová koule"
+      },
+      {
+        "lang": "da",
+        "name": "🔮 krystalkugle"
+      },
+      {
+        "lang": "nl",
+        "name": "🔮 kristallen bol"
+      },
+      {
+        "lang": "fil",
+        "name": "🔮 bolang kristal"
+      },
+      {
+        "lang": "fi",
+        "name": "🔮 kristallipallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🎱",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%B1",
+    "base_info": {
+      "emoji": "🎱",
+      "short_name": "pool 8 ball",
+      "apple_name": "billiards",
+      "known_as": [
+        "8 Ball",
+        "Cue Ball",
+        "Magic 8 Ball",
+        "Pool",
+        "Snooker"
+      ],
+      "unicode": "U+1F3B1",
+      "short_code": ":8ball:",
+      "decimal": "ALT+127921",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "8",
+        "ball",
+        "billiard",
+        "eight",
+        "game",
+        "pool 8 ball"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎱 بلياردو"
+      },
+      {
+        "lang": "bg",
+        "name": "🎱 билярд"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎱 台球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎱 撞球"
+      },
+      {
+        "lang": "hr",
+        "name": "🎱 biljarske kugle"
+      },
+      {
+        "lang": "cs",
+        "name": "🎱 kulečníková koule 8"
+      },
+      {
+        "lang": "da",
+        "name": "🎱 billard"
+      },
+      {
+        "lang": "nl",
+        "name": "🎱 biljart"
+      },
+      {
+        "lang": "fil",
+        "name": "🎱 billiards"
+      },
+      {
+        "lang": "fi",
+        "name": "🎱 biljardi"
+      }
+    ]
+  },
+  {
+    "emoji": "🎮",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%AE",
+    "base_info": {
+      "emoji": "🎮",
+      "short_name": "video game",
+      "apple_name": "video game controller",
+      "known_as": [
+        "Gamepad",
+        "Playstation",
+        "Wii U",
+        "Xbox"
+      ],
+      "unicode": "U+1F3AE",
+      "short_code": ":video_game:",
+      "decimal": "ALT+127918",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "controller",
+        "game",
+        "video game"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎮 لعبة فيديو"
+      },
+      {
+        "lang": "bg",
+        "name": "🎮 видеоигра"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎮 游戏手柄"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎮 電玩"
+      },
+      {
+        "lang": "hr",
+        "name": "🎮 videoigrica"
+      },
+      {
+        "lang": "cs",
+        "name": "🎮 videohra"
+      },
+      {
+        "lang": "da",
+        "name": "🎮 videospil"
+      },
+      {
+        "lang": "nl",
+        "name": "🎮 videogame"
+      },
+      {
+        "lang": "fil",
+        "name": "🎮 video game"
+      },
+      {
+        "lang": "fi",
+        "name": "🎮 videopeli"
+      }
+    ]
+  },
+  {
+    "emoji": "🎰",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%B0",
+    "base_info": {
+      "emoji": "🎰",
+      "short_name": "slot machine",
+      "apple_name": "slot machine",
+      "known_as": [
+        "Casino",
+        "Fruit Machine",
+        "Gambling",
+        "Poker Machine"
+      ],
+      "unicode": "U+1F3B0",
+      "short_code": ":slot_machine:",
+      "decimal": "ALT+127920",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "game",
+        "slot",
+        "slot machine"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎰 جهاز قمار"
+      },
+      {
+        "lang": "bg",
+        "name": "🎰 ротативка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎰 老虎机"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎰 吃角子老虎"
+      },
+      {
+        "lang": "hr",
+        "name": "🎰 jednoruki jack"
+      },
+      {
+        "lang": "cs",
+        "name": "🎰 výherní automat"
+      },
+      {
+        "lang": "da",
+        "name": "🎰 spillemaskine"
+      },
+      {
+        "lang": "nl",
+        "name": "🎰 fruitautomaat"
+      },
+      {
+        "lang": "fil",
+        "name": "🎰 slot machine"
+      },
+      {
+        "lang": "fi",
+        "name": "🎰 pelikone"
+      }
+    ]
+  },
+  {
+    "emoji": "🧩",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A7%A9",
+    "base_info": {
+      "emoji": "🧩",
+      "short_name": "puzzle piece",
+      "apple_name": "puzzle piece",
+      "unicode": "U+1F9E9",
+      "decimal": "ALT+129513",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "clue",
+        "interlocking",
+        "jigsaw",
+        "piece",
+        "puzzle"
+      ],
+      "proposal": [
+        "L2/17‑198"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧩 أحجية الصور المقطوعة"
+      },
+      {
+        "lang": "bg",
+        "name": "🧩 част от пъзел"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🧩 拼图"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧩 拼圖"
+      },
+      {
+        "lang": "hr",
+        "name": "🧩 slagalica"
+      },
+      {
+        "lang": "cs",
+        "name": "🧩 puzzle"
+      },
+      {
+        "lang": "da",
+        "name": "🧩 brik til puslespil"
+      },
+      {
+        "lang": "nl",
+        "name": "🧩 puzzelstukje"
+      },
+      {
+        "lang": "fil",
+        "name": "🧩 jigsaw"
+      },
+      {
+        "lang": "fi",
+        "name": "🧩 palapeli"
+      }
+    ]
+  },
+  {
+    "emoji": "🪅",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%85",
+    "base_info": {
+      "emoji": "🪅",
+      "short_name": "piñata",
+      "unicode": "U+1FA85",
+      "decimal": "ALT+129669",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "celebration",
+        "party",
+        "piñata"
+      ],
+      "proposal": [
+        "L2/19‑062"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪅 بنياتا"
+      },
+      {
+        "lang": "bg",
+        "name": "🪅 пинята"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪅 彩罐"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪅 皮納塔"
+      },
+      {
+        "lang": "hr",
+        "name": "🪅 pinjata"
+      },
+      {
+        "lang": "cs",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "da",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "nl",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "fil",
+        "name": "🪅 piñata"
+      },
+      {
+        "lang": "fi",
+        "name": "🪅 piñata"
+      }
+    ]
+  },
+  {
+    "emoji": "♥️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%99%A5%EF%B8%8F",
+    "base_info": {
+      "emoji": "♥️",
+      "short_name": "heart suit",
+      "apple_name": "hearts suit",
+      "known_as": [
+        "Card With Heart",
+        "Hearts"
+      ],
+      "unicode": "U+2665 FE0F \n\n\n2665 - ♥ heart suit\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "short_code": ":hearts:",
+      "decimal": "ALT+9829 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "card",
+        "game",
+        "heart suit"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♥️ ورقة قلب أحمر"
+      },
+      {
+        "lang": "bg",
+        "name": "♥️ купа"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "♥️ 红桃"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♥️ 紅心"
+      },
+      {
+        "lang": "hr",
+        "name": "♥️ herc"
+      },
+      {
+        "lang": "cs",
+        "name": "♥️ srdce"
+      },
+      {
+        "lang": "da",
+        "name": "♥️ hjerter"
+      },
+      {
+        "lang": "nl",
+        "name": "♥️ harten"
+      },
+      {
+        "lang": "fil",
+        "name": "♥️ heart"
+      },
+      {
+        "lang": "fi",
+        "name": "♥️ hertta"
+      }
+    ]
+  },
+  {
+    "emoji": "🧸",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A7%B8",
+    "base_info": {
+      "emoji": "🧸",
+      "short_name": "teddy bear",
+      "apple_name": "teddy bear",
+      "known_as": [
+        "Toy"
+      ],
+      "unicode": "U+1F9F8",
+      "decimal": "ALT+129528",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "plaything",
+        "plush",
+        "stuffed",
+        "teddy bear",
+        "toy"
+      ],
+      "proposal": [
+        "L2/17‑273"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧸 لعبة محشوة بشكل دب"
+      },
+      {
+        "lang": "bg",
+        "name": "🧸 плюшено мече"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🧸 泰迪熊"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧸 泰迪熊"
+      },
+      {
+        "lang": "hr",
+        "name": "🧸 medvjedić"
+      },
+      {
+        "lang": "cs",
+        "name": "🧸 medvídek"
+      },
+      {
+        "lang": "da",
+        "name": "🧸 bamse"
+      },
+      {
+        "lang": "nl",
+        "name": "🧸 teddybeer"
+      },
+      {
+        "lang": "fil",
+        "name": "🧸 teddy bear"
+      },
+      {
+        "lang": "fi",
+        "name": "🧸 nalle"
+      }
+    ]
+  },
+  {
+    "emoji": "🪩",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "15.4+"
+      },
+      {
+        "type": "android",
+        "value": "12L+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%A9",
+    "base_info": {
+      "emoji": "🪩",
+      "short_name": "mirror ball",
+      "known_as": [
+        "disco ball"
+      ],
+      "unicode": "U+1FAA9",
+      "decimal": "ALT+129705",
+      "unicode_version": "14.0",
+      "emoji_version": "14.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "dance",
+        "disco",
+        "glitter",
+        "mirror ball",
+        "party"
+      ],
+      "proposal": [
+        "L2/19‑310"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪩 الكرة المضيئة"
+      },
+      {
+        "lang": "bg",
+        "name": "🪩 диско топка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪩 镜球"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪩 鏡面球"
+      },
+      {
+        "lang": "hr",
+        "name": "🪩 disko kugla"
+      },
+      {
+        "lang": "cs",
+        "name": "🪩 zrcadlová koule"
+      },
+      {
+        "lang": "da",
+        "name": "🪩 diskokugle"
+      },
+      {
+        "lang": "nl",
+        "name": "🪩 spiegelbal"
+      },
+      {
+        "lang": "fil",
+        "name": "🪩 disco ball"
+      },
+      {
+        "lang": "fi",
+        "name": "🪩 peilipallo"
+      }
+    ]
+  },
+  {
+    "emoji": "🪆",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%86",
+    "base_info": {
+      "emoji": "🪆",
+      "short_name": "nesting dolls",
+      "known_as": [
+        "Matryoshka Doll"
+      ],
+      "unicode": "U+1FA86",
+      "decimal": "ALT+129670",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "doll",
+        "nesting",
+        "nesting dolls",
+        "russia"
+      ],
+      "proposal": [
+        "L2/19‑096"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪆 دمية روسية"
+      },
+      {
+        "lang": "bg",
+        "name": "🪆 матрьошки"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪆 套娃"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪆 俄羅斯娃娃"
+      },
+      {
+        "lang": "hr",
+        "name": "🪆 babuška"
+      },
+      {
+        "lang": "cs",
+        "name": "🪆 matrjoška"
+      },
+      {
+        "lang": "da",
+        "name": "🪆 russiske dukker"
+      },
+      {
+        "lang": "nl",
+        "name": "🪆 matroesjka"
+      },
+      {
+        "lang": "fil",
+        "name": "🪆 manikang matryoshka"
+      },
+      {
+        "lang": "fi",
+        "name": "🪆 maatuskanuket"
+      }
+    ]
+  },
+  {
+    "emoji": "♣️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%99%A3%EF%B8%8F",
+    "base_info": {
+      "emoji": "♣️",
+      "short_name": "club suit",
+      "apple_name": "clubs suit",
+      "known_as": [
+        "Clubs"
+      ],
+      "unicode": "U+2663 FE0F \n\n\n2663 - ♣ club suit\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "short_code": ":clubs:",
+      "decimal": "ALT+9827 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "card",
+        "club suit",
+        "game"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♣️ ورقة لعب بشكل شجرة"
+      },
+      {
+        "lang": "bg",
+        "name": "♣️ спатия"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "♣️ 梅花"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♣️ 梅花"
+      },
+      {
+        "lang": "hr",
+        "name": "♣️ tref"
+      },
+      {
+        "lang": "cs",
+        "name": "♣️ kříže"
+      },
+      {
+        "lang": "da",
+        "name": "♣️ klør"
+      },
+      {
+        "lang": "nl",
+        "name": "♣️ klaver"
+      },
+      {
+        "lang": "fil",
+        "name": "♣️ club"
+      },
+      {
+        "lang": "fi",
+        "name": "♣️ risti"
+      }
+    ]
+  },
+  {
+    "emoji": "♟️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%E2%99%9F%EF%B8%8F",
+    "base_info": {
+      "emoji": "♟️",
+      "short_name": "chess pawn",
+      "apple_name": "Chess Pawn",
+      "unicode": "U+265F FE0F \n\n\n265F - ♟ chess pawn\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "decimal": "ALT+9823 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "chess",
+        "chess pawn",
+        "dupe",
+        "expendable"
+      ],
+      "proposal": [
+        "L2/18‑018"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♟️ بيدق"
+      },
+      {
+        "lang": "bg",
+        "name": "♟️ пешка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "♟️ 兵"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♟️ 卒"
+      },
+      {
+        "lang": "hr",
+        "name": "♟️ šahovski pješak"
+      },
+      {
+        "lang": "cs",
+        "name": "♟️ pěšec"
+      },
+      {
+        "lang": "da",
+        "name": "♟️ skakbrik"
+      },
+      {
+        "lang": "nl",
+        "name": "♟️ pion"
+      },
+      {
+        "lang": "fil",
+        "name": "♟️ chess pawn"
+      },
+      {
+        "lang": "fi",
+        "name": "♟️ šakkipelin sotilas"
+      }
+    ]
+  },
+  {
+    "emoji": "🃏",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%83%8F",
+    "base_info": {
+      "emoji": "🃏",
+      "short_name": "joker",
+      "apple_name": "joker",
+      "known_as": [
+        "Joker Card"
+      ],
+      "unicode": "U+1F0CF",
+      "short_code": ":black_joker:",
+      "decimal": "ALT+127183",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "card",
+        "game",
+        "joker",
+        "wildcard"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🃏 جوكر"
+      },
+      {
+        "lang": "bg",
+        "name": "🃏 жокер"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🃏 大小王"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🃏 鬼牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🃏 džoker"
+      },
+      {
+        "lang": "cs",
+        "name": "🃏 žolík"
+      },
+      {
+        "lang": "da",
+        "name": "🃏 joker"
+      },
+      {
+        "lang": "nl",
+        "name": "🃏 Jokerkaart"
+      },
+      {
+        "lang": "fil",
+        "name": "🃏 joker"
+      },
+      {
+        "lang": "fi",
+        "name": "🃏 jokeri"
+      }
+    ]
+  },
+  {
+    "emoji": "🀄",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%80%84",
+    "base_info": {
+      "emoji": "🀄",
+      "short_name": "mahjong red dragon",
+      "apple_name": "Mahjong Tile Red Dragon",
+      "known_as": [
+        "Mahjong Tile",
+        "中"
+      ],
+      "unicode": "U+1F004",
+      "short_code": ":mahjong:",
+      "decimal": "ALT+126980",
+      "unicode_version": "5.1",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "game",
+        "mahjong",
+        "mahjong red dragon",
+        "red"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🀄 لعبة ورق يابانية"
+      },
+      {
+        "lang": "bg",
+        "name": "🀄 „червен дракон“ в маджонг"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🀄 红中"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🀄 紅中"
+      },
+      {
+        "lang": "hr",
+        "name": "🀄 mahjong crveni zmaj"
+      },
+      {
+        "lang": "cs",
+        "name": "🀄 červený drak v mahjongu"
+      },
+      {
+        "lang": "da",
+        "name": "🀄 mahjong-brik"
+      },
+      {
+        "lang": "nl",
+        "name": "🀄 mahjong rode draak"
+      },
+      {
+        "lang": "fil",
+        "name": "🀄 mahjong red dragon"
+      },
+      {
+        "lang": "fi",
+        "name": "🀄 mahjong"
+      }
+    ]
+  },
+  {
+    "emoji": "🎴",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%B4",
+    "base_info": {
+      "emoji": "🎴",
+      "short_name": "flower playing cards",
+      "apple_name": "flower playing cards",
+      "known_as": [
+        "Deck Of Cards",
+        "Hanafuda",
+        "Hwatu",
+        "Playing Cards"
+      ],
+      "unicode": "U+1F3B4",
+      "short_code": ":flower_playing_cards:",
+      "decimal": "ALT+127924",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "card",
+        "flower",
+        "flower playing cards",
+        "game",
+        "Japanese",
+        "playing"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎴 بطاقات لعب"
+      },
+      {
+        "lang": "bg",
+        "name": "🎴 карти за игра ханафуда"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎴 花札"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎴 花牌"
+      },
+      {
+        "lang": "hr",
+        "name": "🎴 igraće karte s cvijećem"
+      },
+      {
+        "lang": "cs",
+        "name": "🎴 hrací karty s květinami"
+      },
+      {
+        "lang": "da",
+        "name": "🎴 spillekort med blomster"
+      },
+      {
+        "lang": "nl",
+        "name": "🎴 speelkaarten"
+      },
+      {
+        "lang": "fil",
+        "name": "🎴 flower playing card"
+      },
+      {
+        "lang": "fi",
+        "name": "🎴 kukkapelikortit"
+      }
+    ]
+  },
+  {
+    "emoji": "♠️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%99%A0%EF%B8%8F",
+    "base_info": {
+      "emoji": "♠️",
+      "short_name": "spade suit",
+      "apple_name": "spades suit",
+      "known_as": [
+        "Spades"
+      ],
+      "unicode": "U+2660 FE0F \n\n\n2660 - ♠ spade suit\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "short_code": ":spades:",
+      "decimal": "ALT+9824 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "card",
+        "game",
+        "spade suit"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♠️ ورقة البستوني"
+      },
+      {
+        "lang": "bg",
+        "name": "♠️ пика"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "♠️ 黑桃"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♠️ 黑桃"
+      },
+      {
+        "lang": "hr",
+        "name": "♠️ pik"
+      },
+      {
+        "lang": "cs",
+        "name": "♠️ piky"
+      },
+      {
+        "lang": "da",
+        "name": "♠️ spar"
+      },
+      {
+        "lang": "nl",
+        "name": "♠️ schoppen"
+      },
+      {
+        "lang": "fil",
+        "name": "♠️ spade"
+      },
+      {
+        "lang": "fi",
+        "name": "♠️ pata"
+      }
+    ]
+  },
+  {
+    "emoji": "♦️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%E2%99%A6%EF%B8%8F",
+    "base_info": {
+      "emoji": "♦️",
+      "short_name": "diamond suit",
+      "apple_name": "diamonds suit",
+      "known_as": [
+        "Diamonds"
+      ],
+      "unicode": "U+2666 FE0F \n\n\n2666 - ♦ diamond suit\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "short_code": ":diamonds:",
+      "decimal": "ALT+9830 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "card",
+        "diamond suit",
+        "game"
+      ],
+      "proposal": [
+        "L2/13‑207",
+        "L2/14‑093"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "♦️ ورقة لعب بشكل ماسة"
+      },
+      {
+        "lang": "bg",
+        "name": "♦️ каро"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "♦️ 方片"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "♦️ 方塊"
+      },
+      {
+        "lang": "hr",
+        "name": "♦️ karo"
+      },
+      {
+        "lang": "cs",
+        "name": "♦️ káry"
+      },
+      {
+        "lang": "da",
+        "name": "♦️ ruder"
+      },
+      {
+        "lang": "nl",
+        "name": "♦️ ruiten"
+      },
+      {
+        "lang": "fil",
+        "name": "♦️ diamond"
+      },
+      {
+        "lang": "fi",
+        "name": "♦️ ruutu"
+      }
+    ]
+  },
+  {
+    "emoji": "🎭",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "5.1+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%AD",
+    "base_info": {
+      "emoji": "🎭",
+      "short_name": "performing arts",
+      "apple_name": "performing arts",
+      "known_as": [
+        "Drama Masks",
+        "Greek Theatre Masks",
+        "Theatre Logo",
+        "Tragedy and Comedy Masks"
+      ],
+      "unicode": "U+1F3AD",
+      "short_code": ":performing_arts:",
+      "decimal": "ALT+127917",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎨 Art & Craft",
+      "keywords": [
+        "art",
+        "mask",
+        "performing",
+        "performing arts",
+        "theater",
+        "theatre"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎭 قناع وجه"
+      },
+      {
+        "lang": "bg",
+        "name": "🎭 сценични изкуства"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎭 表演艺术"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎭 戲劇"
+      },
+      {
+        "lang": "hr",
+        "name": "🎭 izvedbene umjetnosti"
+      },
+      {
+        "lang": "cs",
+        "name": "🎭 múzická umění"
+      },
+      {
+        "lang": "da",
+        "name": "🎭 masker"
+      },
+      {
+        "lang": "nl",
+        "name": "🎭 toneelkunsten"
+      },
+      {
+        "lang": "fil",
+        "name": "🎭 sining pantanghalan"
+      },
+      {
+        "lang": "fi",
+        "name": "🎭 näyttämötaiteet"
+      }
+    ]
+  },
+  {
+    "emoji": "🔫",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%94%AB",
+    "base_info": {
+      "emoji": "🔫",
+      "short_name": "water pistol",
+      "apple_name": "water pistol",
+      "known_as": [
+        "Water Gun",
+        "Revolver",
+        "Squirt Gun"
+      ],
+      "unicode": "U+1F52B",
+      "short_code": ":gun:",
+      "decimal": "ALT+128299",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎯 Game",
+      "keywords": [
+        "gun",
+        "handgun",
+        "pistol",
+        "revolver",
+        "tool",
+        "water",
+        "weapon"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🔫 مسدس ماء"
+      },
+      {
+        "lang": "bg",
+        "name": "🔫 воден пистолет"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🔫 水枪"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🔫 水槍"
+      },
+      {
+        "lang": "hr",
+        "name": "🔫 pištolj na vodu"
+      },
+      {
+        "lang": "cs",
+        "name": "🔫 vodní pistole"
+      },
+      {
+        "lang": "da",
+        "name": "🔫 vandpistol"
+      },
+      {
+        "lang": "nl",
+        "name": "🔫 waterpistool"
+      },
+      {
+        "lang": "fil",
+        "name": "🔫 water gun"
+      },
+      {
+        "lang": "fi",
+        "name": "🔫 vesipyssy"
+      }
+    ]
+  },
+  {
+    "emoji": "🎨",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "2.2+"
+      },
+      {
+        "type": "android",
+        "value": "4.3+"
+      },
+      {
+        "type": "windows",
+        "value": "8.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%8E%A8",
+    "base_info": {
+      "emoji": "🎨",
+      "short_name": "artist palette",
+      "apple_name": "artist palette",
+      "known_as": [
+        "Art",
+        "Painting"
+      ],
+      "unicode": "U+1F3A8",
+      "short_code": ":art:",
+      "decimal": "ALT+127912",
+      "unicode_version": "6.0",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎨 Art & Craft",
+      "keywords": [
+        "art",
+        "artist palette",
+        "museum",
+        "painting",
+        "palette"
+      ],
+      "proposal": [
+        "L2/07‑257",
+        "L2/09‑026"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🎨 لوحة ألوان الرسام"
+      },
+      {
+        "lang": "bg",
+        "name": "🎨 палитра на художник"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🎨 调色盘"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🎨 調色板"
+      },
+      {
+        "lang": "hr",
+        "name": "🎨 slikarska paleta"
+      },
+      {
+        "lang": "cs",
+        "name": "🎨 malířská paleta"
+      },
+      {
+        "lang": "da",
+        "name": "🎨 palet"
+      },
+      {
+        "lang": "nl",
+        "name": "🎨 schilderspalet"
+      },
+      {
+        "lang": "fil",
+        "name": "🎨 paleta ng pintor"
+      },
+      {
+        "lang": "fi",
+        "name": "🎨 taiteilijan paletti"
+      }
+    ]
+  },
+  {
+    "emoji": "🖼️",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "9.1+"
+      },
+      {
+        "type": "android",
+        "value": "6.0.1+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%96%BC%EF%B8%8F",
+    "base_info": {
+      "emoji": "🖼️",
+      "short_name": "framed picture",
+      "apple_name": "Frame With Picture",
+      "known_as": [
+        "Painting",
+        "Picture Frame"
+      ],
+      "unicode": "U+1F5BC FE0F \n\n\n1F5BC - 🖼 framed picture\n\n\nFE0F - ️ VARIATION SELECTOR-16",
+      "decimal": "ALT+128444 ALT+65039",
+      "unicode_version": "",
+      "emoji_version": "1.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎨 Art & Craft",
+      "keywords": [
+        "art",
+        "frame",
+        "framed picture",
+        "museum",
+        "painting",
+        "picture"
+      ],
+      "proposal": [
+        "L2/11‑052"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🖼️ إطار وصورة"
+      },
+      {
+        "lang": "bg",
+        "name": "🖼️ Картина в рамка"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🖼️ 带框的画"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🖼️ 裱框畫"
+      },
+      {
+        "lang": "hr",
+        "name": "🖼️ uokvirena slika"
+      },
+      {
+        "lang": "cs",
+        "name": "🖼️ obraz v rámu"
+      },
+      {
+        "lang": "da",
+        "name": "🖼️ ramme med billede"
+      },
+      {
+        "lang": "nl",
+        "name": "🖼️ lijst met afbeelding"
+      },
+      {
+        "lang": "fil",
+        "name": "🖼️ frame na may larawan"
+      },
+      {
+        "lang": "fi",
+        "name": "🖼️ kuva kehyksissä"
+      }
+    ]
+  },
+  {
+    "emoji": "🧵",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A7%B5",
+    "base_info": {
+      "emoji": "🧵",
+      "short_name": "thread",
+      "apple_name": "thread",
+      "unicode": "U+1F9F5",
+      "decimal": "ALT+129525",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎨 Art & Craft",
+      "keywords": [
+        "needle",
+        "sewing",
+        "spool",
+        "string",
+        "thread"
+      ],
+      "proposal": [
+        "L2/17‑249"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧵 بكرة خيط"
+      },
+      {
+        "lang": "bg",
+        "name": "🧵 конец"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🧵 线"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧵 線"
+      },
+      {
+        "lang": "hr",
+        "name": "🧵 konac"
+      },
+      {
+        "lang": "cs",
+        "name": "🧵 cívka nití"
+      },
+      {
+        "lang": "da",
+        "name": "🧵 tråd"
+      },
+      {
+        "lang": "nl",
+        "name": "🧵 garen"
+      },
+      {
+        "lang": "fil",
+        "name": "🧵 sinulid"
+      },
+      {
+        "lang": "fi",
+        "name": "🧵 lankarulla"
+      }
+    ]
+  },
+  {
+    "emoji": "🪡",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%A1",
+    "base_info": {
+      "emoji": "🪡",
+      "short_name": "sewing needle",
+      "unicode": "U+1FAA1",
+      "decimal": "ALT+129697",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎨 Art & Craft",
+      "keywords": [
+        "embroidery",
+        "needle",
+        "sewing",
+        "stitches",
+        "sutures",
+        "tailoring"
+      ],
+      "proposal": [
+        "L2/19‑088"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪡 إبرة خياطة"
+      },
+      {
+        "lang": "bg",
+        "name": "🪡 шивашка игла"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪡 缝合针"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪡 裁縫針"
+      },
+      {
+        "lang": "hr",
+        "name": "🪡 šivaća igla"
+      },
+      {
+        "lang": "cs",
+        "name": "🪡 šicí jehla"
+      },
+      {
+        "lang": "da",
+        "name": "🪡 synål"
+      },
+      {
+        "lang": "nl",
+        "name": "🪡 naald"
+      },
+      {
+        "lang": "fil",
+        "name": "🪡 karayom"
+      },
+      {
+        "lang": "fi",
+        "name": "🪡 ompeluneula"
+      }
+    ]
+  },
+  {
+    "emoji": "🧶",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "12.1+"
+      },
+      {
+        "type": "android",
+        "value": "9.0+"
+      },
+      {
+        "type": "windows",
+        "value": "10+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%A7%B6",
+    "base_info": {
+      "emoji": "🧶",
+      "short_name": "yarn",
+      "apple_name": "yarn",
+      "unicode": "U+1F9F6",
+      "decimal": "ALT+129526",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎨 Art & Craft",
+      "keywords": [
+        "ball",
+        "crochet",
+        "knit",
+        "yarn"
+      ],
+      "proposal": [
+        "L2/17‑249"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🧶 خيط حياكة"
+      },
+      {
+        "lang": "bg",
+        "name": "🧶 прежда"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🧶 毛线"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🧶 毛線球"
+      },
+      {
+        "lang": "hr",
+        "name": "🧶 klupko vune"
+      },
+      {
+        "lang": "cs",
+        "name": "🧶 klubíčko"
+      },
+      {
+        "lang": "da",
+        "name": "🧶 garn"
+      },
+      {
+        "lang": "nl",
+        "name": "🧶 wol"
+      },
+      {
+        "lang": "fil",
+        "name": "🧶 yarn"
+      },
+      {
+        "lang": "fi",
+        "name": "🧶 lankakerä"
+      }
+    ]
+  },
+  {
+    "emoji": "🪢",
+    "os_support": [
+      {
+        "type": "iOS",
+        "value": "14.2+"
+      },
+      {
+        "type": "android",
+        "value": "11.0+"
+      }
+    ],
+    "images_url": "/en/image/%F0%9F%AA%A2",
+    "base_info": {
+      "emoji": "🪢",
+      "short_name": "knot",
+      "unicode": "U+1FAA2",
+      "decimal": "ALT+129698",
+      "unicode_version": "13.0",
+      "emoji_version": "13.0",
+      "category": "⚽ Activities",
+      "sub_category": "🎨 Art & Craft",
+      "keywords": [
+        "knot",
+        "rope",
+        "tangled",
+        "tie",
+        "twine",
+        "twist"
+      ],
+      "proposal": [
+        "L2/19‑152"
+      ]
+    },
+    "langs": [
+      {
+        "lang": "ar",
+        "name": "🪢 عُقدة"
+      },
+      {
+        "lang": "bg",
+        "name": "🪢 възел"
+      },
+      {
+        "lang": "zh-hans",
+        "name": "🪢 结"
+      },
+      {
+        "lang": "zh-hant",
+        "name": "🪢 繩結"
+      },
+      {
+        "lang": "hr",
+        "name": "🪢 čvor"
+      },
+      {
+        "lang": "cs",
+        "name": "🪢 uzel"
+      },
+      {
+        "lang": "da",
+        "name": "🪢 knude"
+      },
+      {
+        "lang": "nl",
+        "name": "🪢 knoop"
+      },
+      {
+        "lang": "fil",
+        "name": "🪢 buhol"
+      },
+      {
+        "lang": "fi",
+        "name": "🪢 solmu"
+      }
+    ]
+  }
+]
