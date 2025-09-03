@@ -1,10 +1,30 @@
 @import "tailwindcss";
 
+/* Design tokens */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Common tokens */
+  --muted: #6b7280; /* slate-500 */
+  --border: #e5e7eb; /* gray-200 */
+  --surface: #ffffff;
+  --header-bg: rgba(255, 255, 255, 0.7);
+
+  /* Brand palette (Tailwind v4 token keys) */
+  --color-brand-50: #f0f9ff;
+  --color-brand-100: #e0f2fe;
+  --color-brand-200: #bae6fd;
+  --color-brand-300: #7dd3fc;
+  --color-brand-400: #38bdf8;
+  --color-brand-500: #0ea5e9; /* sky-500 */
+  --color-brand-600: #0284c7;
+  --color-brand-700: #0369a1;
+  --color-brand-800: #075985;
+  --color-brand-900: #0c4a6e;
 }
 
+/* Tailwind v4 inline theme hooks */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -16,11 +36,62 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --muted: #9ca3af; /* slate-400/500 for dark */
+    --border: #374151; /* gray-700 */
+    --surface: #111827; /* gray-900 */
+    --header-bg: rgba(10, 10, 10, 0.6);
   }
+}
+
+/* Base */
+html {
+  color-scheme: light dark;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Layout helpers */
+.container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+  width: 100%;
+  max-width: 72rem; /* ~1152px */
+}
+
+/* Surface component */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.03);
+  transition: box-shadow .2s ease, background-color .2s ease, transform .05s ease;
+}
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.05);
+}
+
+/* Links inherit color by default */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sticky header */
+.header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: saturate(180%) blur(8px);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
 }
