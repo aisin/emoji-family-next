@@ -4,10 +4,20 @@ import CategoryCard from "@/app/ui/CategoryCard";
 import CategoryNav from "@/app/ui/CategoryNav";
 import SearchBox from "@/app/ui/SearchBox";
 import type { SupportedLanguage } from "@/app/lib/i18n";
+import { uiText } from "@/app/lib/ui-strings";
 
-export const metadata: Metadata = {
-  title: "Emoji Family — 分类浏览",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }>;
+}): Promise<Metadata> {
+  const { lang } = await Promise.resolve(params);
+  const t = uiText(lang);
+  return {
+    title: t.home.meta_title,
+    description: t.home.tagline,
+  };
+}
 
 export default async function HomePage({
   params,
@@ -16,29 +26,30 @@ export default async function HomePage({
 }) {
   const { lang } = await Promise.resolve(params);
   const categories = getPrimaryCategories(lang);
+  const t = uiText(lang);
 
   return (
     <div className="space-y-8">
       <section className="text-center space-y-4">
         <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
-          Emoji Family
+          {t.home.title}
         </h1>
         <p className="text-[color:var(--muted)] max-w-2xl mx-auto">
-          多语言 Emoji 百科全书。按分类浏览、查看技术规格、支持中文与英文。
+          {t.home.tagline}
         </p>
         <div className="flex justify-center">
-          <SearchBox lang={lang} placeholder="按名称、关键词或 :short_code: 搜索" />
+          <SearchBox lang={lang} placeholder={t.home.search_placeholder} />
         </div>
       </section>
 
-      <section className="space-y-4">
+      <section className="section space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-xl font-semibold">全部分类</h2>
+          <h2 className="section-title">{t.home.all_categories}</h2>
         </div>
-        <CategoryNav categories={categories} />
+        <CategoryNav categories={categories} lang={lang} />
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {categories.map((c) => (
-            <CategoryCard key={c.slug} category={c} />
+            <CategoryCard key={c.slug} category={c} lang={lang} />
           ))}
         </div>
       </section>

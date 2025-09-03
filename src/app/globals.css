@@ -42,6 +42,9 @@
     --surface: #111827; /* gray-900 */
     --header-bg: rgba(10, 10, 10, 0.6);
   }
+  .card:hover {
+    background-color: rgba(255,255,255,0.04);
+  }
 }
 
 /* Base */
@@ -74,6 +77,13 @@ body {
 }
 .card:hover {
   box-shadow: 0 2px 8px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.05);
+  transform: translateY(-1px) scale(1.01);
+  background-color: rgba(0,0,0,0.02);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card { transition: none !important; }
+  .card:hover { transform: none !important; }
 }
 
 /* Links inherit color by default */
@@ -94,4 +104,14 @@ a:hover {
   -webkit-backdrop-filter: saturate(180%) blur(8px);
   background: var(--header-bg);
   border-bottom: 1px solid var(--border);
+}
+
+/* Sections */
+.section {
+  margin-block: 2rem;
+}
+.section-title {
+  font-size: clamp(1.125rem, 0.75rem + 1vw, 1.5rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
