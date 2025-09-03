@@ -17,6 +17,7 @@ export default function EmojiCard({
   return (
     <Link
       href={`/${lang}/emoji/${encodeURIComponent(emoji.base_info.unicode)}`}
+      prefetch={false}
       aria-label={t.search.view_details_aria(emoji.base_info.short_name)}
       className="card p-5 hover:ring-1 hover:ring-brand-500 transition-shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600"
     >

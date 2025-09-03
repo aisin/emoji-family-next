@@ -3,6 +3,21 @@ import CategoryCard from "@/app/ui/CategoryCard";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { uiText } from "@/app/lib/ui-strings";
 
+export async function generateMetadata({ params }: { params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }> }) {
+  const { lang } = await Promise.resolve(params);
+  const path = `/${lang}/categories`;
+  return {
+    alternates: {
+      canonical: path,
+      languages: {
+        en: `/en/categories`,
+        "zh-Hans": `/zh-hans/categories`,
+        "zh-Hant": `/zh-hant/categories`,
+      },
+    },
+  };
+}
+
 export default async function CategoriesIndex({ params }: { params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }> }) {
   const { lang } = await Promise.resolve(params);
   const categories = getPrimaryCategories(lang);

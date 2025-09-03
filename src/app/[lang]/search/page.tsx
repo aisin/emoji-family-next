@@ -2,6 +2,11 @@ import { searchEmojis } from "@/app/lib/search";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import Link from "next/link";
 import { uiText } from "@/app/lib/ui-strings";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: true },
+};
 
 export default async function SearchPage({
   params,
@@ -53,6 +58,7 @@ export default async function SearchPage({
             <Link
               key={e.base_info.unicode}
               href={`/${lang}/emoji/${encodeURIComponent(e.base_info.unicode)}`}
+              prefetch={false}
               className="card p-5 block hover:ring-1 hover:ring-brand-500 transition-shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600"
               aria-label={t.search.view_details_aria(e.base_info.short_name)}
             >

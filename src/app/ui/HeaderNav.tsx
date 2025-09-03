@@ -20,7 +20,7 @@ export default function HeaderNav({ lang }: { lang: SupportedLanguage }) {
   const active = "text-brand-600 font-medium";
 
   return (
-    <nav className="hidden md:flex items-center gap-6 text-sm text-[color:var(--muted)]">
+    <nav aria-label="Primary" className="hidden md:flex items-center gap-6 text-sm text-[color:var(--muted)]">
       <Link href={home} aria-current={isHome ? "page" : undefined} className={`${base} ${isHome ? active : ""}`}>
         {t.header.home}
       </Link>

@@ -20,6 +20,27 @@ export async function generateStaticParams() {
   return params;
 }
 
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: SupportedLanguage; slug: string } | Promise<{ lang: SupportedLanguage; slug: string }>;
+}): Promise<Metadata> {
+  const { lang, slug } = await Promise.resolve(params);
+  const path = `/${lang}/categories/${slug}`;
+  return {
+    alternates: {
+      canonical: path,
+      languages: {
+        en: `/en/categories/${slug}`,
+        "zh-Hans": `/zh-hans/categories/${slug}`,
+        "zh-Hant": `/zh-hant/categories/${slug}`,
+      },
+    },
+  };
+}
+
 export default async function CategoryPage({
   params,
 }: {
@@ -64,6 +85,30 @@ export default async function CategoryPage({
           </div>
         </div>
       )}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: uiText(lang).header.categories,
+                item: `/${lang}/categories`,
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: current.title,
+                item: `/${lang}/categories/${slug}`,
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

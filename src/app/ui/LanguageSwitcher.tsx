@@ -32,7 +32,7 @@ export default function LanguageSwitcher({
   const pathname = usePathname() || "/" + currentLang;
 
   return (
-    <div className="flex items-center gap-2">
+    <nav className="flex items-center gap-2" aria-label="Language">
       {SUPPORTED_LANGUAGES.map((l) => (
         <Link
           key={l}
@@ -47,7 +47,7 @@ export default function LanguageSwitcher({
           {getLanguageName(l)}
         </Link>
       ))}
-    </div>
+    </nav>
   );
 }
 

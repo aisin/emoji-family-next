@@ -33,8 +33,19 @@ export async function generateMetadata({
   const decoded = decodeURIComponent(unicode);
   const data = getEmojiByUnicode(decoded, lang);
   const t = uiText(lang);
+  const path = `/${lang}/emoji/${encodeURIComponent(decoded)}`;
   if (!data) {
-    return { title: `${t.detail.not_found} - ${t.common.site_name}` };
+    return {
+      title: `${t.detail.not_found} - ${t.common.site_name}`,
+      alternates: {
+        canonical: path,
+        languages: {
+          en: `/en/emoji/${encodeURIComponent(decoded)}`,
+          "zh-Hans": `/zh-hans/emoji/${encodeURIComponent(decoded)}`,
+          "zh-Hant": `/zh-hant/emoji/${encodeURIComponent(decoded)}`,
+        },
+      },
+    };
   }
   const base = data.base_info;
   const title = `${data.emoji} ${base.short_name} - ${t.common.site_name}`;
@@ -42,6 +53,14 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: {
+      canonical: path,
+      languages: {
+        en: `/en/emoji/${encodeURIComponent(decoded)}`,
+        "zh-Hans": `/zh-hans/emoji/${encodeURIComponent(decoded)}`,
+        "zh-Hant": `/zh-hant/emoji/${encodeURIComponent(decoded)}`,
+      },
+    },
     openGraph: { title, description, type: "article" },
     twitter: { card: "summary_large_image", title, description },
   };
@@ -196,6 +215,40 @@ export default async function EmojiDetailPage({
             identifier: base.unicode,
             category: `${base.category}${base.sub_category ? `/${base.sub_category}` : ""}`,
             keywords: base.keywords ?? [],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: uiText(lang).header.categories,
+                item: `/${lang}/categories`,
+              },
+              ...(catInfo
+                ? [
+                    {
+                      "@type": "ListItem",
+                      position: 2,
+                      name: catInfo.title,
+                      item: catInfo.url,
+                    },
+                  ]
+                : []),
+              {
+                "@type": "ListItem",
+                position: catInfo ? 3 : 2,
+                name: base.short_name,
+                item: `/${lang}/emoji/${encodeURIComponent(base.unicode)}`,
+              },
+            ],
           }),
         }}
       />

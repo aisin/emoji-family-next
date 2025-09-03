@@ -13,9 +13,18 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await Promise.resolve(params);
   const t = uiText(lang);
+  const path = `/${lang}`;
   return {
     title: t.home.meta_title,
     description: t.home.tagline,
+    alternates: {
+      canonical: path,
+      languages: {
+        en: `/en`,
+        "zh-Hans": `/zh-hans`,
+        "zh-Hant": `/zh-hant`,
+      },
+    },
   };
 }
 
