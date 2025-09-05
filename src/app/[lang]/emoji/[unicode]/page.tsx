@@ -99,6 +99,27 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
 
   return (
     <div className="space-y-6 section">
+      <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground">
+        <ol className="flex items-center gap-2">
+          <li>
+            <Link href={`/${lang}/categories`} className="text-muted-foreground hover:text-foreground">
+              {uiText(lang).header.categories}
+            </Link>
+          </li>
+          {catInfo && (
+            <li className="flex items-center gap-2">
+              <span aria-hidden>/</span>
+              <Link href={catInfo.url} className="text-muted-foreground hover:text-foreground">
+                {catInfo.title}
+              </Link>
+            </li>
+          )}
+          <li className="flex items-center gap-2">
+            <span aria-hidden>/</span>
+            <span className="text-foreground font-medium">{base.short_name}</span>
+          </li>
+        </ol>
+      </nav>
       <div className="flex items-center justify-between gap-4">
         <div className="flex items-center gap-4">
           <div className="text-6xl">{data.emoji}</div>
@@ -107,7 +128,9 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
             <p className="text-sm text-muted-foreground">{base.unicode} · {base.short_code ?? ""} · {base.decimal ?? ""}</p>
             {catInfo && (
               <div className="text-sm text-muted-foreground">
-                <Link href={catInfo.url} className="hover:text-primary">{catInfo.title}</Link>
+                <Button asChild variant="link">
+                  <Link href={catInfo.url}>{catInfo.title}</Link>
+                </Button>
                 {base.sub_category ? <span> / {base.sub_category}</span> : null}
               </div>
             )}
