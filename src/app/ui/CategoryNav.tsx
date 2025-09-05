@@ -3,6 +3,7 @@ import type { PrimaryCategory } from "@/types";
 import { extractLeadingEmoji } from "@/app/ui/utils";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { uiText } from "@/app/lib/ui-strings";
+import { Button } from "@/app/ui/shadcn/button";
 
 export default function CategoryNav({
   categories,
@@ -20,20 +21,23 @@ export default function CategoryNav({
         const icon = extractLeadingEmoji(c.category) ?? undefined;
         const active = c.slug === currentCategory;
         return (
-          <Link
+          <Button
+            asChild
             key={c.slug}
-            href={c.url}
-            aria-current={active ? "page" : undefined}
-            aria-label={t.category.go_to_category_aria(c.title)}
-            className={`px-3 py-1 rounded-md text-sm border inline-flex items-center gap-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 ${
-              active
-                ? "bg-brand-600 border-brand-600 text-white"
-                : "border-[color:var(--border)] text-[color:var(--muted)] hover:text-brand-600"
-            }`}
+            variant={active ? "default" : "outline"}
+            size="sm"
+            className="px-3 py-1"
           >
-            {icon && <span className="text-base leading-none">{icon}</span>}
-            <span>{c.title}</span>
-          </Link>
+            <Link
+              href={c.url}
+              aria-current={active ? "page" : undefined}
+              aria-label={t.category.go_to_category_aria(c.title)}
+              className="inline-flex items-center gap-1"
+            >
+              {icon && <span className="text-base leading-none">{icon}</span>}
+              <span>{c.title}</span>
+            </Link>
+          </Button>
         );
       })}
     </nav>

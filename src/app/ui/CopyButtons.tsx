@@ -3,6 +3,7 @@
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { uiText } from "@/app/lib/ui-strings";
 import { toast } from "sonner";
+import { Button } from "@/app/ui/shadcn/button";
 
 export default function CopyButtons({
   emoji,
@@ -30,31 +31,24 @@ export default function CopyButtons({
     }
   }
 
-  const baseCls =
-    "px-3 py-1 rounded-md border border-[color:var(--border)] hover:bg-black/5 dark:hover:bg-white/10 text-sm transition-colors transition-transform active:scale-95 select-none";
-
   return (
     <div className="flex flex-wrap gap-2">
-      <button title={t.copy.copy_emoji} className={baseCls} onClick={() => onCopy(emoji, "emoji")}>
+      <Button title={t.copy.copy_emoji} variant="outline" size="sm" onClick={() => onCopy(emoji, "emoji")}>
         {t.copy.copy_emoji}
-      </button>
-      <button title={t.copy.copy_unicode} className={baseCls} onClick={() => onCopy(unicode, "unicode")}>
+      </Button>
+      <Button title={t.copy.copy_unicode} variant="outline" size="sm" onClick={() => onCopy(unicode, "unicode")}>
         {t.copy.copy_unicode}
-      </button>
-      <button title={t.copy.copy_shortcode} className={baseCls} onClick={() => onCopy(shortcode, "shortcode")}>
+      </Button>
+      <Button title={t.copy.copy_shortcode} variant="outline" size="sm" onClick={() => onCopy(shortcode, "shortcode")}>
         {t.copy.copy_shortcode}
-      </button>
-      <button title={t.copy.copy_decimal} className={baseCls} onClick={() => onCopy(decimal, "decimal")}>
+      </Button>
+      <Button title={t.copy.copy_decimal} variant="outline" size="sm" onClick={() => onCopy(decimal, "decimal")}>
         {t.copy.copy_decimal}
-      </button>
+      </Button>
       {showLink && (
-        <button
-          title={t.copy.copy_link}
-          className={baseCls}
-          onClick={() => onCopy(window.location.href, "link")}
-        >
+        <Button title={t.copy.copy_link} variant="outline" size="sm" onClick={() => onCopy(window.location.href, "link")}>
           {t.copy.copy_link}
-        </button>
+        </Button>
       )}
     </div>
   );
