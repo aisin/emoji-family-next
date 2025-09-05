@@ -67,7 +67,7 @@ const DropdownMenuItem = React.forwardRef<
   <DropdownMenuPrimitive.Item
     ref={ref}
     className={cn(
-      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-400)] focus:text-white data-[highlighted]:bg-[var(--color-brand-400)] data-[highlighted]:text-white",
+      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-500)] focus:text-white data-[highlighted]:bg-[var(--color-brand-500)] data-[highlighted]:text-white data-[highlighted]:hover:bg-[var(--color-brand-400)] data-[highlighted]:hover:text-white",
       inset && "pl-8",
       className
     )}
@@ -83,7 +83,7 @@ const DropdownMenuCheckboxItem = React.forwardRef<
   <DropdownMenuPrimitive.CheckboxItem
     ref={ref}
     className={cn(
-      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-400)] focus:text-white data-[state=checked]:bg-[var(--color-brand-400)] data-[state=checked]:text-white data-[highlighted]:bg-[var(--color-brand-400)] data-[highlighted]:text-white",
+      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-500)] focus:text-white data-[state=checked]:bg-[var(--color-brand-500)] data-[state=checked]:text-white data-[highlighted]:bg-[var(--color-brand-500)] data-[highlighted]:text-white data-[highlighted]:hover:bg-[var(--color-brand-400)] data-[highlighted]:hover:text-white",
       className
     )}
     checked={checked}
@@ -104,7 +104,7 @@ const DropdownMenuRadioItem = React.forwardRef<
   <DropdownMenuPrimitive.RadioItem
     ref={ref}
     className={cn(
-      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-400)] focus:text-white data-[state=checked]:bg-[var(--color-brand-400)] data-[state=checked]:text-white data-[highlighted]:bg-[var(--color-brand-400)] data-[highlighted]:text-white",
+      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-500)] focus:text-white data-[state=checked]:bg-[var(--color-brand-500)] data-[state=checked]:text-white data-[highlighted]:bg-[var(--color-brand-500)] data-[highlighted]:text-white data-[highlighted]:hover:bg-[var(--color-brand-400)] data-[highlighted]:hover:text-white",
       className
     )}
     {...props}
