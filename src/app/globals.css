@@ -6,9 +6,10 @@
   --foreground: #171717;
 
   /* Common tokens */
-  --muted: #6b7280; /* slate-500 */
+  --muted: #6b7280; /* slate-500 (text-muted-foreground) */
+  --muted-bg: #f3f4f6; /* gray-100 (bg-muted) */
   --border: #e5e7eb; /* gray-200 */
-  --surface: #ffffff;
+  --surface: #ffffff; /* surface/card/popover */
   --header-bg: rgba(255, 255, 255, 0.7);
 
   /* Brand palette (Tailwind v4 token keys) */
@@ -22,12 +23,41 @@
   --color-brand-700: #0369a1;
   --color-brand-800: #075985;
   --color-brand-900: #0c4a6e;
+
+  /* Shadcn-style radius */
+  --radius: 0.5rem;
 }
 
-/* Tailwind v4 inline theme hooks */
+/* Tailwind v4 inline theme hooks (enable shadcn-style tokens without a tailwind.config) */
 @theme inline {
+  /* Base */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Surfaces & borders */
+  --color-border: var(--border);
+  --color-card: var(--surface);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--surface);
+  --color-popover-foreground: var(--foreground);
+  --color-input: var(--border);
+  --color-ring: var(--color-brand-600);
+
+  /* Brand & accents */
+  --color-primary: var(--color-brand-600);
+  --color-primary-foreground: #ffffff;
+  --color-accent: var(--color-brand-50);
+  --color-accent-foreground: var(--color-brand-800);
+
+  /* Muted */
+  --color-muted: var(--muted-bg);
+  --color-muted-foreground: var(--muted);
+
+  /* Destructive (keep conservative) */
+  --color-destructive: #ef4444; /* red-500 */
+  --color-destructive-foreground: #ffffff;
+
+  /* Fonts */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -37,13 +67,18 @@
     --background: #0a0a0a;
     --foreground: #ededed;
 
-    --muted: #9ca3af; /* slate-400/500 for dark */
+    --muted: #9ca3af; /* slate-400/500 for dark (text) */
+    --muted-bg: #111827; /* gray-900 (bg-muted) */
     --border: #374151; /* gray-700 */
     --surface: #111827; /* gray-900 */
     --header-bg: rgba(10, 10, 10, 0.6);
   }
   .card:hover {
     background-color: rgba(255,255,255,0.04);
+  }
+  @theme inline {
+    --color-accent: var(--color-brand-800);
+    --color-accent-foreground: #e0f2fe; /* brand-100 */
   }
 }
 

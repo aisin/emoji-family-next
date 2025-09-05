@@ -7,6 +7,8 @@ import { validateSearchQuery } from "@/app/lib/validation";
 import { uiText } from "@/app/lib/ui-strings";
 import { useEffect, useRef } from "react";
 import Link from "next/link";
+import { Input } from "@/app/ui/shadcn/input";
+import { Button } from "@/app/ui/shadcn/button";
 
 export default function SearchBox({
   lang,
@@ -52,7 +54,7 @@ export default function SearchBox({
       role="search"
     >
       <label htmlFor="search-input" className="sr-only">{t.search.title}</label>
-      <input
+      <Input
         id="search-input"
         value={q}
         onChange={(e) => {
@@ -65,22 +67,18 @@ export default function SearchBox({
           }, 200);
         }}
         placeholder={placeholder}
-        className="w-full md:w-96 px-4 py-2 rounded-md bg-white dark:bg-white/5 border border-[color:var(--border)] focus:outline-none focus:ring-2 focus:ring-brand-600"
+        className="w-full md:w-96"
         aria-label={t.search.title}
         autoComplete="off"
         inputMode="search"
       />
-      <button
-        type="submit"
-        className="px-4 py-2 rounded-md bg-brand-600 text-white hover:bg-brand-700"
-        aria-label="Search"
-      >
+      <Button type="submit" aria-label="Search">
         搜索
-      </button>
+      </Button>
 
       {q.trim().length >= 2 && suggestions.length > 0 && (
         <div className="absolute left-0 right-0 top-full mt-2 z-40">
-          <ul role="listbox" className="bg-[color:var(--surface)] border border-[color:var(--border)] rounded-md shadow divide-y divide-[color:var(--border)]">
+          <ul role="listbox" className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border">
             {suggestions.map((s) => (
               <li key={s.unicode} role="option" aria-selected="false">
                 <Link
