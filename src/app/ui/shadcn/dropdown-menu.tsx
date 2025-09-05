@@ -67,7 +67,7 @@ const DropdownMenuItem = React.forwardRef<
   <DropdownMenuPrimitive.Item
     ref={ref}
     className={cn(
-      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none focus:bg-accent focus:text-accent-foreground",
+      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-400)] focus:text-white data-[highlighted]:bg-[var(--color-brand-400)] data-[highlighted]:text-white",
       inset && "pl-8",
       className
     )}
@@ -83,7 +83,7 @@ const DropdownMenuCheckboxItem = React.forwardRef<
   <DropdownMenuPrimitive.CheckboxItem
     ref={ref}
     className={cn(
-      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground",
+      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-400)] focus:text-white data-[state=checked]:bg-[var(--color-brand-400)] data-[state=checked]:text-white data-[highlighted]:bg-[var(--color-brand-400)] data-[highlighted]:text-white",
       className
     )}
     checked={checked}
@@ -104,14 +104,14 @@ const DropdownMenuRadioItem = React.forwardRef<
   <DropdownMenuPrimitive.RadioItem
     ref={ref}
     className={cn(
-      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground",
+      "relative flex cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none hover:bg-[var(--color-brand-400)] hover:text-white focus:bg-[var(--color-brand-400)] focus:text-white data-[state=checked]:bg-[var(--color-brand-400)] data-[state=checked]:text-white data-[highlighted]:bg-[var(--color-brand-400)] data-[highlighted]:text-white",
       className
     )}
     {...props}
   >
     <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
       <DropdownMenuPrimitive.ItemIndicator>
-        <span className="h-1.5 w-1.5 rounded-full bg-foreground" />
+        <span className="h-1.5 w-1.5 rounded-full bg-white" />
       </DropdownMenuPrimitive.ItemIndicator>
     </span>
     {children}
