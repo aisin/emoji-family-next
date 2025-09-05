@@ -79,6 +79,16 @@ export default function SearchBox({
         aria-activedescendant={activeIdx >= 0 ? `suggestion-${activeIdx}` : undefined}
         aria-autocomplete="list"
         id="search-input"
+        onBlur={() => {
+          // Slight delay to allow click events (e.g., on suggestion links)
+          window.setTimeout(() => {
+            const root = formRef.current;
+            const active = document.activeElement as Element | null;
+            if (!root || (active && root.contains(active))) return;
+            setOpen(false);
+            setActiveIdx(-1);
+          }, 120);
+        }}
         onFocus={() => setOpen(true)}
         value={q}
         onChange={(e) => {
@@ -129,13 +139,14 @@ export default function SearchBox({
               const active = i === activeIdx;
               return (
                 <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
-                  <Link
-                    prefetch={false}
-                    href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
-                    className={`flex items-center gap-3 px-3 py-2 ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
-                    aria-label={`${t.search.view_details_aria(s.name)}`}
-                    onMouseEnter={() => setActiveIdx(i)}
-                  >
+                <Link
+                  prefetch={false}
+                  href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
+                  className={`flex items-center gap-3 px-3 py-2 ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
+                  aria-label={`${t.search.view_details_aria(s.name)}`}
+                  onMouseEnter={() => setActiveIdx(i)}
+                  onClick={() => { setOpen(false); setActiveIdx(-1); }}
+                >
                     <span className="text-2xl">{s.emoji}</span>
                     <span className="text-sm">
                       <span className="font-medium">{s.name}</span>

@@ -3,7 +3,7 @@ import LanguageSwitcher from "@/app/ui/LanguageSwitcher";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import HeaderNav from "@/app/ui/HeaderNav";
 import { uiText } from "@/app/lib/ui-strings";
-import { Sheet, SheetContent, SheetTrigger } from "@/app/ui/shadcn/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetDescription } from "@/app/ui/shadcn/sheet";
 import { Button } from "@/app/ui/shadcn/button";
 import { Menu } from "lucide-react";
 
@@ -32,7 +32,11 @@ export default function Header({ lang }: { lang: SupportedLanguage }) {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
-              <div className="mt-8 space-y-4">
+              <SheetHeader>
+                <SheetTitle>Menu</SheetTitle>
+                <SheetDescription>Press Esc to close</SheetDescription>
+              </SheetHeader>
+              <div className="mt-4 space-y-4">
                 <nav className="flex flex-col gap-2" aria-label="Primary">
                   <Button asChild variant="ghost" size="sm">
                     <Link href={`/${lang}`}>{t.header.home}</Link>
