@@ -29,7 +29,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: SupportedLanguage; unicode: string } | Promise<{ lang: SupportedLanguage; unicode: string }>;
+  params: Promise<{ lang: SupportedLanguage; unicode: string }>;
 }): Promise<Metadata> {
   const { lang, unicode } = await Promise.resolve(params);
   const decoded = decodeURIComponent(unicode);
@@ -71,14 +71,14 @@ export async function generateMetadata({
 export default async function EmojiDetailPage({
   params,
 }: {
-  params: { lang: SupportedLanguage; unicode: string } | Promise<{ lang: SupportedLanguage; unicode: string }>;
+  params: Promise<{ lang: SupportedLanguage; unicode: string }>;
 }) {
   const { lang, unicode } = await Promise.resolve(params);
   const decoded = decodeURIComponent(unicode);
   const data = getEmojiByUnicode(decoded, lang);
   if (!data) {
     const t = uiText(lang);
-    return <div className="text-center text-[color:var(--muted)]">{t.detail.not_found}</div>;
+return <div className="text-center text-muted-foreground">{t.detail.not_found}</div>;
   }
 
   const base = data.base_info;

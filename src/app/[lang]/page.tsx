@@ -9,7 +9,7 @@ import { uiText } from "@/app/lib/ui-strings";
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }>;
+  params: Promise<{ lang: SupportedLanguage }>;
 }): Promise<Metadata> {
   const { lang } = await Promise.resolve(params);
   const t = uiText(lang);
@@ -31,7 +31,7 @@ export async function generateMetadata({
 export default async function HomePage({
   params,
 }: {
-  params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }>;
+  params: Promise<{ lang: SupportedLanguage }>;
 }) {
   const { lang } = await Promise.resolve(params);
   const categories = getPrimaryCategories(lang);

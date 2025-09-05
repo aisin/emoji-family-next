@@ -14,8 +14,8 @@ export default async function SearchPage({
   params,
   searchParams,
 }: {
-  params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }>;
-  searchParams: { q?: string } | Promise<{ q?: string }>;
+  params: Promise<{ lang: SupportedLanguage }>;
+  searchParams: Promise<{ q?: string }>;
 }) {
   const { lang } = await Promise.resolve(params);
   const sp = await Promise.resolve(searchParams);

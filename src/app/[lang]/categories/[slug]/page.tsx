@@ -26,7 +26,7 @@ import type { Metadata } from "next";
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: SupportedLanguage; slug: string } | Promise<{ lang: SupportedLanguage; slug: string }>;
+  params: Promise<{ lang: SupportedLanguage; slug: string }>;
 }): Promise<Metadata> {
   const { lang, slug } = await Promise.resolve(params);
   const path = `/${lang}/categories/${slug}`;
@@ -45,7 +45,7 @@ export async function generateMetadata({
 export default async function CategoryPage({
   params,
 }: {
-  params: { lang: SupportedLanguage; slug: string } | Promise<{ lang: SupportedLanguage; slug: string }>;
+  params: Promise<{ lang: SupportedLanguage; slug: string }>;
 }) {
   const { lang, slug } = await Promise.resolve(params);
   const emojis = getEmojisByPrimarySlug(slug, lang);

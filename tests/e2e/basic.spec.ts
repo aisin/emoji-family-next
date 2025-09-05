@@ -13,7 +13,7 @@ for (const lang of langs) {
 
 test('search results card navigates to detail', async ({ page }) => {
   await page.goto('/en/search?q=OK');
-  const firstCard = page.locator('a.card').first();
+  const firstCard = page.locator('a[href^="/en/emoji/"]').first();
   await expect(firstCard).toBeVisible();
   const href = await firstCard.getAttribute('href');
   expect(href).toContain('/en/emoji/');

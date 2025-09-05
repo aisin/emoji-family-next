@@ -3,7 +3,7 @@ import CategoryCard from "@/app/ui/CategoryCard";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { uiText } from "@/app/lib/ui-strings";
 
-export async function generateMetadata({ params }: { params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ lang: SupportedLanguage }> }) {
   const { lang } = await Promise.resolve(params);
   const path = `/${lang}/categories`;
   return {
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { lang: SupportedLa
   };
 }
 
-export default async function CategoriesIndex({ params }: { params: { lang: SupportedLanguage } | Promise<{ lang: SupportedLanguage }> }) {
+export default async function CategoriesIndex({ params }: { params: Promise<{ lang: SupportedLanguage }> }) {
   const { lang } = await Promise.resolve(params);
   const categories = getPrimaryCategories(lang);
   const t = uiText(lang);

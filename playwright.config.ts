@@ -16,7 +16,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run build && npm start -- -p 4003',
+    // Avoid Turbopack for CI build to work around font plugin resolution issues
+    command: 'next build && next start -p 4003',
     url: 'http://localhost:4003',
     reuseExistingServer: true,
     timeout: 2 * 60 * 1000,
