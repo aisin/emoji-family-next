@@ -5,6 +5,7 @@ import { extractLeadingEmoji } from "@/app/ui/utils";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import Link from "next/link";
 import { uiText } from "@/app/lib/ui-strings";
+import { Button } from "@/app/ui/shadcn/button";
 
 export const dynamic = "force-static";
 
@@ -54,7 +55,7 @@ export default async function CategoryPage({
   const current = categories.find((c) => c.slug === slug);
 
   if (!current) {
-    return <div className="text-center text-[color:var(--muted)]">{t.category.not_found}</div>;
+    return <div className="text-center text-muted-foreground">{t.category.not_found}</div>;
   }
 
   const icon = extractLeadingEmoji(current.category) ?? undefined;
@@ -71,16 +72,22 @@ export default async function CategoryPage({
       {emojis.length > 0 ? (
         <EmojiGrid emojis={emojis} lang={lang} />
       ) : (
-        <div className="text-center text-[color:var(--muted)] py-12 border border-[color:var(--border)] rounded-md">
+        <div className="text-center text-muted-foreground py-12 border border-border rounded-md">
           {t.category.empty}
           <div className="mt-3 flex items-center justify-center gap-3">
-            <Link href={`/${lang}/search`} aria-label={t.common.go_search} className="px-3 py-1 rounded-md border border-[color:var(--border)] hover:text-brand-600">{t.common.go_search}</Link>
-            <Link href={`/${lang}/categories`} aria-label={t.common.back_categories} className="px-3 py-1 rounded-md border border-[color:var(--border)] hover:text-brand-600">{t.common.back_categories}</Link>
+            <Button asChild variant="outline" size="sm">
+              <Link href={`/${lang}/search`} aria-label={t.common.go_search}>{t.common.go_search}</Link>
+            </Button>
+            <Button asChild variant="outline" size="sm">
+              <Link href={`/${lang}/categories`} aria-label={t.common.back_categories}>{t.common.back_categories}</Link>
+            </Button>
           </div>
           <div className="mt-3 flex items-center justify-center gap-2 text-sm">
             <span>{t.search.try_examples}</span>
             {t.search.examples.slice(0, 2).map((ex) => (
-              <Link key={ex} href={`/${lang}/search?q=${encodeURIComponent(ex)}`} aria-label={`示例搜索 ${ex}`} className="px-2 py-1 rounded-md border border-[color:var(--border)] hover:text-brand-600">{ex}</Link>
+              <Button asChild key={ex} variant="outline" size="sm">
+                <Link href={`/${lang}/search?q=${encodeURIComponent(ex)}`} aria-label={`示例搜索 ${ex}`}>{ex}</Link>
+              </Button>
             ))}
           </div>
         </div>

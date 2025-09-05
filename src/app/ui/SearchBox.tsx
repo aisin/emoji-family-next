@@ -84,7 +84,7 @@ export default function SearchBox({
                 <Link
                   prefetch={false}
                   href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
-                  className="flex items-center gap-3 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                  className="flex items-center gap-3 px-3 py-2 hover:bg-accent hover:text-accent-foreground"
                   aria-label={`${t.search.view_details_aria(s.name)}`}
                 >
                   <span className="text-2xl">{s.emoji}</span>
