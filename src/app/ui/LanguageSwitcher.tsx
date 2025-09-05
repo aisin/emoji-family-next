@@ -58,7 +58,11 @@ export default function LanguageSwitcher({
           }}
         >
           {SUPPORTED_LANGUAGES.map((l) => (
-            <DropdownMenuRadioItem key={l} value={l}>
+            <DropdownMenuRadioItem
+              key={l}
+              value={l}
+              className="hover:bg-[var(--color-brand-400)] hover:text-white"
+            >
               {getLanguageName(l)}
             </DropdownMenuRadioItem>
           ))}
@@ -67,4 +71,3 @@ export default function LanguageSwitcher({
     </DropdownMenu>
   );
 }
-
