@@ -41,10 +41,10 @@
   --color-popover: var(--surface);
   --color-popover-foreground: var(--foreground);
   --color-input: var(--border);
-  --color-ring: var(--color-brand-600);
+  --color-ring: var(--color-brand-500);
 
   /* Brand & accents */
-  --color-primary: var(--color-brand-600);
+  --color-primary: var(--color-brand-500);
   --color-primary-foreground: #ffffff;
   --color-accent: var(--color-brand-50);
   --color-accent-foreground: var(--color-brand-800);
