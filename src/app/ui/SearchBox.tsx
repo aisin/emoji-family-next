@@ -15,10 +15,12 @@ export default function SearchBox({
   lang,
   placeholder,
   autoFocus = false,
+  withSubmitButton = true,
 }: {
   lang: SupportedLanguage;
   placeholder: string;
   autoFocus?: boolean;
+  withSubmitButton?: boolean;
 }) {
   const [q, setQ] = useState("");
   const router = useRouter();
@@ -88,11 +90,16 @@ export default function SearchBox({
           }
           window.localStorage.setItem(KEY, JSON.stringify(dedup));
         } catch {}
-        router.push(`/${lang}/search?${params.toString()}`);
+        const target = suggestions[activeIdx]?.unicode || suggestions[0]?.unicode;
+        if (target) {
+          router.push(`/${lang}/emoji/${encodeURIComponent(target)}`);
+        } else {
+          router.push(`/${lang}`);
+        }
         setOpen(false);
       }}
       ref={formRef}
-      className="relative flex items-center gap-3"
+      className="relative flex items-center gap-3 w-full"
       role="search"
     >
       <label htmlFor="search-input" className="sr-only">{t.search.title}</label>
@@ -147,15 +154,17 @@ export default function SearchBox({
           }
         }}
         placeholder={placeholder}
-        className="w-full md:w-96"
+        className="w-full"
         aria-label={t.search.title}
         autoComplete="off"
         inputMode="search"
         autoFocus={autoFocus}
       />
-      <Button type="submit" aria-label="Search">
-        搜索
-      </Button>
+      {withSubmitButton && (
+        <Button type="submit" aria-label="Search">
+          搜索
+        </Button>
+      )}
 
       {open && q.trim().length >= 2 && suggestions.length > 0 && (
         <div className="absolute left-0 right-0 top-full mt-2 z-40">

@@ -46,9 +46,6 @@ export default async function HomePage({
 <p className="text-muted-foreground max-w-2xl mx-auto">
           {t.home.tagline}
         </p>
-        <div className="flex justify-center">
-          <SearchBox lang={lang} placeholder={t.home.search_placeholder} />
-        </div>
       </section>
 
       <section className="section space-y-4">

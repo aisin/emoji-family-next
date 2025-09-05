@@ -18,12 +18,16 @@ export default async function LangLayout({
   const resolved = await Promise.resolve(params);
   const lang = normalizeLang(resolved.lang);
   return (
-    <div className="container" lang={lang}>
+    <div lang={lang}>
+      {/* Full-width header */}
       <Header lang={lang as SupportedLanguage} />
-      <main id="main" className="py-8">{children}</main>
-      <BackToTop />
-      <ToastProvider />
-      <Footer lang={lang as SupportedLanguage} />
+      {/* Constrained content area */}
+      <div className="container">
+        <main id="main" className="py-8">{children}</main>
+        <BackToTop />
+        <ToastProvider />
+        <Footer lang={lang as SupportedLanguage} />
+      </div>
     </div>
   );
 }

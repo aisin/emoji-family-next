@@ -6,54 +6,34 @@ import { uiText } from "@/app/lib/ui-strings";
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetDescription } from "@/app/ui/shadcn/sheet";
 import { Button } from "@/app/ui/shadcn/button";
 import { Menu } from "lucide-react";
+import SearchBox from "@/app/ui/SearchBox";
+import MobileSearch from "@/app/ui/MobileSearch";
 
 export default function Header({ lang }: { lang: SupportedLanguage }) {
   const t = uiText(lang);
   return (
     <header className="header-sticky py-6">
 <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-primary focus:text-primary-foreground focus:px-3 focus:py-2 focus:rounded-md">{t.header.skip_to_content}</a>
-      <div className="flex items-center justify-between">
-        <Link href={`/${lang}`} className="flex items-center gap-3 text-xl font-semibold">
-          <span className="text-3xl">🌐</span>
-          <span>Emoji Family</span>
-        </Link>
-        {/* Desktop nav */}
-        <HeaderNav lang={lang} />
-        {/* Desktop language switcher */}
-        <div className="hidden md:flex items-center gap-3">
-          <LanguageSwitcher currentLang={lang} />
-        </div>
-        {/* Mobile menu */}
-        <div className="md:hidden">
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="outline" size="sm" aria-label="Open menu">
-                <Menu className="h-5 w-5" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right">
-              <SheetHeader>
-                <SheetTitle>Menu</SheetTitle>
-                <SheetDescription>Press Esc to close</SheetDescription>
-              </SheetHeader>
-              <div className="mt-4 space-y-4">
-                <nav className="flex flex-col gap-2" aria-label="Primary">
-                  <Button asChild variant="ghost" size="sm">
-                    <Link href={`/${lang}`}>{t.header.home}</Link>
-                  </Button>
-                  <Button asChild variant="ghost" size="sm">
-                    <Link href={`/${lang}/categories`}>{t.header.categories}</Link>
-                  </Button>
-                  <Button asChild variant="ghost" size="sm">
-                    <Link href={`/${lang}/search`}>{t.header.search}</Link>
-                  </Button>
-                </nav>
-                <div className="pt-2 border-t">
-                  <LanguageSwitcher currentLang={lang} />
-                </div>
-              </div>
-            </SheetContent>
-          </Sheet>
+      <div className="container relative">
+        <div className="flex items-center justify-between gap-4">
+          {/* Left: logo + nav */}
+          <div className="flex items-center gap-4 md:gap-20 lg:gap-24">
+            <Link href={`/${lang}`} className="flex items-center gap-3 text-xl font-semibold">
+              <span className="text-3xl">🌐</span>
+              <span>Emoji Family</span>
+            </Link>
+            {/* Desktop nav */}
+            <HeaderNav lang={lang} />
+          </div>
+          {/* Right: search + language */}
+          <div className="hidden md:flex items-center gap-3">
+            <div className="w-72">
+              <SearchBox lang={lang} placeholder={t.home.search_placeholder} withSubmitButton={false} />
+            </div>
+            <LanguageSwitcher currentLang={lang} />
+          </div>
+          {/* Mobile search toggle + menu in same row */}
+          <MobileSearch lang={lang} placeholder={t.home.search_placeholder} />
         </div>
       </div>
     </header>

@@ -91,6 +91,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 /* Layout helpers */
 .container {
   margin-inline: auto;
@@ -134,3 +135,10 @@ a.bg-primary {
   font-weight: 600;
   letter-spacing: -0.01em;
 }
+
+/* Simple fade-in animation utility for mobile search */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fade-in 0.2s ease both; }

@@ -11,11 +11,9 @@ export default function HeaderNav({ lang }: { lang: SupportedLanguage }) {
   const t = uiText(lang);
   const home = `/${lang}`;
   const categories = `/${lang}/categories`;
-  const search = `/${lang}/search`;
 
   const isHome = pathname === home;
   const isCategories = pathname?.startsWith(categories) ?? false;
-  const isSearch = pathname?.startsWith(search) ?? false;
 
   return (
     <nav aria-label="Primary" className="hidden md:flex items-center gap-3 text-sm text-muted-foreground">
@@ -27,11 +25,6 @@ export default function HeaderNav({ lang }: { lang: SupportedLanguage }) {
       <Button asChild variant={isCategories ? "default" : "ghost"} size="sm">
         <Link href={categories} aria-current={isCategories ? "page" : undefined}>
           {t.header.categories}
-        </Link>
-      </Button>
-      <Button asChild variant={isSearch ? "default" : "ghost"} size="sm">
-        <Link href={search} aria-current={isSearch ? "page" : undefined}>
-          {t.header.search}
         </Link>
       </Button>
     </nav>
