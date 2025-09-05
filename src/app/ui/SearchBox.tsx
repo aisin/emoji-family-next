@@ -25,6 +25,7 @@ export default function SearchBox({
   const workerRef = useRef<Worker | null>(null);
   const debounceRef = useRef<number | null>(null);
   const [suggestions, setSuggestions] = useState<{ emoji: string; name: string; unicode: string }[]>([]);
+  const [activeIdx, setActiveIdx] = useState<number>(-1);
 
   useEffect(() => {
     const w = new Worker(new URL("../workers/searchWorker.ts", import.meta.url), { type: "module" });
@@ -60,11 +61,26 @@ export default function SearchBox({
         onChange={(e) => {
           const val = e.target.value;
           setQ(val);
+          setActiveIdx(-1);
           if (!workerRef.current) return;
           if (debounceRef.current) window.clearTimeout(debounceRef.current);
           debounceRef.current = window.setTimeout(() => {
             workerRef.current?.postMessage({ type: "query", q: val });
           }, 200);
+        }}
+        onKeyDown={(e) => {
+          if (!suggestions.length) return;
+          if (e.key === "ArrowDown") {
+            e.preventDefault();
+            setActiveIdx((idx) => (idx + 1) % suggestions.length);
+          } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            setActiveIdx((idx) => (idx - 1 + suggestions.length) % suggestions.length);
+          } else if (e.key === "Enter" && activeIdx >= 0) {
+            e.preventDefault();
+            const s = suggestions[activeIdx];
+            if (s) router.push(`/${lang}/emoji/${encodeURIComponent(s.unicode)}`);
+          }
         }}
         placeholder={placeholder}
         className="w-full md:w-96"
@@ -79,22 +95,26 @@ export default function SearchBox({
       {q.trim().length >= 2 && suggestions.length > 0 && (
         <div className="absolute left-0 right-0 top-full mt-2 z-40">
           <ul role="listbox" className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border">
-            {suggestions.map((s) => (
-              <li key={s.unicode} role="option" aria-selected="false">
-                <Link
-                  prefetch={false}
-                  href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
-                  className="flex items-center gap-3 px-3 py-2 hover:bg-accent hover:text-accent-foreground"
-                  aria-label={`${t.search.view_details_aria(s.name)}`}
-                >
-                  <span className="text-2xl">{s.emoji}</span>
-                  <span className="text-sm">
-                    <span className="font-medium">{s.name}</span>
-                    <span className="text-muted-foreground ml-2">{s.unicode}</span>
-                  </span>
-                </Link>
-              </li>
-            ))}
+            {suggestions.map((s, i) => {
+              const active = i === activeIdx;
+              return (
+                <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
+                  <Link
+                    prefetch={false}
+                    href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
+                    className={`flex items-center gap-3 px-3 py-2 ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
+                    aria-label={`${t.search.view_details_aria(s.name)}`}
+                    onMouseEnter={() => setActiveIdx(i)}
+                  >
+                    <span className="text-2xl">{s.emoji}</span>
+                    <span className="text-sm">
+                      <span className="font-medium">{s.name}</span>
+                      <span className="text-muted-foreground ml-2">{s.unicode}</span>
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
       )}
