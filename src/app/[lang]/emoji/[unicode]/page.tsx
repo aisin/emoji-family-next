@@ -4,6 +4,8 @@ import CopyButtons from "@/app/ui/CopyButtons";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import Link from "next/link";
 import { uiText } from "@/app/lib/ui-strings";
+import { Card } from "@/app/ui/shadcn/card";
+import { Button } from "@/app/ui/shadcn/button";
 
 export const dynamic = "force-static";
 
@@ -102,10 +104,10 @@ export default async function EmojiDetailPage({
           <div className="text-6xl">{data.emoji}</div>
           <div>
             <h1 className="section-title">{base.short_name}</h1>
-            <p className="text-sm text-[color:var(--muted)]">{base.unicode} · {base.short_code ?? ""} · {base.decimal ?? ""}</p>
+            <p className="text-sm text-muted-foreground">{base.unicode} · {base.short_code ?? ""} · {base.decimal ?? ""}</p>
             {catInfo && (
-              <div className="text-sm text-[color:var(--muted)]">
-                <Link href={catInfo.url} className="hover:text-brand-600">{catInfo.title}</Link>
+              <div className="text-sm text-muted-foreground">
+                <Link href={catInfo.url} className="hover:text-primary">{catInfo.title}</Link>
                 {base.sub_category ? <span> / {base.sub_category}</span> : null}
               </div>
             )}
@@ -115,51 +117,53 @@ export default async function EmojiDetailPage({
       </div>
 
       <section className="grid md:grid-cols-2 gap-6 section">
-        <div className="card p-5 space-y-2">
+        <Card className="p-5 space-y-2">
           <h2 className="section-title">{t.detail.specs_title}</h2>
-          <dl className="text-sm text-[color:var(--muted)] grid grid-cols-[8rem,1fr] gap-y-1">
+          <dl className="text-sm text-muted-foreground grid grid-cols-[8rem,1fr] gap-y-1">
             {base.unicode_version && <>
-              <dt className="font-medium text-[color:var(--foreground)]">{t.detail.labels.unicode_version}</dt>
+              <dt className="font-medium text-foreground">{t.detail.labels.unicode_version}</dt>
               <dd>{base.unicode_version}</dd>
             </>}
             {base.emoji_version && <>
-              <dt className="font-medium text-[color:var(--foreground)]">{t.detail.labels.emoji_version}</dt>
+              <dt className="font-medium text-foreground">{t.detail.labels.emoji_version}</dt>
               <dd>{base.emoji_version}</dd>
             </>}
             {base.category && <>
-              <dt className="font-medium text-[color:var(--foreground)]">{t.detail.labels.category}</dt>
+              <dt className="font-medium text-foreground">{t.detail.labels.category}</dt>
               <dd>{base.category}{base.sub_category ? ` / ${base.sub_category}` : ""}</dd>
             </>}
             {Array.isArray(base.known_as) && <>
-              <dt className="font-medium text-[color:var(--foreground)]">{t.detail.labels.aliases}</dt>
+              <dt className="font-medium text-foreground">{t.detail.labels.aliases}</dt>
               <dd>{base.known_as.join(", ")}</dd>
             </>}
             {Array.isArray(base.keywords) && <>
-              <dt className="font-medium text-[color:var(--foreground)]">{t.detail.labels.keywords}</dt>
+              <dt className="font-medium text-foreground">{t.detail.labels.keywords}</dt>
               <dd>{base.keywords.join(", ")}</dd>
             </>}
           </dl>
-        </div>
-        <div className="card p-5 space-y-2">
+        </Card>
+        <Card className="p-5 space-y-2">
           <h2 className="section-title">{t.detail.os_support_title}</h2>
-          <dl className="text-sm text-[color:var(--muted)] grid grid-cols-[8rem,1fr] gap-y-1">
+          <dl className="text-sm text-muted-foreground grid grid-cols-[8rem,1fr] gap-y-1">
             {data.os_support.map((o) => (
               <>
-                <dt className="font-medium text-[color:var(--foreground)]">{o.type}</dt>
+                <dt className="font-medium text-foreground">{o.type}</dt>
                 <dd>{o.value}</dd>
               </>
             ))}
           </dl>
-        </div>
+        </Card>
       </section>
 
-      <section className="card p-5 section">
-        <h2 className="section-title mb-2">{t.detail.multilingual_title}</h2>
-        <ul className="text-sm text-[color:var(--muted)] space-y-1 list-disc pl-5">
-          {(data.langs ?? []).map((l) => (
-            <li key={l.lang}><span className="font-medium">{l.lang}</span>: {l.name}</li>
-          ))}
-        </ul>
+      <section className="section">
+        <Card className="p-5">
+          <h2 className="section-title mb-2">{t.detail.multilingual_title}</h2>
+          <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+            {(data.langs ?? []).map((l) => (
+              <li key={l.lang}><span className="font-medium">{l.lang}</span>: {l.name}</li>
+            ))}
+          </ul>
+        </Card>
       </section>
 
       {/* Prev/Next + Back to Category navigation */}
@@ -172,33 +176,37 @@ export default async function EmojiDetailPage({
         return (
           <nav className="flex items-center justify-between section">
             {prev ? (
-              <Link
-                href={`/${lang}/emoji/${encodeURIComponent(prev.base_info.unicode)}`}
-                aria-label={t.detail.prev_aria(prev.base_info.short_name)}
-                className="px-3 py-2 rounded-md border border-[color:var(--border)] hover:text-brand-600 inline-flex items-center gap-2"
-              >
-                <span>←</span>
-                <span className="text-2xl">{prev.emoji}</span>
-                <span className="text-sm text-[color:var(--muted)]">{prev.base_info.short_name}</span>
-              </Link>
+              <Button asChild variant="outline">
+                <Link
+                  href={`/${lang}/emoji/${encodeURIComponent(prev.base_info.unicode)}`}
+                  aria-label={t.detail.prev_aria(prev.base_info.short_name)}
+                  className="inline-flex items-center gap-2"
+                >
+                  <span>←</span>
+                  <span className="text-2xl">{prev.emoji}</span>
+                  <span className="text-sm text-muted-foreground">{prev.base_info.short_name}</span>
+                </Link>
+              </Button>
             ) : <span />}
 
             {catInfo ? (
-              <Link href={catInfo.url} className="px-3 py-2 rounded-md border border-[color:var(--border)] hover:text-brand-600">
-                {t.detail.back_to_category(catInfo.title)}
-              </Link>
+              <Button asChild variant="outline">
+                <Link href={catInfo.url}>{t.detail.back_to_category(catInfo.title)}</Link>
+              </Button>
             ) : <span />}
 
             {next ? (
-              <Link
-                href={`/${lang}/emoji/${encodeURIComponent(next.base_info.unicode)}`}
-                aria-label={t.detail.next_aria(next.base_info.short_name)}
-                className="px-3 py-2 rounded-md border border-[color:var(--border)] hover:text-brand-600 inline-flex items-center gap-2"
-              >
-                <span className="text-sm text-[color:var(--muted)]">{next.base_info.short_name}</span>
-                <span className="text-2xl">{next.emoji}</span>
-                <span>→</span>
-              </Link>
+              <Button asChild variant="outline">
+                <Link
+                  href={`/${lang}/emoji/${encodeURIComponent(next.base_info.unicode)}`}
+                  aria-label={t.detail.next_aria(next.base_info.short_name)}
+                  className="inline-flex items-center gap-2"
+                >
+                  <span className="text-sm text-muted-foreground">{next.base_info.short_name}</span>
+                  <span className="text-2xl">{next.emoji}</span>
+                  <span>→</span>
+                </Link>
+              </Button>
             ) : <span />}
           </nav>
         );
