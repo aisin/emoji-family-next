@@ -26,6 +26,8 @@ export default function SearchBox({
   const debounceRef = useRef<number | null>(null);
   const [suggestions, setSuggestions] = useState<{ emoji: string; name: string; unicode: string }[]>([]);
   const [activeIdx, setActiveIdx] = useState<number>(-1);
+  const [open, setOpen] = useState<boolean>(false);
+  const listboxId = "searchbox-suggestions";
 
   useEffect(() => {
     const w = new Worker(new URL("../workers/searchWorker.ts", import.meta.url), { type: "module" });
@@ -56,12 +58,18 @@ export default function SearchBox({
     >
       <label htmlFor="search-input" className="sr-only">{t.search.title}</label>
       <Input
+        role="combobox"
+        aria-controls={listboxId}
+        aria-expanded={open && q.trim().length >= 2 && suggestions.length > 0}
+        aria-activedescendant={activeIdx >= 0 ? `suggestion-${activeIdx}` : undefined}
+        aria-autocomplete="list"
         id="search-input"
         value={q}
         onChange={(e) => {
           const val = e.target.value;
           setQ(val);
           setActiveIdx(-1);
+          setOpen(true);
           if (!workerRef.current) return;
           if (debounceRef.current) window.clearTimeout(debounceRef.current);
           debounceRef.current = window.setTimeout(() => {
@@ -69,7 +77,13 @@ export default function SearchBox({
           }, 200);
         }}
         onKeyDown={(e) => {
-          if (!suggestions.length) return;
+          if (e.key === "Escape") {
+            e.preventDefault();
+            setOpen(false);
+            setActiveIdx(-1);
+            return;
+          }
+          if (!suggestions.length || !open) return;
           if (e.key === "ArrowDown") {
             e.preventDefault();
             setActiveIdx((idx) => (idx + 1) % suggestions.length);
@@ -92,9 +106,9 @@ export default function SearchBox({
         搜索
       </Button>
 
-      {q.trim().length >= 2 && suggestions.length > 0 && (
+      {open && q.trim().length >= 2 && suggestions.length > 0 && (
         <div className="absolute left-0 right-0 top-full mt-2 z-40">
-          <ul role="listbox" className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border">
+          <ul id={listboxId} role="listbox" className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border">
             {suggestions.map((s, i) => {
               const active = i === activeIdx;
               return (

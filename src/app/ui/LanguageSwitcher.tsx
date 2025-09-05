@@ -10,6 +10,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  DropdownMenuShortcut,
 } from "@/app/ui/shadcn/dropdown-menu";
 
 function getLanguageName(code: SupportedLanguage) {
@@ -54,6 +55,7 @@ export default function LanguageSwitcher({
             <DropdownMenuItem key={l} asChild className={isActive ? "font-medium text-primary" : undefined}>
               <Link href={href} aria-current={isActive ? "page" : undefined}>
                 {getLanguageName(l)}
+                {isActive && <DropdownMenuShortcut aria-hidden>✓</DropdownMenuShortcut>}
               </Link>
             </DropdownMenuItem>
           );
