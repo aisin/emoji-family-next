@@ -5,6 +5,9 @@ import { uiText } from "@/app/lib/ui-strings";
 import type { Metadata } from "next";
 import { Card } from "@/app/ui/shadcn/card";
 import { Button } from "@/app/ui/shadcn/button";
+import SearchBox from "@/app/ui/SearchBox";
+import RecentSearches from "@/app/ui/RecentSearches";
+import { POPULAR_QUERIES } from "@/app/lib/search-config";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
@@ -26,18 +29,24 @@ export default async function SearchPage({
   return (
     <div className="space-y-6 section">
       <h1 className="section-title">{t.search.title}</h1>
+      <div className="flex">
+        <SearchBox lang={lang} placeholder={t.home.search_placeholder} autoFocus />
+      </div>
       {q ? (
         <p className="text-muted-foreground">{t.search.results_count(results.length, q)}</p>
       ) : (
         <>
           <p className="text-muted-foreground">{t.search.start_typing}</p>
-          <div className="flex flex-wrap items-center gap-2 text-sm">
-            <span className="text-muted-foreground">{t.search.try_examples}</span>
-            {t.search.examples.map((ex) => (
-              <Button asChild key={ex} variant="outline" size="sm">
-                <Link href={`/${lang}/search?q=${encodeURIComponent(ex)}`}>{ex}</Link>
-              </Button>
-            ))}
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-wrap items-center gap-2 text-sm">
+              <span className="text-muted-foreground">{t.search.popular_label}</span>
+              {(POPULAR_QUERIES[lang] ?? t.search.examples).map((ex) => (
+                <Button asChild key={ex} variant="outline" size="sm">
+                  <Link href={`/${lang}/search?q=${encodeURIComponent(ex)}`}>{ex}</Link>
+                </Button>
+              ))}
+            </div>
+            <RecentSearches lang={lang} />
           </div>
         </>
       )}

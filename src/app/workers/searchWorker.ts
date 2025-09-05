@@ -9,7 +9,12 @@ type InitMsg = { type: "init"; lang: SupportedLanguage };
 type QueryMsg = { type: "query"; q: string };
 type InMsg = InitMsg | QueryMsg;
 
-type OutMsg = { type: "ready" } | { type: "results"; results: { emoji: string; name: string; unicode: string }[] };
+type OutMsg =
+  | { type: "ready" }
+  | {
+      type: "results";
+      results: { emoji: string; name: string; unicode: string; short_code?: string; category?: string }[];
+    };
 
 let fuse: Fuse<EmojiData> | null = null;
 
@@ -59,6 +64,8 @@ self.onmessage = (ev: MessageEvent<InMsg>) => {
       emoji: h.item.emoji,
       name: h.item.base_info.short_name,
       unicode: h.item.base_info.unicode,
+      short_code: h.item.base_info.short_code,
+      category: h.item.base_info.category,
     }));
     (self as unknown as Worker).postMessage({ type: "results", results } satisfies OutMsg);
   }

@@ -9,13 +9,16 @@ import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { Input } from "@/app/ui/shadcn/input";
 import { Button } from "@/app/ui/shadcn/button";
+import { RECENT_SEARCH_LIMIT } from "@/app/lib/search-config";
 
 export default function SearchBox({
   lang,
   placeholder,
+  autoFocus = false,
 }: {
   lang: SupportedLanguage;
   placeholder: string;
+  autoFocus?: boolean;
 }) {
   const [q, setQ] = useState("");
   const router = useRouter();
@@ -24,7 +27,13 @@ export default function SearchBox({
   // Web Worker for suggestions (lazy init)
   const workerRef = useRef<Worker | null>(null);
   const debounceRef = useRef<number | null>(null);
-  const [suggestions, setSuggestions] = useState<{ emoji: string; name: string; unicode: string }[]>([]);
+  const [suggestions, setSuggestions] = useState<{
+    emoji: string;
+    name: string;
+    unicode: string;
+    short_code?: string;
+    category?: string;
+  }[]>([]);
   const [activeIdx, setActiveIdx] = useState<number>(-1);
   const [open, setOpen] = useState<boolean>(false);
   const listboxId = "searchbox-suggestions";
@@ -64,6 +73,21 @@ export default function SearchBox({
         e.preventDefault();
         if (!validateSearchQuery(q)) return;
         const params = new URLSearchParams({ q });
+        // persist recent searches
+        try {
+          const KEY = "emoji_recent_searches";
+          const raw = window.localStorage.getItem(KEY);
+          const arr = raw ? (JSON.parse(raw) as string[]) : [];
+          const next = [q, ...(Array.isArray(arr) ? arr : [])].filter(Boolean);
+          const dedup: string[] = [];
+          for (const item of next) {
+            const v = item.trim();
+            if (!v) continue;
+            if (!dedup.includes(v)) dedup.push(v);
+            if (dedup.length >= RECENT_SEARCH_LIMIT) break;
+          }
+          window.localStorage.setItem(KEY, JSON.stringify(dedup));
+        } catch {}
         router.push(`/${lang}/search?${params.toString()}`);
         setOpen(false);
       }}
@@ -127,6 +151,7 @@ export default function SearchBox({
         aria-label={t.search.title}
         autoComplete="off"
         inputMode="search"
+        autoFocus={autoFocus}
       />
       <Button type="submit" aria-label="Search">
         搜索
@@ -137,21 +162,31 @@ export default function SearchBox({
           <ul id={listboxId} role="listbox" className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border">
             {suggestions.map((s, i) => {
               const active = i === activeIdx;
-              return (
-                <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
+          return (
+            <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
                 <Link
                   prefetch={false}
                   href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
-                  className={`flex items-center gap-3 px-3 py-2 ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
+                  className={`flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 px-3 py-2 ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
                   aria-label={`${t.search.view_details_aria(s.name)}`}
                   onMouseEnter={() => setActiveIdx(i)}
                   onClick={() => { setOpen(false); setActiveIdx(-1); }}
                 >
-                    <span className="text-2xl">{s.emoji}</span>
-                    <span className="text-sm">
-                      <span className="font-medium">{s.name}</span>
-                      <span className="text-muted-foreground ml-2">{s.unicode}</span>
-                    </span>
+                    <div className="flex items-center gap-3 min-w-0">
+                      <span className="text-2xl flex-shrink-0">{s.emoji}</span>
+                      <span className="text-sm truncate">
+                        <span className="font-medium">{s.name}</span>
+                        <span className="text-muted-foreground ml-2">{s.unicode}</span>
+                      </span>
+                    </div>
+                    {(s.short_code || s.category) && (
+                      <div className="w-full sm:w-auto mt-1 sm:mt-0 sm:ml-4 text-xs text-muted-foreground text-left sm:text-right">
+                        {s.short_code && <div>{s.short_code}</div>}
+                        {s.category && (
+                          <div>{s.category.replace(/^\p{Extended_Pictographic}\s*/u, "")}</div>
+                        )}
+                      </div>
+                    )}
                   </Link>
                 </li>
               );

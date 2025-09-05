@@ -20,6 +20,9 @@ export type UIText = {
     results_count: (n: number, q: string) => string;
     no_results: (q: string) => string;
     try_examples: string;
+    popular_label: string;
+    recent_label: string;
+    clear_recent: string;
     examples: string[]; // example query terms to render
     view_details_aria: (name: string) => string;
   };
@@ -83,6 +86,9 @@ const zhHans: UIText = {
     results_count: (n, q) => `${n} 条结果，关键词 “${q}”`,
     no_results: (q) => `未找到与 “${q}” 匹配的结果。`,
     try_examples: "试试：",
+    popular_label: "热门搜索",
+    recent_label: "最近搜索",
+    clear_recent: "清空",
     examples: ["OK", "U+1F44C", ":ok_hand:", "grinning"],
     view_details_aria: (name) => `查看 ${name} 详情`,
   },
@@ -146,6 +152,9 @@ const zhHant: UIText = {
     results_count: (n, q) => `${n} 條結果，關鍵詞 “${q}”`,
     no_results: (q) => `未找到與 “${q}” 相符的結果。`,
     try_examples: "試試：",
+    popular_label: "熱門搜尋",
+    recent_label: "最近搜尋",
+    clear_recent: "清除",
     examples: ["OK", "U+1F44C", ":ok_hand:", "grinning"],
     view_details_aria: (name) => `查看 ${name} 詳情`,
   },
@@ -209,6 +218,9 @@ const enUS: UIText = {
     results_count: (n, q) => `${n} results for “${q}”`,
     no_results: (q) => `No results for “${q}”.`,
     try_examples: "Try:",
+    popular_label: "Popular searches",
+    recent_label: "Recent searches",
+    clear_recent: "Clear",
     examples: ["OK", "U+1F44C", ":ok_hand:", "grinning"],
     view_details_aria: (name) => `View details for ${name}`,
   },
