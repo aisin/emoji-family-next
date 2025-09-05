@@ -13,8 +13,8 @@ const buttonVariants = cva(
         default: "bg-primary text-primary-foreground hover:bg-[color:var(--color-brand-400)]",
         secondary: "bg-accent text-accent-foreground hover:bg-accent/80",
         outline:
-          "border border-border bg-background hover:bg-[color:var(--color-brand-400)] hover:text-white",
-        ghost: "hover:bg-[color:var(--color-brand-400)] hover:text-white",
+          "border border-border bg-background hover:bg-[color:var(--color-brand-400)] hover:!text-white",
+        ghost: "hover:bg-[color:var(--color-brand-400)] hover:!text-white",
         link: "text-primary hover:no-underline",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
