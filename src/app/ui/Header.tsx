@@ -34,9 +34,15 @@ export default function Header({ lang }: { lang: SupportedLanguage }) {
             <SheetContent side="right">
               <div className="mt-8 space-y-4">
                 <nav className="flex flex-col gap-2" aria-label="Primary">
-                  <Link href={`/${lang}`} className="hover:underline">{t.header.home}</Link>
-                  <Link href={`/${lang}/categories`} className="hover:underline">{t.header.categories}</Link>
-                  <Link href={`/${lang}/search`} className="hover:underline">{t.header.search}</Link>
+                  <Button asChild variant="ghost" size="sm">
+                    <Link href={`/${lang}`}>{t.header.home}</Link>
+                  </Button>
+                  <Button asChild variant="ghost" size="sm">
+                    <Link href={`/${lang}/categories`}>{t.header.categories}</Link>
+                  </Button>
+                  <Button asChild variant="ghost" size="sm">
+                    <Link href={`/${lang}/search`}>{t.header.search}</Link>
+                  </Button>
                 </nav>
                 <div className="pt-2 border-t">
                   <LanguageSwitcher currentLang={lang} />

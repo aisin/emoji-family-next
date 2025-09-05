@@ -1,16 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { SUPPORTED_LANGUAGES } from "@/app/lib/i18n";
 import { Button } from "@/app/ui/shadcn/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuItem,
   DropdownMenuTrigger,
-  DropdownMenuShortcut,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
 } from "@/app/ui/shadcn/dropdown-menu";
 
 function getLanguageName(code: SupportedLanguage) {
@@ -38,6 +38,7 @@ export default function LanguageSwitcher({
   currentLang: SupportedLanguage;
 }) {
   const pathname = usePathname() || "/" + currentLang;
+  const router = useRouter();
 
   const currentName = getLanguageName(currentLang);
   return (
@@ -48,18 +49,20 @@ export default function LanguageSwitcher({
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        {SUPPORTED_LANGUAGES.map((l) => {
-          const href = buildPathForLang(pathname, l);
-          const isActive = l === currentLang;
-          return (
-            <DropdownMenuItem key={l} asChild className={isActive ? "font-medium text-primary" : undefined}>
-              <Link href={href} aria-current={isActive ? "page" : undefined}>
-                {getLanguageName(l)}
-                {isActive && <DropdownMenuShortcut aria-hidden>✓</DropdownMenuShortcut>}
-              </Link>
-            </DropdownMenuItem>
-          );
-        })}
+        <DropdownMenuRadioGroup
+          value={currentLang}
+          onValueChange={(val) => {
+            const v = val as SupportedLanguage;
+            const href = buildPathForLang(pathname, v);
+            router.push(href);
+          }}
+        >
+          {SUPPORTED_LANGUAGES.map((l) => (
+            <DropdownMenuRadioItem key={l} value={l}>
+              {getLanguageName(l)}
+            </DropdownMenuRadioItem>
+          ))}
+        </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>
   );

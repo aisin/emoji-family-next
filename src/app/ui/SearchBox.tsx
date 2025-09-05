@@ -28,6 +28,7 @@ export default function SearchBox({
   const [activeIdx, setActiveIdx] = useState<number>(-1);
   const [open, setOpen] = useState<boolean>(false);
   const listboxId = "searchbox-suggestions";
+  const formRef = useRef<HTMLFormElement | null>(null);
 
   useEffect(() => {
     const w = new Worker(new URL("../workers/searchWorker.ts", import.meta.url), { type: "module" });
@@ -45,6 +46,18 @@ export default function SearchBox({
     };
   }, [lang]);
 
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      const root = formRef.current;
+      if (!root) return;
+      if (e.target && root.contains(e.target as Node)) return;
+      setOpen(false);
+      setActiveIdx(-1);
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, []);
+
   return (
     <form
       onSubmit={(e) => {
@@ -52,7 +65,9 @@ export default function SearchBox({
         if (!validateSearchQuery(q)) return;
         const params = new URLSearchParams({ q });
         router.push(`/${lang}/search?${params.toString()}`);
+        setOpen(false);
       }}
+      ref={formRef}
       className="relative flex items-center gap-3"
       role="search"
     >
@@ -64,6 +79,7 @@ export default function SearchBox({
         aria-activedescendant={activeIdx >= 0 ? `suggestion-${activeIdx}` : undefined}
         aria-autocomplete="list"
         id="search-input"
+        onFocus={() => setOpen(true)}
         value={q}
         onChange={(e) => {
           const val = e.target.value;
