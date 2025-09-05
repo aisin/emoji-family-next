@@ -4,6 +4,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { SUPPORTED_LANGUAGES } from "@/app/lib/i18n";
+import { Button } from "@/app/ui/shadcn/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/app/ui/shadcn/dropdown-menu";
 
 function getLanguageName(code: SupportedLanguage) {
   switch (code) {
@@ -31,23 +38,28 @@ export default function LanguageSwitcher({
 }) {
   const pathname = usePathname() || "/" + currentLang;
 
+  const currentName = getLanguageName(currentLang);
   return (
-    <nav className="flex items-center gap-2" aria-label="Language">
-      {SUPPORTED_LANGUAGES.map((l) => (
-        <Link
-          key={l}
-          href={buildPathForLang(pathname, l)}
-          className={`px-3 py-1 rounded-md text-sm border ${
-            l === currentLang
-              ? "bg-brand-600 border-brand-600 text-white"
-              : "border-[color:var(--border)] text-[color:var(--muted)] hover:text-brand-600"
-          }`}
-          aria-current={l === currentLang ? "page" : undefined}
-        >
-          {getLanguageName(l)}
-        </Link>
-      ))}
-    </nav>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="outline" size="sm" aria-label="Language switcher">
+          {currentName}
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        {SUPPORTED_LANGUAGES.map((l) => {
+          const href = buildPathForLang(pathname, l);
+          const isActive = l === currentLang;
+          return (
+            <DropdownMenuItem key={l} asChild className={isActive ? "font-medium text-primary" : undefined}>
+              <Link href={href} aria-current={isActive ? "page" : undefined}>
+                {getLanguageName(l)}
+              </Link>
+            </DropdownMenuItem>
+          );
+        })}
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
 
