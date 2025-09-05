@@ -43,7 +43,7 @@ export default async function HomePage({
         <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
           {t.home.title}
         </h1>
-        <p className="text-[color:var(--muted)] max-w-2xl mx-auto">
+<p className="text-muted-foreground max-w-2xl mx-auto">
           {t.home.tagline}
         </p>
         <div className="flex justify-center">

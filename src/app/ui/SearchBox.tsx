@@ -90,7 +90,7 @@ export default function SearchBox({
                   <span className="text-2xl">{s.emoji}</span>
                   <span className="text-sm">
                     <span className="font-medium">{s.name}</span>
-                    <span className="text-[color:var(--muted)] ml-2">{s.unicode}</span>
+                    <span className="text-muted-foreground ml-2">{s.unicode}</span>
                   </span>
                 </Link>
               </li>
