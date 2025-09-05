@@ -40,6 +40,8 @@ export default function SearchBox({
   const [open, setOpen] = useState<boolean>(false);
   const listboxId = "searchbox-suggestions";
   const formRef = useRef<HTMLFormElement | null>(null);
+  const inputRef = useRef<HTMLInputElement | null>(null);
+  const [listMaxHeight, setListMaxHeight] = useState<number | null>(null);
 
   useEffect(() => {
     const w = new Worker(new URL("../workers/searchWorker.ts", import.meta.url), { type: "module" });
@@ -68,6 +70,48 @@ export default function SearchBox({
     document.addEventListener("mousedown", onDown);
     return () => document.removeEventListener("mousedown", onDown);
   }, []);
+
+  // Keep suggestion list within viewport height; recompute when open/resize/scroll
+  useEffect(() => {
+    if (!open) {
+      setListMaxHeight(null);
+      return;
+    }
+    const compute = () => {
+      try {
+        const el = inputRef.current ?? formRef.current;
+        if (!el) return;
+        const rect = el.getBoundingClientRect();
+        const margin = 12; // px spacing below dropdown
+        const space = Math.max(0, window.innerHeight - rect.bottom - margin);
+        setListMaxHeight(space);
+      } catch {}
+    };
+    compute();
+    const handler = () => compute();
+    window.addEventListener("resize", handler);
+    window.addEventListener("scroll", handler, true);
+    return () => {
+      window.removeEventListener("resize", handler);
+      window.removeEventListener("scroll", handler, true);
+    };
+  }, [open]);
+
+  // Also recompute when suggestions update while open
+  useEffect(() => {
+    if (!open) return;
+    const id = window.setTimeout(() => {
+      try {
+        const el = inputRef.current ?? formRef.current;
+        if (!el) return;
+        const rect = el.getBoundingClientRect();
+        const margin = 12;
+        const space = Math.max(0, window.innerHeight - rect.bottom - margin);
+        setListMaxHeight(space);
+      } catch {}
+    }, 0);
+    return () => window.clearTimeout(id);
+  }, [open, suggestions.length]);
 
   return (
     <form
@@ -104,6 +148,7 @@ export default function SearchBox({
     >
       <label htmlFor="search-input" className="sr-only">{t.search.title}</label>
       <Input
+        ref={inputRef}
         role="combobox"
         aria-controls={listboxId}
         aria-expanded={open && q.trim().length >= 2 && suggestions.length > 0}
@@ -168,7 +213,12 @@ export default function SearchBox({
 
       {open && q.trim().length >= 2 && suggestions.length > 0 && (
         <div className="absolute left-0 right-0 top-full mt-2 z-40">
-          <ul id={listboxId} role="listbox" className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border">
+          <ul
+            id={listboxId}
+            role="listbox"
+            className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border overflow-y-auto"
+            style={listMaxHeight != null ? { maxHeight: `${listMaxHeight}px` } : undefined}
+          >
             {suggestions.map((s, i) => {
               const active = i === activeIdx;
           return (
