@@ -127,14 +127,6 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
           <div>
             <h1 className="section-title">{base.short_name}</h1>
             <p className="text-sm text-muted-foreground">{base.unicode} · {base.short_code ?? ""} · {base.decimal ?? ""}</p>
-            {catInfo && (
-              <div className="text-sm text-muted-foreground">
-                <Button asChild variant="link">
-                  <Link href={catInfo.url}>{catInfo.title}</Link>
-                </Button>
-                {base.sub_category ? <span> / {base.sub_category}</span> : null}
-              </div>
-            )}
           </div>
         </div>
         <CopyButtons showLink lang={lang} emoji={data.emoji} unicode={base.unicode} shortcode={base.short_code ?? ""} decimal={base.decimal ?? ""} />
