@@ -104,12 +104,12 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
   const idxInCategory = inCategory.findIndex((e) => e.base_info?.unicode?.toUpperCase() === base.unicode.toUpperCase());
   const related: typeof inCategory = [];
   if (idxInCategory >= 0) {
-    for (let i = 1; i <= inCategory.length && related.length < 10; i++) {
+    for (let i = 1; i <= inCategory.length && related.length < 20; i++) {
       const item = inCategory[(idxInCategory + i) % inCategory.length];
       if (item && item.base_info?.unicode?.toUpperCase() !== base.unicode.toUpperCase()) related.push(item);
     }
   } else {
-    related.push(...inCategory.slice(0, 10));
+    related.push(...inCategory.slice(0, 20));
   }
 
   return (
