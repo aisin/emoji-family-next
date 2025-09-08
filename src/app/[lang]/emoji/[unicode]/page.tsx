@@ -6,6 +6,7 @@ import Link from "next/link";
 import { uiText } from "@/app/lib/ui-strings";
 import { Card } from "@/app/ui/shadcn/card";
 import { Button } from "@/app/ui/shadcn/button";
+import { Fragment } from "react";
 
 export const dynamic = "force-static";
 
@@ -181,11 +182,14 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
       <section className="section">
         <Card className="p-5">
           <h2 className="section-title mb-2">{t.detail.multilingual_title}</h2>
-          <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+          <dl className="text-sm text-muted-foreground grid grid-cols-[8rem,1fr] gap-y-1">
             {(data.langs ?? []).map((l) => (
-              <li key={l.lang}><span className="font-medium">{l.lang}</span>: {l.name}</li>
+              <Fragment key={l.lang}>
+                <dt className="font-medium text-foreground whitespace-nowrap">{l.lang}:</dt>
+                <dd className="text-left whitespace-nowrap truncate">{l.name}</dd>
+              </Fragment>
             ))}
-          </ul>
+          </dl>
         </Card>
       </section>
 
