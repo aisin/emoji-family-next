@@ -197,40 +197,44 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
         const next = currentIndex > -1 ? list[(currentIndex + 1) % list.length] : null;
 
         return (
-          <nav className="flex items-center justify-between section">
-            {prev ? (
-              <Button asChild variant="outline">
-                <Link
-                  href={`/${lang}/emoji/${encodeURIComponent(prev.base_info.unicode)}`}
-                  aria-label={t.detail.prev_aria(prev.base_info.short_name)}
-                  className="inline-flex items-center gap-2"
-                >
-                  <span>←</span>
-                  <span className="text-2xl">{prev.emoji}</span>
-                  <span className="text-sm text-muted-foreground">{prev.base_info.short_name}</span>
-                </Link>
-              </Button>
-            ) : <span />}
+          <nav className="section">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+              {prev ? (
+                <Button asChild variant="outline" className="w-full sm:w-auto">
+                  <Link
+                    href={`/${lang}/emoji/${encodeURIComponent(prev.base_info.unicode)}`}
+                    aria-label={t.detail.prev_aria(prev.base_info.short_name)}
+                    className="inline-flex items-center gap-2 min-w-0"
+                  >
+                    <span>←</span>
+                    <span className="text-2xl">{prev.emoji}</span>
+                    <span className="text-sm text-muted-foreground truncate">{prev.base_info.short_name}</span>
+                  </Link>
+                </Button>
+              ) : <span className="hidden sm:block" />}
 
-            {catInfo ? (
-              <Button asChild variant="outline">
-                <Link href={catInfo.url}>{t.detail.back_to_category(catInfo.title)}</Link>
-              </Button>
-            ) : <span />}
+              {catInfo ? (
+                <Button asChild variant="outline" className="w-full sm:w-auto">
+                  <Link href={catInfo.url} className="min-w-0 truncate text-center">
+                    {t.detail.back_to_category(catInfo.title)}
+                  </Link>
+                </Button>
+              ) : <span className="hidden sm:block" />}
 
-            {next ? (
-              <Button asChild variant="outline">
-                <Link
-                  href={`/${lang}/emoji/${encodeURIComponent(next.base_info.unicode)}`}
-                  aria-label={t.detail.next_aria(next.base_info.short_name)}
-                  className="inline-flex items-center gap-2"
-                >
-                  <span className="text-sm text-muted-foreground">{next.base_info.short_name}</span>
-                  <span className="text-2xl">{next.emoji}</span>
-                  <span>→</span>
-                </Link>
-              </Button>
-            ) : <span />}
+              {next ? (
+                <Button asChild variant="outline" className="w-full sm:w-auto">
+                  <Link
+                    href={`/${lang}/emoji/${encodeURIComponent(next.base_info.unicode)}`}
+                    aria-label={t.detail.next_aria(next.base_info.short_name)}
+                    className="inline-flex items-center gap-2 min-w-0"
+                  >
+                    <span className="text-sm text-muted-foreground truncate">{next.base_info.short_name}</span>
+                    <span className="text-2xl">{next.emoji}</span>
+                    <span>→</span>
+                  </Link>
+                </Button>
+              ) : <span className="hidden sm:block" />}
+            </div>
           </nav>
         );
       })()}

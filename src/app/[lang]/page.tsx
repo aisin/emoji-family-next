@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { getPrimaryCategories } from "@/app/lib/data";
 import CategoryCard from "@/app/ui/CategoryCard";
 import CategoryNav from "@/app/ui/CategoryNav";
-import SearchBox from "@/app/ui/SearchBox";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { uiText } from "@/app/lib/ui-strings";
 

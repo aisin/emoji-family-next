@@ -3,9 +3,6 @@ import LanguageSwitcher from "@/app/ui/LanguageSwitcher";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import HeaderNav from "@/app/ui/HeaderNav";
 import { uiText } from "@/app/lib/ui-strings";
-import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetDescription } from "@/app/ui/shadcn/sheet";
-import { Button } from "@/app/ui/shadcn/button";
-import { Menu } from "lucide-react";
 import SearchBox from "@/app/ui/SearchBox";
 import MobileSearch from "@/app/ui/MobileSearch";
 

@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { validateSearchQuery } from "@/app/lib/validation";
 import { uiText } from "@/app/lib/ui-strings";
@@ -16,11 +17,13 @@ export default function SearchBox({
   placeholder,
   autoFocus = false,
   withSubmitButton = true,
+  dropdownStrategy = "absolute",
 }: {
   lang: SupportedLanguage;
   placeholder: string;
   autoFocus?: boolean;
   withSubmitButton?: boolean;
+  dropdownStrategy?: "absolute" | "fixed" | "portal";
 }) {
   const [q, setQ] = useState("");
   const router = useRouter();
@@ -42,6 +45,13 @@ export default function SearchBox({
   const formRef = useRef<HTMLFormElement | null>(null);
   const inputRef = useRef<HTMLInputElement | null>(null);
   const [listMaxHeight, setListMaxHeight] = useState<number | null>(null);
+  const [dropdownRect, setDropdownRect] = useState<{
+    left: number;
+    top: number;
+    width: number;
+  } | null>(null);
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   useEffect(() => {
     const w = new Worker(new URL("../workers/searchWorker.ts", import.meta.url), { type: "module" });
@@ -75,6 +85,7 @@ export default function SearchBox({
   useEffect(() => {
     if (!open) {
       setListMaxHeight(null);
+      setDropdownRect(null);
       return;
     }
     const compute = () => {
@@ -85,6 +96,9 @@ export default function SearchBox({
         const margin = 12; // px spacing below dropdown
         const space = Math.max(0, window.innerHeight - rect.bottom - margin);
         setListMaxHeight(space);
+        if (dropdownStrategy !== "absolute") {
+          setDropdownRect({ left: rect.left, top: rect.bottom + 8 /* mt-2 */, width: rect.width });
+        }
       } catch {}
     };
     compute();
@@ -95,7 +109,7 @@ export default function SearchBox({
       window.removeEventListener("resize", handler);
       window.removeEventListener("scroll", handler, true);
     };
-  }, [open]);
+  }, [open, dropdownStrategy]);
 
   // Also recompute when suggestions update while open
   useEffect(() => {
@@ -108,17 +122,19 @@ export default function SearchBox({
         const margin = 12;
         const space = Math.max(0, window.innerHeight - rect.bottom - margin);
         setListMaxHeight(space);
+        if (dropdownStrategy !== "absolute") {
+          setDropdownRect({ left: rect.left, top: rect.bottom + 8, width: rect.width });
+        }
       } catch {}
     }, 0);
     return () => window.clearTimeout(id);
-  }, [open, suggestions.length]);
+  }, [open, suggestions.length, dropdownStrategy]);
 
   return (
     <form
       onSubmit={(e) => {
         e.preventDefault();
         if (!validateSearchQuery(q)) return;
-        const params = new URLSearchParams({ q });
         // persist recent searches
         try {
           const KEY = "emoji_recent_searches";
@@ -212,46 +228,139 @@ export default function SearchBox({
       )}
 
       {open && q.trim().length >= 2 && suggestions.length > 0 && (
-        <div className="absolute left-0 right-0 top-full mt-2 z-40">
-          <ul
-            id={listboxId}
-            role="listbox"
-            className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border overflow-y-auto"
-            style={listMaxHeight != null ? { maxHeight: `${listMaxHeight}px` } : undefined}
-          >
-            {suggestions.map((s, i) => {
-              const active = i === activeIdx;
-          return (
-            <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
-                <Link
-                  prefetch={false}
-                  href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
-                  className={`flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 px-3 py-2 ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
-                  aria-label={`${t.search.view_details_aria(s.name)}`}
-                  onMouseEnter={() => setActiveIdx(i)}
-                  onClick={() => { setOpen(false); setActiveIdx(-1); }}
-                >
-                    <div className="flex items-center gap-3 min-w-0">
-                      <span className="text-2xl flex-shrink-0">{s.emoji}</span>
-                      <span className="text-sm truncate">
-                        <span className="font-medium">{s.name}</span>
-                        <span className="text-muted-foreground ml-2">{s.unicode}</span>
-                      </span>
-                    </div>
-                    {(s.short_code || s.category) && (
-                      <div className="w-full sm:w-auto mt-1 sm:mt-0 sm:ml-4 text-xs text-muted-foreground text-left sm:text-right">
-                        {s.short_code && <div>{s.short_code}</div>}
-                        {s.category && (
-                          <div>{s.category.replace(/^\p{Extended_Pictographic}\s*/u, "")}</div>
+        dropdownStrategy === "portal" && mounted && dropdownRect ? (
+          createPortal(
+            <div
+              className="fixed z-[9999] max-w-[100vw] pointer-events-auto"
+              style={{ left: dropdownRect.left, top: dropdownRect.top, width: dropdownRect.width }}
+            >
+              <ul
+                id={listboxId}
+                role="listbox"
+                className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border overflow-y-auto overflow-x-hidden max-w-full"
+                style={listMaxHeight != null ? { maxHeight: `${listMaxHeight}px` } : undefined}
+              >
+                {suggestions.map((s, i) => {
+                  const active = i === activeIdx;
+                  return (
+                    <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
+                      <Link
+                        prefetch={false}
+                        href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
+className={`flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 px-3 py-2 w-full max-w-full overflow-hidden ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
+                        aria-label={`${t.search.view_details_aria(s.name)}`}
+                        onMouseEnter={() => setActiveIdx(i)}
+                        onClick={() => { setOpen(false); setActiveIdx(-1); }}
+                      >
+                        <div className="flex items-center gap-3 min-w-0">
+                          <span className="text-2xl flex-shrink-0">{s.emoji}</span>
+                          <span className="text-sm truncate min-w-0">
+                            <span className="font-medium">{s.name}</span>
+                            <span className="text-muted-foreground ml-2">{s.unicode}</span>
+                          </span>
+                        </div>
+                        {(s.short_code || s.category) && (
+                          <div className="w-full sm:w-auto mt-1 sm:mt-0 sm:ml-4 text-xs text-muted-foreground text-left sm:text-right min-w-0 break-words">
+                            {s.short_code && <div className="break-words">{s.short_code}</div>}
+                            {s.category && (
+<div className="break-words">{s.category.replace(/^\p{Extended_Pictographic}\s*/u, "")}</div>
+                            )}
+                          </div>
                         )}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>,
+            document.body
+          )
+        ) : dropdownStrategy === "fixed" ? (
+          <div
+            className="fixed z-[100] max-w-[100vw] left-0 top-0 pointer-events-auto"
+            style={{ left: dropdownRect?.left ?? 0, top: dropdownRect?.top ?? 0, width: dropdownRect?.width ?? undefined }}
+          >
+            <ul
+              id={listboxId}
+              role="listbox"
+              className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border overflow-y-auto overflow-x-hidden max-w-full"
+              style={listMaxHeight != null ? { maxHeight: `${listMaxHeight}px` } : undefined}
+            >
+              {suggestions.map((s, i) => {
+                const active = i === activeIdx;
+                return (
+                  <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
+                    <Link
+                      prefetch={false}
+                      href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
+className={`flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 px-3 py-2 w-full max-w-full overflow-hidden ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
+                      aria-label={`${t.search.view_details_aria(s.name)}`}
+                      onMouseEnter={() => setActiveIdx(i)}
+                      onClick={() => { setOpen(false); setActiveIdx(-1); }}
+                    >
+                      <div className="flex items-center gap-3 min-w-0">
+                        <span className="text-2xl flex-shrink-0">{s.emoji}</span>
+                        <span className="text-sm truncate min-w-0">
+                          <span className="font-medium">{s.name}</span>
+                          <span className="text-muted-foreground ml-2">{s.unicode}</span>
+                        </span>
                       </div>
-                    )}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+                      {(s.short_code || s.category) && (
+                        <div className="w-full sm:w-auto mt-1 sm:mt-0 sm:ml-4 text-xs text-muted-foreground text-left sm:text-right min-w-0 break-words">
+                          {s.short_code && <div className="break-words">{s.short_code}</div>}
+                          {s.category && (
+<div className="break-words">{s.category.replace(/^\p{Extended_Pictographic}\s*/u, "")}</div>
+                          )}
+                        </div>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ) : (
+          <div className="absolute left-0 right-0 top-full mt-2 z-[100] max-w-[100vw]">
+            <ul
+              id={listboxId}
+              role="listbox"
+              className="bg-popover text-popover-foreground border border-border rounded-md shadow divide-y divide-border overflow-y-auto overflow-x-hidden max-w-full"
+              style={listMaxHeight != null ? { maxHeight: `${listMaxHeight}px` } : undefined}
+            >
+              {suggestions.map((s, i) => {
+                const active = i === activeIdx;
+                return (
+                  <li key={s.unicode} role="option" aria-selected={active} id={`suggestion-${i}`}>
+                    <Link
+                      prefetch={false}
+                      href={`/${lang}/emoji/${encodeURIComponent(s.unicode)}`}
+                      className={`flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 px-3 py-2 w-full max-w-full overflow-hidden ${active ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"}`}
+                      aria-label={`${t.search.view_details_aria(s.name)}`}
+                      onMouseEnter={() => setActiveIdx(i)}
+                      onClick={() => { setOpen(false); setActiveIdx(-1); }}
+                    >
+                      <div className="flex items-center gap-3 min-w-0">
+                        <span className="text-2xl flex-shrink-0">{s.emoji}</span>
+                        <span className="text-sm truncate min-w-0">
+                          <span className="font-medium">{s.name}</span>
+                          <span className="text-muted-foreground ml-2">{s.unicode}</span>
+                        </span>
+                      </div>
+                      {(s.short_code || s.category) && (
+                        <div className="w-full sm:w-auto mt-1 sm:mt-0 sm:ml-4 text-xs text-muted-foreground text-left sm:text-right min-w-0 break-words">
+                          {s.short_code && <div className="break-words">{s.short_code}</div>}
+                          {s.category && (
+                            <div className="break-words">{s.category.replace(/^\p{Extended_Pictographic}\s*/u, "")}</div>
+                          )}
+                        </div>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )
       )}
     </form>
   );

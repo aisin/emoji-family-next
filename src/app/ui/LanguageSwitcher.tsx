@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import { SUPPORTED_LANGUAGES } from "@/app/lib/i18n";

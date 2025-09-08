@@ -58,9 +58,27 @@ export default function MobileSearch({
         </Sheet>
       </div>
       {open && (
-<div className="absolute left-0 right-0 top-full z-40 fade-in w-full px-4 py-3">
-          <SearchBox lang={lang} placeholder={placeholder} withSubmitButton={false} autoFocus />
-        </div>
+        <>
+          {/* Backdrop overlay to dim content and enable click-outside close */}
+          <div
+            className="fixed inset-0 z-30 bg-black/30"
+            aria-hidden="true"
+            onClick={() => setOpen(false)}
+          />
+          {/* Search dropdown below header */}
+          <div
+            className="absolute left-0 right-0 top-full z-40 fade-in w-full px-4 py-3 max-w-[100vw] overflow-x-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <SearchBox
+              lang={lang}
+              placeholder={placeholder}
+              withSubmitButton={false}
+              autoFocus
+              dropdownStrategy="portal"
+            />
+          </div>
+        </>
       )}
     </div>
   );
