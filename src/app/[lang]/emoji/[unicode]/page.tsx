@@ -296,13 +296,13 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
               <li key={e.base_info.unicode} className="py-2 first:pt-0 last:pb-0">
                 <Link
                   href={`/${lang}/emoji/${encodeURIComponent(e.base_info.unicode)}`}
-                  className="flex items-center gap-3 hover:bg-accent/50 rounded-md px-2 -mx-2"
+className="group flex items-center gap-3 hover:bg-[color:var(--color-brand-400)] rounded-md px-2 -mx-2"
                   aria-label={uiText(lang).search.view_details_aria(e.base_info.short_name)}
                 >
                   <span className="text-2xl flex-shrink-0">{e.emoji}</span>
                   <span className="min-w-0">
-                    <span className="block text-sm font-medium truncate">{e.base_info.short_name}</span>
-                    <span className="block text-xs text-muted-foreground truncate">
+<span className="block text-sm font-medium truncate group-hover:text-white">{e.base_info.short_name}</span>
+<span className="block text-xs text-muted-foreground truncate group-hover:text-gray-100">
                       {e.base_info.unicode}
                       {e.base_info.short_code ? ` · ${e.base_info.short_code}` : ""}
                     </span>
