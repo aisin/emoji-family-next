@@ -45,6 +45,7 @@ export type UIText = {
     specs_title: string;
     os_support_title: string;
     multilingual_title: string;
+    related_title: string;
     labels: {
       emoji: string;
       unicode: string;
@@ -116,6 +117,7 @@ const zhHans: UIText = {
     specs_title: "技术规格",
     os_support_title: "系统支持",
     multilingual_title: "多语言名称",
+    related_title: "相关 Emoji",
     labels: {
       emoji: "Emoji",
       unicode: "Unicode",
@@ -187,6 +189,7 @@ const zhHant: UIText = {
     specs_title: "技術規格",
     os_support_title: "系統支援",
     multilingual_title: "多語言名稱",
+    related_title: "相關 Emoji",
     labels: {
       emoji: "Emoji",
       unicode: "Unicode",
@@ -258,6 +261,7 @@ const enUS: UIText = {
     specs_title: "Technical Specifications",
     os_support_title: "System Support",
     multilingual_title: "Multilingual Names",
+    related_title: "Related Emojis",
     labels: {
       emoji: "Emoji",
       unicode: "Unicode",
