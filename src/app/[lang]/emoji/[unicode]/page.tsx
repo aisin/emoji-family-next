@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { getEmojiByUnicode, getAllEmojis, getPrimaryCategories, getEmojisByPrimarySlug } from "@/app/lib/data";
-import CopyButtons from "@/app/ui/CopyButtons";
 import type { SupportedLanguage } from "@/app/lib/i18n";
 import Link from "next/link";
 import { uiText } from "@/app/lib/ui-strings";
 import { Card } from "@/app/ui/shadcn/card";
 import { Button } from "@/app/ui/shadcn/button";
 import { Fragment } from "react";
+import CopyInline from "@/app/ui/CopyInline";
+import { coalesceShortCode } from "@/app/lib/validation";
 
 export const dynamic = "force-static";
 
@@ -129,13 +130,47 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
             <p className="text-sm text-muted-foreground">{base.unicode} · {base.short_code ?? ""} · {base.decimal ?? ""}</p>
           </div>
         </div>
-        <CopyButtons showLink lang={lang} emoji={data.emoji} unicode={base.unicode} shortcode={base.short_code ?? ""} decimal={base.decimal ?? ""} />
       </div>
 
       <section className="grid md:grid-cols-2 gap-6 section">
         <Card className="p-5 space-y-2">
           <h2 className="section-title">{t.detail.specs_title}</h2>
           <dl className="text-sm text-muted-foreground grid grid-cols-[8rem,1fr] gap-y-1">
+            {/* Identifiers with inline copy */}
+            <dt className="font-medium text-foreground whitespace-nowrap">{t.detail.labels.emoji}</dt>
+            <dd className="text-left whitespace-nowrap truncate inline-flex items-center gap-2 min-w-0">
+              <span className="truncate">{data.emoji}</span>
+              <CopyInline label="emoji" value={data.emoji} lang={lang} />
+            </dd>
+
+            <dt className="font-medium text-foreground whitespace-nowrap">{t.detail.labels.unicode}</dt>
+            <dd className="text-left whitespace-nowrap truncate inline-flex items-center gap-2 min-w-0">
+              <span className="truncate">{base.unicode}</span>
+              <CopyInline label="unicode" value={base.unicode} lang={lang} />
+            </dd>
+
+            <dt className="font-medium text-foreground whitespace-nowrap">{t.detail.labels.shortcode}</dt>
+            <dd className="text-left whitespace-nowrap truncate inline-flex items-center gap-2 min-w-0">
+              <span className="truncate">{coalesceShortCode(base.short_code) ?? "—"}</span>
+              {coalesceShortCode(base.short_code) ? (
+                <CopyInline label="shortcode" value={coalesceShortCode(base.short_code)} lang={lang} />
+              ) : null}
+            </dd>
+
+            <dt className="font-medium text-foreground whitespace-nowrap">{t.detail.labels.decimal}</dt>
+            <dd className="text-left whitespace-nowrap truncate inline-flex items-center gap-2 min-w-0">
+              <span className="truncate">{base.decimal ?? "—"}</span>
+              {base.decimal ? (
+                <CopyInline label="decimal" value={base.decimal} lang={lang} />
+              ) : null}
+            </dd>
+
+            <dt className="font-medium text-foreground whitespace-nowrap">{t.detail.labels.link}</dt>
+            <dd className="text-left whitespace-nowrap truncate inline-flex items-center gap-2 min-w-0">
+              <span className="truncate">{`/${lang}/emoji/${encodeURIComponent(decoded)}`}</span>
+              <CopyInline label="link" value={`/${lang}/emoji/${encodeURIComponent(decoded)}`} lang={lang} />
+            </dd>
+
             {base.unicode_version && <>
               <dt className="font-medium text-foreground">{t.detail.labels.unicode_version}</dt>
               <dd>{base.unicode_version}</dd>

@@ -46,6 +46,11 @@ export type UIText = {
     os_support_title: string;
     multilingual_title: string;
     labels: {
+      emoji: string;
+      unicode: string;
+      shortcode: string;
+      decimal: string;
+      link: string;
       unicode_version: string;
       emoji_version: string;
       category: string;
@@ -112,6 +117,11 @@ const zhHans: UIText = {
     os_support_title: "系统支持",
     multilingual_title: "多语言名称",
     labels: {
+      emoji: "Emoji",
+      unicode: "Unicode",
+      shortcode: "Short Code",
+      decimal: "十进制",
+      link: "链接",
       unicode_version: "Unicode 版本",
       emoji_version: "Emoji 版本",
       category: "分类",
@@ -178,6 +188,11 @@ const zhHant: UIText = {
     os_support_title: "系統支援",
     multilingual_title: "多語言名稱",
     labels: {
+      emoji: "Emoji",
+      unicode: "Unicode",
+      shortcode: "Short Code",
+      decimal: "十進制",
+      link: "連結",
       unicode_version: "Unicode 版本",
       emoji_version: "Emoji 版本",
       category: "分類",
@@ -244,6 +259,11 @@ const enUS: UIText = {
     os_support_title: "System Support",
     multilingual_title: "Multilingual Names",
     labels: {
+      emoji: "Emoji",
+      unicode: "Unicode",
+      shortcode: "Short code",
+      decimal: "Decimal",
+      link: "Link",
       unicode_version: "Unicode version",
       emoji_version: "Emoji version",
       category: "Category",
