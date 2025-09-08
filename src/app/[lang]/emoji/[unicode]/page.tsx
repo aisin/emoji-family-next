@@ -113,39 +113,40 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
   }
 
   return (
-    <div className="section flex flex-col md:flex-row gap-6">
-      {/* Main */}
-      <div className="page-main min-w-0 flex-1 space-y-6" aria-label="Main content">
-        <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground">
-          <ol className="flex items-center gap-2">
-            <li>
-              <Link href={`/${lang}/categories`} className="text-muted-foreground hover:text-foreground">
-                {uiText(lang).header.categories}
-              </Link>
-            </li>
-            {catInfo && (
-              <li className="flex items-center gap-2">
-                <span aria-hidden>/</span>
-                <Link href={catInfo.url} className="text-muted-foreground hover:text-foreground">
-                  {catInfo.title}
-                </Link>
-              </li>
-            )}
+    <div className="section space-y-6">
+      <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground">
+        <ol className="flex items-center gap-2">
+          <li>
+            <Link href={`/${lang}/categories`} className="text-muted-foreground hover:text-foreground">
+              {uiText(lang).header.categories}
+            </Link>
+          </li>
+          {catInfo && (
             <li className="flex items-center gap-2">
               <span aria-hidden>/</span>
-              <span className="text-foreground font-medium">{base.short_name}</span>
+              <Link href={catInfo.url} className="text-muted-foreground hover:text-foreground">
+                {catInfo.title}
+              </Link>
             </li>
-          </ol>
-        </nav>
-        <div className="flex items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <div className="text-6xl">{data.emoji}</div>
-            <div>
-              <h1 className="section-title">{base.short_name}</h1>
-              <p className="text-sm text-muted-foreground">{base.unicode} · {base.short_code ?? ""} · {base.decimal ?? ""}</p>
-            </div>
+          )}
+          <li className="flex items-center gap-2">
+            <span aria-hidden>/</span>
+            <span className="text-foreground font-medium">{base.short_name}</span>
+          </li>
+        </ol>
+      </nav>
+      <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center gap-4">
+          <div className="text-6xl">{data.emoji}</div>
+          <div>
+            <h1 className="section-title">{base.short_name}</h1>
+            <p className="text-sm text-muted-foreground">{base.unicode} · {base.short_code ?? ""} · {base.decimal ?? ""}</p>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col md:flex-row gap-6">
+        {/* Main */}
+        <div className="page-main min-w-0 flex-1 space-y-6" aria-label="Main content">
 
         <section className="section space-y-6">
           <Card className="p-5 space-y-2">
@@ -312,6 +313,7 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
           </ul>
         </Card>
       </aside>
+      </div>
     </div>
   );
 }
