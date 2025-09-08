@@ -148,7 +148,7 @@ return <div className="text-center text-muted-foreground">{t.detail.not_found}</
         {/* Main */}
         <div className="page-main min-w-0 flex-1 space-y-6" aria-label="Main content">
 
-        <section className="section space-y-6">
+        <section className="mb-8 space-y-6">
           <Card className="p-5 space-y-2">
             <h2 className="section-title">{t.detail.specs_title}</h2>
             <dl className="text-sm text-muted-foreground grid grid-cols-[8rem,1fr] gap-y-1">
