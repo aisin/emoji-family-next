@@ -10,7 +10,7 @@ import { Button } from "@/app/ui/shadcn/button";
 export const dynamic = "force-static";
 
 export async function generateStaticParams() {
-  const langs: SupportedLanguage[] = ["en", "zh-hans", "zh-hant"];
+  const langs: SupportedLanguage[] = ["en", "zh-hans"];
   const primarySlugs = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
   const params: { lang: SupportedLanguage; slug: string }[] = [];
   for (const lang of langs) {
@@ -36,7 +36,6 @@ export async function generateMetadata({
       languages: {
         en: `/en/categories/${slug}`,
         "zh-Hans": `/zh-hans/categories/${slug}`,
-        "zh-Hant": `/zh-hant/categories/${slug}`,
       },
     },
   };

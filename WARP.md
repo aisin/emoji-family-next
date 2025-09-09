@@ -8,7 +8,7 @@ Project overview
 - Tests: Jest + ts-jest (jsdom)
 - Linting: ESLint (extends next/core-web-vitals)
 - Data source: Static JSON under src/data (primary categories A–J and per-category emoji lists, localized to en/zh)
-- i18n: URL-prefixed languages [en, zh-hans, zh-hant] with simple mapping to data locales [en, zh]
+- i18n: URL-prefixed languages [en, zh-hans] with simple mapping to data locales [en, zh]
 
 Essential commands
 - Install dependencies
@@ -90,7 +90,7 @@ Build/static generation strategy
   - Emoji detail pre-generation samples a subset for each language. Adjust the slicing logic in src/app/[lang]/emoji/[unicode]/page.tsx when changing pre-render scope.
 
 Important repository specifics from README.md
-- Multilingual routing: /en, /zh-hans, /zh-hant.
+- Multilingual routing: /en, /zh-hans.
 - Features include category browsing (A–J), emoji details, search, SEO via dynamic Metadata/sitemap/robots, and copy helpers for Emoji/Unicode/Short Code/decimal.
 - Development commands match the sections above (dev, type-check, build, start, lint, test).
 

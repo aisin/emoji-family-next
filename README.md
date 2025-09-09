@@ -3,7 +3,7 @@
 一个基于 Next.js App Router 与 TypeScript 的多语言 Emoji 合集网站。
 
 特性:
-- 多语言路由：/en、/zh-hans、/zh-hant
+- 多语言路由：/en、/zh-hans
 - 分类浏览（A-J 主分类），Emoji 详情，搜索
 - 数据来源：/src/data 目录 JSON 文件（primary 分类、各分类 Emoji 列表）
 - SEO：动态 Metadata、sitemap、robots

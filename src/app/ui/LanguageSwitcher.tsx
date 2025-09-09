@@ -18,8 +18,6 @@ function getLanguageName(code: SupportedLanguage) {
       return "English";
     case "zh-hans":
       return "简体中文";
-    case "zh-hant":
-      return "繁體中文";
   }
 }
 

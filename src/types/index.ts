@@ -1,4 +1,4 @@
-export type Language = "en" | "zh-hans" | "zh-hant";
+export type Language = "en" | "zh-hans";
 
 export interface OSSupport {
   type: "iOS" | "android" | "windows";

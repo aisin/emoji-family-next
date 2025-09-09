@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getPrimaryCategories, getAllEmojis } from "@/app/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const langs = ["en", "zh-hans", "zh-hant"] as const;
+const langs = ["en", "zh-hans"] as const;
   const base = "https://example.com"; // 可根据部署环境调整
 
   const entries: MetadataRoute.Sitemap = [];

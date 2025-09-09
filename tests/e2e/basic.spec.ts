@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const langs = ['en', 'zh-hans', 'zh-hant'] as const;
+const langs = ['en', 'zh-hans'] as const;
 
 for (const lang of langs) {
   test(`homepage loads and header/nav present - ${lang}`, async ({ page }) => {

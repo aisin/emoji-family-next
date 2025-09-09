@@ -12,7 +12,6 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Sup
       languages: {
         en: `/en/categories`,
         "zh-Hans": `/zh-hans/categories`,
-        "zh-Hant": `/zh-hant/categories`,
       },
     },
   };

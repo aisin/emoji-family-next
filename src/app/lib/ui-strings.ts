@@ -72,6 +72,7 @@ export type UIText = {
   };
 };
 
+
 const zhHans: UIText = {
   header: {
     home: "首页",
@@ -141,78 +142,6 @@ const zhHans: UIText = {
     copy_decimal: "复制十进制",
     copy_link: "复制链接",
     copied: (label) => `已复制 ${label}`,
-  },
-};
-
-const zhHant: UIText = {
-  header: {
-    home: "首頁",
-    categories: "分類",
-    search: "搜尋",
-    skip_to_content: "跳到主要內容",
-  },
-  home: {
-    title: "Emoji Family",
-    tagline: "多語言 Emoji 百科全書。依分類瀏覽、查看技術規格，支援中英文。",
-    all_categories: "全部分類",
-    search_placeholder: "以名稱、關鍵詞或 :short_code: 搜尋",
-    meta_title: "Emoji Family — 分類瀏覽",
-  },
-  search: {
-    title: "搜尋",
-    start_typing: "輸入關鍵詞開始搜尋 Emoji。",
-    results_count: (n, q) => `${n} 條結果，關鍵詞 “${q}”`,
-    no_results: (q) => `未找到與 “${q}” 相符的結果。`,
-    try_examples: "試試：",
-    popular_label: "熱門搜尋",
-    recent_label: "最近搜尋",
-    clear_recent: "清除",
-    examples: ["OK", "U+1F44C", ":ok_hand:", "grinning"],
-    view_details_aria: (name) => `查看 ${name} 詳情`,
-  },
-  common: {
-    site_name: "Emoji Family",
-    browse_categories: "瀏覽分類",
-    back_home: "返回首頁",
-    go_search: "去搜尋",
-    back_categories: "返回分類索引",
-    view_details: "查看詳情",
-  },
-  category: {
-    empty: "此分類暫無內容。",
-    not_found: "未找到分類",
-    go_to_category_aria: (name) => `前往分類 ${name}`,
-    view_more_sr: "查看更多",
-  },
-  detail: {
-    back_to_category: (name) => `返回 ${name}`,
-    specs_title: "技術規格",
-    os_support_title: "系統支援",
-    multilingual_title: "多語言名稱",
-    related_title: "相關 Emoji",
-    labels: {
-      emoji: "Emoji",
-      unicode: "Unicode",
-      shortcode: "Short Code",
-      decimal: "十進制",
-      link: "連結",
-      unicode_version: "Unicode 版本",
-      emoji_version: "Emoji 版本",
-      category: "分類",
-      aliases: "別名",
-      keywords: "關鍵詞",
-    },
-    not_found: "找不到 Emoji",
-    prev_aria: (name) => `上一個：${name}`,
-    next_aria: (name) => `下一個：${name}`,
-  },
-  copy: {
-    copy_emoji: "複製 Emoji",
-    copy_unicode: "複製 Unicode",
-    copy_shortcode: "複製 Short Code",
-    copy_decimal: "複製十進制",
-    copy_link: "複製連結",
-    copied: (label) => `已複製 ${label}`,
   },
 };
 
@@ -292,8 +221,6 @@ export function uiText(lang: SupportedLanguage): UIText {
   switch (lang) {
     case "zh-hans":
       return zhHans;
-    case "zh-hant":
-      return zhHant;
     case "en":
     default:
       return enUS;

@@ -12,7 +12,7 @@ import { coalesceShortCode } from "@/app/lib/validation";
 export const dynamic = "force-static";
 
 export async function generateStaticParams() {
-  const langs: SupportedLanguage[] = ["en", "zh-hans", "zh-hant"];
+  const langs: SupportedLanguage[] = ["en", "zh-hans"];
   // 选取前若干个 Emoji 作为预渲染（也可扩大范围）
   const unicodes = Array.from(
     new Set(
@@ -46,7 +46,6 @@ export async function generateMetadata({
         languages: {
           en: `/en/emoji/${encodeURIComponent(decoded)}`,
           "zh-Hans": `/zh-hans/emoji/${encodeURIComponent(decoded)}`,
-          "zh-Hant": `/zh-hant/emoji/${encodeURIComponent(decoded)}`,
         },
       },
     };
@@ -62,7 +61,6 @@ export async function generateMetadata({
       languages: {
         en: `/en/emoji/${encodeURIComponent(decoded)}`,
         "zh-Hans": `/zh-hans/emoji/${encodeURIComponent(decoded)}`,
-        "zh-Hant": `/zh-hant/emoji/${encodeURIComponent(decoded)}`,
       },
     },
     openGraph: { title, description, type: "article" },
