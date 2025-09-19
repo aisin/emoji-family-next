@@ -11,11 +11,15 @@ for (const lang of langs) {
   });
 }
 
-test('search results card navigates to detail', async ({ page }) => {
-  await page.goto('/en/search?q=OK');
-  const firstCard = page.locator('a[href^="/en/emoji/"]').first();
-  await expect(firstCard).toBeVisible();
-  const href = await firstCard.getAttribute('href');
+test('search suggestions navigate to emoji detail', async ({ page }) => {
+  await page.goto('/en');
+  // Type a query that should yield results
+  await page.fill('#search-input', 'OK');
+  const firstSuggestion = page.locator('ul[role="listbox"] a[href^="/en/emoji/"]').first();
+  await expect(firstSuggestion).toBeVisible();
+  const href = await firstSuggestion.getAttribute('href');
+  await firstSuggestion.click();
+  await expect(page).toHaveURL(/\/en\/emoji\//);
   expect(href).toContain('/en/emoji/');
 });
 
