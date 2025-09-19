@@ -6,5 +6,6 @@ module.exports = {
   },
   setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
   extensionsToTreatAsEsm: [".ts", ".tsx"],
+  testPathIgnorePatterns: ["/node_modules/", "<rootDir>/tests/e2e/"],
 };
 
