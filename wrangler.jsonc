@@ -1,0 +1,7 @@
+{
+  "name": "emoji-family-next",
+  "compatibility_date": "2025-09-20",
+  "assets": {
+    "directory": "./out"
+  }
+}
